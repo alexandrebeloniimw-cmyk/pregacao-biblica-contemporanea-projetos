@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Flipbook · Revista Projetos · IWE</title>
+<meta name="description" content="Leia a revista Projetos da Especialização em Aprofundamento na Pregação Bíblica Contemporânea (IWE) em formato flipbook.">
+<link rel="icon" href="img/logo-iwe.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Revista Projetos · Flipbook">
+<meta property="og:description" content="Folheie a revista Projetos da Especialização em Aprofundamento na Pregação Bíblica Contemporânea (IWE).">
+<meta property="og:url" content="https://alexandrebeloniimw-cmyk.github.io/pregacao-biblica-contemporanea-projetos/flipbook.html">
+<meta property="og:image" content="https://alexandrebeloniimw-cmyk.github.io/pregacao-biblica-contemporanea-projetos/img/og/wa-revista.jpg">
+<meta property="og:image:width" content="1080">
+<meta property="og:image:height" content="1080">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lora:wght@700&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#1f3048;--acc:#9c4a2f;--sand:#f5efe4}
+*{box-sizing:border-box}
+html,body{margin:0;height:100%}
+body{background:radial-gradient(ellipse at top,#2a3f5d,#16233a 70%);color:#e9edf3;font:15px/1.5 Inter,system-ui,sans-serif;display:flex;flex-direction:column;min-height:100vh;overflow-x:hidden}
+header{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 20px;background:rgba(22,35,58,.85);border-bottom:1px solid rgba(255,255,255,.08)}
+header .b{display:flex;align-items:center;gap:12px;text-decoration:none;color:#fff;font:600 13px Inter;letter-spacing:.12em;text-transform:uppercase;white-space:nowrap}
+header .b img{height:28px}
+header .r{display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-end}
+.hb{display:inline-flex;align-items:center;gap:6px;color:#e9edf3;text-decoration:none;font:600 13px Inter;border:1px solid rgba(255,255,255,.25);border-radius:999px;padding:7px 14px;background:transparent;cursor:pointer}
+.hb:hover{background:rgba(255,255,255,.1)}
+.hb.pri{background:var(--acc);border-color:var(--acc)}
+main{flex:1;display:flex;align-items:center;justify-content:center;padding:24px 12px 10px;position:relative}
+#book{margin:0 auto;box-shadow:0 30px 60px rgba(0,0,0,.45)}
+.page{background:#fff}
+.page img{width:100%;height:100%;object-fit:contain;display:block;user-select:none;-webkit-user-drag:none}
+.nav{position:absolute;top:50%;transform:translateY(-50%);width:48px;height:48px;border-radius:50%;border:0;background:rgba(255,255,255,.12);color:#fff;font-size:24px;cursor:pointer;display:grid;place-items:center;z-index:5}
+.nav:hover{background:var(--acc)}
+.nav.prev{left:14px}.nav.next{right:14px}
+.bar{display:flex;align-items:center;justify-content:center;gap:14px;padding:12px 16px 22px;flex-wrap:wrap}
+.bar button{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.2);color:#fff;border-radius:999px;padding:8px 14px;font:600 13px Inter;cursor:pointer}
+.bar button:hover{background:rgba(255,255,255,.18)}
+.count{font:600 14px Inter;color:#c9d3e0;min-width:120px;text-align:center}
+.bar select{background:#16233a;color:#fff;border:1px solid rgba(255,255,255,.25);border-radius:8px;padding:7px 10px;font:500 13px Inter}
+.hint{font-size:12.5px;color:#9fb0c6;text-align:center;padding:0 16px 16px}
+.loading{position:absolute;inset:0;display:grid;place-items:center;font:600 15px Inter;color:#c9d3e0}
+@media (max-width:640px){header .b span{display:none}.nav{display:none}.hb{padding:6px 11px;font-size:12px}}
+</style>
+</head>
+<body>
+<header>
+ <a class="b" href="./"><img src="img/logo-iwe-claro.png" alt="IWE"><span>Projetos · Flipbook</span></a>
+ <div class="r">
+  <a class="hb" href="./">← Voltar à página</a>
+  <a class="hb" href="pdf/revista-projetos-pregacao-biblica-contemporanea-v1.pdf" target="_blank">Ler em PDF</a>
+  <button class="hb pri" id="fs" type="button">Tela cheia</button>
+ </div>
+</header>
+<main>
+ <div class="loading" id="loading">Carregando a revista…</div>
+ <button class="nav prev" id="prev" aria-label="Página anterior">‹</button>
+ <div id="book"></div>
+ <button class="nav next" id="next" aria-label="Próxima página">›</button>
+</main>
+<div class="bar">
+ <button id="first" type="button">⏮ Capa</button>
+ <span class="count" id="count">1 / 49</span>
+ <select id="jump" aria-label="Ir para"></select>
+</div>
+<div class="hint">Arraste o canto da página, clique nas setas ou use ← → do teclado para folhear.</div>
+
+<script src="js/page-flip.browser.js"></script>
+<script>
+const TOTAL=49;
+const book=document.getElementById('book');
+for(let i=1;i<=TOTAL;i++){
+  const d=document.createElement('div');d.className='page';
+  if(i===1||i===TOTAL)d.dataset.density='hard';
+  const im=document.createElement('img');im.src='flip/p-'+String(i).padStart(2,'0')+'.jpg';im.alt='Página '+i;im.loading=i<=4?'eager':'lazy';
+  d.appendChild(im);book.appendChild(d);
+}
+const secoes=[['Capa',1],['Sumário',3],['Apresentação',4],['Anderson · O anúncio da Palavra',5],['Jakson · Reunidos para adorar',13],['Lívea · Antes do impacto',22],['Renato · Projeto Acolher',31],['Vitória · Entendes o que lês?',42]];
+const sel=document.getElementById('jump');
+sel.innerHTML='<option value="">Ir para…</option>'+secoes.map(([t,p])=>`<option value="${p}">${t}</option>`).join('');
+function size(){
+  const H=window.innerHeight-170, W=window.innerWidth-40;
+  const ratio=1287/910; const portrait=window.innerWidth<820;
+  let h=Math.max(300,H), w=h/ratio;
+  const maxW=portrait?W:W/2; if(w>maxW){w=maxW;h=w*ratio;}
+  return {w:Math.floor(w),h:Math.floor(h),portrait};
+}
+const s=size();
+const pf=new St.PageFlip(book,{width:s.w,height:s.h,size:'fixed',showCover:true,usePortrait:s.portrait,maxShadowOpacity:0.45,mobileScrollSupport:true,flippingTime:700});
+pf.loadFromHTML(document.querySelectorAll('#book .page'));
+document.getElementById('loading').remove();
+const count=document.getElementById('count');
+function upd(){const i=pf.getCurrentPageIndex()+1;const o=pf.getOrientation&&pf.getOrientation()==='landscape';count.textContent=(o&&i>1&&i<TOTAL?i+'–'+(i+1):i)+' / '+TOTAL;}
+pf.on('flip',upd);pf.on('changeOrientation',upd);upd();
+document.getElementById('prev').onclick=()=>pf.flipPrev();
+document.getElementById('next').onclick=()=>pf.flipNext();
+document.getElementById('first').onclick=()=>pf.flip(0);
+sel.onchange=()=>{if(sel.value){pf.flip(+sel.value-1);sel.value='';}};
+document.addEventListener('keydown',e=>{if(e.key==='ArrowRight')pf.flipNext();if(e.key==='ArrowLeft')pf.flipPrev();});
+document.getElementById('fs').onclick=()=>{const el=document.documentElement;if(!document.fullscreenElement){(el.requestFullscreen||el.webkitRequestFullscreen||function(){}).call(el);}else{document.exitFullscreen();}};
+let t,w0=window.innerWidth;window.addEventListener('resize',()=>{clearTimeout(t);t=setTimeout(()=>{if(Math.abs(window.innerWidth-w0)>120){const p=pf.getCurrentPageIndex()+1;location.replace(location.pathname+'?p='+p);}},400);});
+const pg=parseInt(new URLSearchParams(location.search).get('p'));if(pg>1&&pg<=TOTAL)setTimeout(()=>pf.turnToPage(pg-1),100);
+</script>
+</body>
+</html>
