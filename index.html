@@ -13,11 +13,11 @@
 <meta property="og:title" content="Revista Projetos · Especialização em Aprofundamento na Pregação Bíblica Contemporânea">
 <meta property="og:description" content="Cinco projetos de TCC prático aplicado do IWE: pregação que nasce da igreja e volta para ela. Volume 1 · 2026.">
 <meta property="og:url" content="https://alexandrebeloniimw-cmyk.github.io/pregacao-biblica-contemporanea-projetos/">
-<meta property="og:image" content="https://alexandrebeloniimw-cmyk.github.io/pregacao-biblica-contemporanea-projetos/img/og/og-revista-v2.jpg">
-<meta property="og:image:secure_url" content="https://alexandrebeloniimw-cmyk.github.io/pregacao-biblica-contemporanea-projetos/img/og/og-revista-v2.jpg">
+<meta property="og:image" content="https://alexandrebeloniimw-cmyk.github.io/pregacao-biblica-contemporanea-projetos/img/og/wa-revista.jpg">
+<meta property="og:image:secure_url" content="https://alexandrebeloniimw-cmyk.github.io/pregacao-biblica-contemporanea-projetos/img/og/wa-revista.jpg">
 <meta property="og:image:type" content="image/jpeg">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
+<meta property="og:image:width" content="1080">
+<meta property="og:image:height" content="1080">
 <meta property="og:image:alt" content="Revista Projetos · IWE · Volume 1 · 2026">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -381,6 +381,18 @@ const IGC={"anderson": "📖 O anúncio da Palavra no contexto relacional\nCapac
 function toast(m){const t=document.getElementById('toast');t.textContent=m;t.classList.add('on');clearTimeout(t._h);t._h=setTimeout(()=>t.classList.remove('on'),6500);}
 async function copiar(txt){try{await navigator.clipboard.writeText(txt);return true;}catch(e){const a=document.createElement('textarea');a.value=txt;document.body.appendChild(a);a.select();let ok=false;try{ok=document.execCommand('copy');}catch(_){}a.remove();return ok;}}
 document.querySelectorAll('[data-wa]').forEach(el=>{el.href='https://wa.me/?text='+encodeURIComponent(WA[el.dataset.wa]);el.target='_blank';el.rel='noopener';});
+document.querySelectorAll('[data-wa]').forEach(el=>el.addEventListener('click',async ev=>{
+  const id=el.dataset.wa;
+  if(!(navigator.canShare&&/Android|iPhone|iPad|iPod/i.test(navigator.userAgent)))return;
+  try{
+    ev.preventDefault();
+    const blob=await (await fetch('img/og/wa-'+id+'.jpg')).blob();
+    const file=new File([blob],'iwe-projetos-'+id+'.jpg',{type:'image/jpeg'});
+    if(!navigator.canShare({files:[file]})){window.open(el.href,'_blank');return;}
+    toast('Escolha o WhatsApp: a imagem vai junto com o texto e o link.');
+    await navigator.share({files:[file],text:WA[id]});
+  }catch(e){ if(e&&e.name==='AbortError')return; window.open(el.href,'_blank'); }
+}));
 document.querySelectorAll('[data-ig]').forEach(el=>el.addEventListener('click',async()=>{
   const id=el.dataset.ig, nome='iwe-projetos-'+id+'.jpg', leg=IGC[id];
   const copiou=await copiar(leg);
