@@ -100,7 +100,7 @@ fetch('audio/'+id+'.json').then(r=>r.json()).then(d=>{
  D=d;document.title=d.titulo.split(':')[0]+' · Audiolivro · IWE';
  $('tit').textContent=d.titulo;$('aut').textContent=d.autor;$('dur').textContent='Duração: '+fmt(d.duracao);
  $('foto').src='img/'+id+'.jpg';$('foto').alt='Foto de '+d.autor;
- au.src='audio/'+id+'.mp3';$('dl').href=au.src;$('dl').setAttribute('download',id+'-audiolivro.mp3');
+ au.src='audio/'+id+'.mp3?v=2';$('dl').href=au.src;$('dl').setAttribute('download',id+'-audiolivro.mp3');
  $('caps').innerHTML=d.capitulos.map((c,i)=>`<button class="cap" type="button" data-t="${c.t}">${capT(c.titulo)}<span>${fmt(c.t)}</span></button>`).join('');
  $('tx').innerHTML=d.transcricao.map(p=>`<p class="par${p.cap?' h':''}" tabindex="0" data-t="${p.t}">${p.texto.replace(/[<>&]/g,c=>({'<':'&lt;','>':'&gt;','&':'&amp;'}[c])).replace(/\n/g,'<br>')}</p>`).join('');
  capEls=[...document.querySelectorAll('.cap')];parEls=[...document.querySelectorAll('.par')];

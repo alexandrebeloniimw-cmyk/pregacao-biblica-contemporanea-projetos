@@ -2,963 +2,963 @@
  "id": "renato",
  "titulo": "Projeto Acolher: pregação bíblica e relacionamentos na integração de visitantes e novos convertidos",
  "autor": "Renato de Almeida da Silva",
- "duracao": 1732.9,
+ "duracao": 1724.2,
  "capitulos": [
   {
    "t": 0,
    "titulo": "Apresentação"
   },
   {
-   "t": 18.6,
+   "t": 18.56,
    "titulo": "Sobre o autor"
   },
   {
-   "t": 69.53,
+   "t": 68.74,
    "titulo": "Resumo"
   },
   {
-   "t": 156.93,
+   "t": 156.06,
    "titulo": "1 introdução"
   },
   {
-   "t": 257.45,
+   "t": 257.18,
    "titulo": "1.1 Justificativa"
   },
   {
-   "t": 413.97,
+   "t": 413.15,
    "titulo": "1.2 Objetivos"
   },
   {
-   "t": 485.49,
+   "t": 484.06,
    "titulo": "1.3 Lógica do projeto"
   },
   {
-   "t": 533.64,
+   "t": 531.26,
    "titulo": "1.4 Formato do projeto"
   },
   {
-   "t": 571.84,
+   "t": 569.73,
    "titulo": "2 fundamentação"
   },
   {
-   "t": 583.27,
+   "t": 581.27,
    "titulo": "2.1 Diagnóstico"
   },
   {
-   "t": 666.11,
+   "t": 663.94,
    "titulo": "2.2 Texto bíblico"
   },
   {
-   "t": 749.83,
+   "t": 747.47,
    "titulo": "2.3 Planejamento"
   },
   {
-   "t": 835.99,
+   "t": 833.18,
    "titulo": "2.4 Avaliação"
   },
   {
-   "t": 860.76,
+   "t": 857.68,
    "titulo": "3 delimitação do texto bíblico e abordagem exegética"
   },
   {
-   "t": 936.58,
+   "t": 933.41,
    "titulo": "4 plano de ação"
   },
   {
-   "t": 1321.08,
+   "t": 1314.43,
    "titulo": "5 proposta de avaliação de impacto"
   },
   {
-   "t": 1404.84,
+   "t": 1397.09,
    "titulo": "Referências"
   },
   {
-   "t": 1477.9,
+   "t": 1470.59,
    "titulo": "Apêndice A – roteiro operacional do projeto acolher"
   },
   {
-   "t": 1675.24,
+   "t": 1666.75,
    "titulo": "Apêndice B – instrumentos de avaliação"
   }
  ],
  "transcricao": [
   {
-   "t": 18.6,
+   "t": 18.56,
    "cap": true,
    "texto": "SOBRE O AUTOR"
   },
   {
-   "t": 20.39,
+   "t": 20.17,
    "cap": false,
    "texto": "Renato de Almeida da Silva é membro da Primeira Igreja Metodista Wesleyana de Nilópolis (RJ), onde atua como presbítero, líder de casais e professor da Escola Bíblica Dominical, com 15 anos de caminhada na igreja. Tem formação teológica ministerial pelo Instituto Wesleyano de Educação, Polo Cascadura, onde cursou de 2023 a 2025, e cursa a Especialização em Aprofundamento na Pregação Bíblica Contemporânea do Instituto Wesleyano de Educação (IWE)."
   },
   {
-   "t": 47.34,
+   "t": 47.01,
    "cap": false,
    "texto": "“Porque Deus amou ao mundo de tal maneira que deu o seu Filho unigênito, para que todo o que nele crê não pereça, mas tenha a vida eterna.”"
   },
   {
-   "t": 54.57,
+   "t": 53.96,
    "cap": false,
    "texto": "João 3.16 (ARA)"
   },
   {
-   "t": 59.27,
+   "t": 58.53,
    "cap": false,
    "texto": "“Nossa tarefa é deixar a verdade revelada por Deus fluir das Escrituras para a vida de homens e mulheres dos nossos dias.”"
   },
   {
-   "t": 66.39,
+   "t": 65.57,
    "cap": false,
    "texto": "John Stott, Eu creio na pregação"
   },
   {
-   "t": 69.53,
+   "t": 68.74,
    "cap": true,
    "texto": "RESUMO"
   },
   {
-   "t": 71.01,
+   "t": 70.24,
    "cap": false,
    "texto": "O projeto propõe uma série de quatro mensagens, fundamentada em Atos 9.10-19, João 15.1-8 e 1 Pedro 2.9-10, acompanhada da capacitação da equipe do Projeto Acolher, no Ministério de Consolidação da Primeira Igreja Metodista Wesleyana de Nilópolis (RJ). O diagnóstico, feito a partir do livro da secretaria, mostra que, dos cerca de trinta visitantes dos últimos seis meses, apenas dez voltaram (33%), e aponta como causas o acolhimento improvisado, a falta de acompanhamento depois da decisão e a cultura de terceirizar a evangelização e o discipulado à liderança. As mensagens mobilizam a igreja para a responsabilidade pessoal de cada cristão, chamado ao sacerdócio universal, e a capacitação transforma essa visão em prática, com recepção, sala de acolhimento, atendimento aos novos decididos e integração no Grupo de Crescimento, Evangelismo e União (GCEU), que será reiniciado em fevereiro de 2027. A avaliação compara a linha de base com os resultados após 90 dias, a partir de três fontes: questionário de percepção dos visitantes e novos membros, reunião de avaliação com a equipe e o pastor responsável, e registros de acompanhamento. Espera-se que a proporção de visitantes que retornam passe de 33% para 50% e que cada novo decidido tenha um responsável de referência."
   },
   {
-   "t": 150.16,
+   "t": 149.13,
    "cap": false,
    "texto": "Palavras-chave: acolhimento; integração; discipulado; sacerdócio universal; pregação temática."
   },
   {
-   "t": 156.93,
+   "t": 156.06,
    "cap": true,
    "texto": "1 INTRODUÇÃO"
   },
   {
-   "t": 158.8,
+   "t": 157.95,
    "cap": false,
    "texto": "O Projeto Acolher será desenvolvido no Ministério de Consolidação da Primeira Igreja Metodista Wesleyana, localizada no Centro de Nilópolis (RJ). Com sessenta anos de existência, a igreja conta com 72 membros e frequência média de aproximadamente 50 pessoas nos cultos. O ministério atenderá membros e familiares, frequentadores da igreja, participantes de eventos e novos decididos, e tem como foco conectar à igreja as pessoas que tiveram algum contato com ela. Como parte do projeto, o Grupo de Crescimento, Evangelismo e União (GCEU) da igreja, hoje sem funcionamento, será reiniciado na primeira quinta-feira de fevereiro de 2027."
   },
   {
-   "t": 196.39,
+   "t": 195.38,
    "cap": false,
    "texto": "Muitas pessoas têm aceitado a Jesus, mas poucas têm sido discipuladas, cuidadas e preparadas para viver a vida cristã. A chamada “porta dos fundos” está aberta, e cresce o número de pessoas que flutuam entre as igrejas, o que forma cristãos frágeis e inconstantes. Uma igreja não pode funcionar como uma rodoviária, onde as pessoas entram e saem e ninguém permanece."
   },
   {
-   "t": 216.72,
+   "t": 216.19,
    "cap": false,
    "texto": "O projeto é importante porque a permanência de quem chega depende, em grande parte, dos relacionamentos que encontra. A pregação bíblica pode responder a essa necessidade ao lembrar à igreja que evangelização e discipulado não podem ser terceirizados: são responsabilidade pessoal de cada cristão, chamado ao sacerdócio universal. Por isso, o projeto une uma série de quatro mensagens, baseadas em Atos 9, João 15 e 1 Pedro 2, à capacitação da equipe que recebe visitantes e novos decididos. Duas perguntas orientam o trabalho: de que maneira o relacionamento interpessoal pode impactar a vida de um visitante? Como fechar a porta dos fundos da igreja, para que a evasão não seja rotina?"
   },
   {
-   "t": 257.45,
+   "t": 257.18,
    "cap": true,
    "texto": "1.1 Justificativa"
   },
   {
-   "t": 260.13,
+   "t": 259.77,
    "cap": false,
    "texto": "Ministerial. Os relacionamentos são a chave para a permanência de novas pessoas na igreja. Quando o acolhimento depende apenas da liderança ou de um departamento, quem chega fica sem acompanhamento e acaba se afastando. Na observação pastoral, os novos membros precisam fazer amizades nas primeiras semanas e contar com um mentor indicado pela igreja durante os primeiros meses de caminhada. Para isso, a equipe precisa de expectativas e compromissos claros, como lembra Earley:"
   },
   {
-   "t": 286.32,
+   "t": 286.19,
    "cap": false,
    "texto": "Pode haver períodos em que um auxiliar não faz o que esperamos. Se as expectativas e os compromissos foram combinados antes, o líder pode simplesmente lembrar o auxiliar das expectativas. Mas se as expectativas não foram determinadas, é possível que haja desapontamento e consequentemente retraimento. A comunicação será limitada. [...] Pode-se evitar isso quando expectativas e compromissos são claramente definidos, determinados e discutidos antes. A porta da comunicação é aberta e se mantém aberta com mais facilidade (Earley, 2009, p. 84)."
   },
   {
-   "t": 318.13,
+   "t": 317.76,
    "cap": false,
    "texto": "Teológica. Deus tem chamado a igreja contemporânea ao sacerdócio universal dos crentes: “Vós, porém, sois raça eleita, sacerdócio real, nação santa, povo de propriedade exclusiva de Deus” (1 Pe 2.9). A Grande Comissão não foi dada a um grupo seleto, mas a todos os que seguem a Cristo (Mt 28.18-19), e a frutificação cristã depende de permanecer nele (Jo 15.5). A tradição wesleyana conhece esse cuidado próximo: Wesley organizou as reuniões de classe porque se sentia frustrado com a falta de supervisão pastoral, especialmente dos recém-convertidos (Henderson, 2012, p. 99)."
   },
   {
-   "t": 357.02,
+   "t": 356.61,
    "cap": false,
    "texto": "Social. O aumento do número de cristãos nem sempre tem trazido saúde à sociedade. Para Bessa (2007, p. 43), “o mundo parece estar mais enfermo do que nunca: são mais mentiras, mais orgulho, mais ganância, mais avareza, mais corrupção e mais incredulidade”. Muitas pessoas chegam à igreja feridas, sem vínculos e com sentimento de inferioridade, o que torna o acolhimento pessoal ainda mais necessário:"
   },
   {
-   "t": 380.76,
+   "t": 380.02,
    "cap": false,
    "texto": "Muitas pessoas vivem com complexo de inferioridade e estão constantemente frustradas [...]. Talvez tenham fracassado em seus negócios e se resignaram a ser fracassados. Mas, enquanto tiverem essa atitude, você não as pode ajudar. Você deve pedir que cada um entregue seu complexo de inferioridade a Deus e permita ser reconstruído pelo amor de Deus (Cho, 1981, p. 150)."
   },
   {
-   "t": 402.3,
+   "t": 401.41,
    "cap": false,
    "texto": "Ênfase. A ênfase deste projeto recai sobre a dimensão ministerial, porque o problema central é a integração das pessoas na vida da igreja e a cultura de terceirizar o acolhimento e o discipulado."
   },
   {
-   "t": 413.97,
+   "t": 413.15,
    "cap": true,
    "texto": "1.2 Objetivos"
   },
   {
-   "t": 416.67,
+   "t": 415.92,
    "cap": false,
    "texto": "Objetivo geral: propor, realizar e avaliar uma série de quatro mensagens fundamentada em Atos 9.10-19, João 15.1-8 e 1 Pedro 2.9-10, acompanhada da capacitação da equipe do Projeto Acolher, visando fortalecer o acolhimento, a integração e o discipulado de visitantes e novos convertidos na igreja local."
   },
   {
-   "t": 439.39,
+   "t": 438.94,
    "cap": false,
    "texto": "a) analisar a influência dos relacionamentos interpessoais na permanência e na integração de visitantes e novos membros da igreja;"
   },
   {
-   "t": 446.82,
+   "t": 446.56,
    "cap": false,
    "texto": "b) relacionar os princípios bíblicos de Atos 9.15, João 15.5 e 1 Pedro 2.9 com a prática do discipulado relacional e da frutificação cristã;"
   },
   {
-   "t": 460.66,
+   "t": 460.08,
    "cap": false,
    "texto": "c) elaborar quatro mensagens que demonstrem a responsabilidade pessoal de cada cristão na evangelização e no discipulado, evitando sua terceirização institucional;"
   },
   {
-   "t": 470.47,
+   "t": 469.8,
    "cap": false,
    "texto": "d) realizar a série de mensagens e a capacitação dos voluntários dos Ministérios Boas-Vindas e Acolher;"
   },
   {
-   "t": 476.75,
+   "t": 475.72,
    "cap": false,
    "texto": "e) avaliar o retorno dos visitantes e a integração dos novos decididos no GCEU, comparando os resultados com o diagnóstico inicial."
   },
   {
-   "t": 485.49,
+   "t": 484.06,
    "cap": true,
    "texto": "1.3 Lógica do projeto"
   },
   {
-   "t": 488.58,
+   "t": 487.15,
    "cap": false,
    "texto": "O Quadro 1 mostra como as partes do projeto se ligam, do problema à avaliação."
   },
   {
-   "t": 493.3,
+   "t": 491.74,
    "cap": false,
    "texto": "Quadro 1 – Lógica do projeto"
   },
   {
-   "t": 495.64,
+   "t": 493.96,
    "cap": false,
    "texto": "Problema: Visitantes e novos decididos não permanecem; acolhimento e discipulado são vistos como tarefa da liderança. Texto bíblico: Atos 9.10-19; João 15.1-8; 1 Pedro 2.9-10. Resposta teológica: Deus chama quem ainda não conhecemos; cada cristão é sacerdote; o fruto nasce da permanência em Cristo. Proposta: Série de quatro mensagens, capacitação do Projeto Acolher e reinício do GCEU. Avaliação: Retorno de visitantes, novos decididos no GCEU, questionário e registros."
   },
   {
-   "t": 530.95,
+   "t": 528.37,
    "cap": false,
    "texto": "Fonte: elaborado pelo autor."
   },
   {
-   "t": 533.64,
+   "t": 531.26,
    "cap": true,
    "texto": "1.4 Formato do projeto"
   },
   {
-   "t": 536.71,
+   "t": 534.26,
    "cap": false,
    "texto": "Quadro 2 – Formato do projeto"
   },
   {
-   "t": 539.29,
+   "t": 536.82,
    "cap": false,
    "texto": "Formato: Série temática de quatro mensagens, acompanhada da capacitação da equipe do Projeto Acolher"
   },
   {
-   "t": 545.52,
+   "t": 542.98,
    "cap": false,
    "texto": "Público: Toda a igreja (mensagens) e os voluntários dos Ministérios Boas-Vindas e Acolher (capacitação); os beneficiados diretos são os visitantes e os novos decididos"
   },
   {
-   "t": 555.4,
+   "t": 553.02,
    "cap": false,
    "texto": "Encontros: Quatro domingos de mensagens e quatro encontros de capacitação"
   },
   {
-   "t": 560.13,
+   "t": 557.77,
    "cap": false,
    "texto": "Por que este formato: As mensagens mobilizam a igreja inteira para a responsabilidade pessoal pelo acolhimento; a capacitação transforma essa visão em prática"
   },
   {
-   "t": 569.01,
+   "t": 566.94,
    "cap": false,
    "texto": "Fonte: elaborado pelo autor."
   },
   {
-   "t": 571.84,
+   "t": 569.73,
    "cap": true,
    "texto": "2 FUNDAMENTAÇÃO"
   },
   {
-   "t": 574.1,
+   "t": 571.93,
    "cap": false,
    "texto": "A fundamentação apoia o projeto em quatro passos: o diagnóstico da igreja, o texto bíblico, o planejamento da proposta e a forma de avaliação."
   },
   {
-   "t": 583.27,
+   "t": 581.27,
    "cap": true,
    "texto": "2.1 Diagnóstico"
   },
   {
-   "t": 585.95,
+   "t": 583.88,
    "cap": false,
    "texto": "Segundo o livro da secretaria, cerca de trinta pessoas visitaram a igreja nos últimos seis meses, e apenas dez voltaram, o que corresponde a 33% de retorno. Dessas dez, duas eram novos decididos e sete já frequentavam outras igrejas. Além disso, a igreja não tem hoje nenhum GCEU em funcionamento, de modo que quem chega não encontra um espaço de comunhão e discipulado fora dos cultos. Por isso, o GCEU será reiniciado na primeira quinta-feira de fevereiro de 2027, para receber os novos decididos acompanhados pelo projeto. O Quadro 3 organiza o problema em causas e consequências e indica as causas que o projeto alcança."
   },
   {
-   "t": 623.18,
+   "t": 620.83,
    "cap": false,
    "texto": "Quadro 3 – Árvore do problema"
   },
   {
-   "t": 625.47,
+   "t": 623.19,
    "cap": false,
    "texto": "Consequências: Pessoas que flutuam entre igrejas; “porta dos fundos” aberta; cristãos frágeis e despreparados"
   },
   {
-   "t": 632.2,
+   "t": 630.09,
    "cap": false,
    "texto": "Problema central: Visitantes e novos decididos não permanecem nem se integram à igreja"
   },
   {
-   "t": 637.38,
+   "t": 635.25,
    "cap": false,
    "texto": "Causas: Acolhimento improvisado na primeira visita; falta de acompanhamento pessoal depois da decisão; ausência de um GCEU em funcionamento; cultura de terceirizar a evangelização e o discipulado à liderança"
   },
   {
-   "t": 649.02,
+   "t": 646.62,
    "cap": false,
    "texto": "Causas que o projeto alcança: A cultura de terceirização, diretamente, pela série de mensagens; o acolhimento e o acompanhamento, pela capacitação da equipe do Projeto Acolher; a ausência de GCEU, pelo reinício do grupo em fevereiro de 2027"
   },
   {
-   "t": 663.38,
+   "t": 661.25,
    "cap": false,
    "texto": "Fonte: elaborado pelo autor."
   },
   {
-   "t": 666.11,
+   "t": 663.94,
    "cap": true,
    "texto": "2.2 Texto bíblico"
   },
   {
-   "t": 668.84,
+   "t": 666.62,
    "cap": false,
    "texto": "Em Atos 9.15, Deus ordena a Ananias que vá ao encontro de Saulo, conhecido como perseguidor dos cristãos: “Vai, porque este é para mim um instrumento escolhido para levar o meu nome perante os gentios e reis, bem como perante os filhos de Israel”. O texto revela que o chamado de Deus não se baseia no passado humano, mas na graça. Antes de ser ensinado por líderes da igreja ou reconhecido como apóstolo, Saulo já havia sido separado para uma grande obra. Da mesma forma, muitos que entram pela primeira vez em um templo já carregam um chamado divino. A pergunta é: quem estará lá para recebê-los? Ananias precisou vencer o medo, ir ao encontro de Saulo e chamá-lo de “irmão” (At 9.17)."
   },
   {
-   "t": 707.54,
+   "t": 705.13,
    "cap": false,
    "texto": "Em João 15.5, Jesus afirma: “Eu sou a videira, vós, os ramos. Quem permanece em mim, e eu, nele, esse dá muito fruto; porque sem mim nada podeis fazer”. A vara não produz fruto por si mesma; depende da videira. Toda tentativa de servir a Deus desconectada de Cristo resulta em esterilidade espiritual. O fruto não se limita ao caráter cristão (Gl 5.22-23): inclui o impacto relacional do evangelho, quando discípulos fazem discípulos (Jo 15.8). Em 1 Pedro 2.9, o sacerdócio deixa de ser privilégio de um grupo e passa a ser a identidade de todo o povo de Deus: ser sacerdote é ser ponte entre o evangelho e quem ainda não o conhece."
   },
   {
-   "t": 749.83,
+   "t": 747.47,
    "cap": true,
    "texto": "2.3 Planejamento"
   },
   {
-   "t": 752.61,
+   "t": 750.06,
    "cap": false,
    "texto": "A série será temática: cada mensagem trabalha um texto em seu contexto e termina com uma aplicação prática ligada ao acolhimento. A preparação das mensagens seguirá as orientações de Stott (2003) sobre a pregação como ponte entre o mundo bíblico e o mundo contemporâneo. Depois de cada mensagem, a equipe do Projeto Acolher terá um encontro de capacitação sobre a etapa correspondente do processo: a primeira impressão, a sala de acolhimento, o atendimento aos novos decididos e a integração no GCEU. Comiskey e Egli lembram que capacitar a equipe exige esforço no início, mas alivia o trabalho depois:"
   },
   {
-   "t": 785.47,
+   "t": 782.55,
    "cap": false,
    "texto": "Capacitar outros para participarem no grupo requer reflexão, oração, distribuição e reuniões de balanço sobre o progresso alcançado. Capacitar outros requer esforço. Fazer as coisas sozinho é muito mais fácil, pelo menos no curto prazo. [...] No entanto, será muito menos trabalhoso daqui a um mês ou dois, quando outros estarão carregando o fardo e se apropriando do ministério do grupo pequeno, e além disso, deixa o grupo ser mais divertido. E quem não quer isso? (Comiskey; Egli, 2019, p. 37)."
   },
   {
-   "t": 814.48,
+   "t": 811.52,
    "cap": false,
    "texto": "O modelo wesleyano inspira essa formação. Henderson (2012, p. 129) lembra que Wesley reunia, na sociedade seleta, metodistas fiéis treinados para ser exemplo do movimento. A oração acompanha todo o processo, pois, segundo Earley (2005, p. 29), ela é a atividade mais importante de quem lidera pessoas em pequenos grupos."
   },
   {
-   "t": 835.99,
+   "t": 833.18,
    "cap": true,
    "texto": "2.4 Avaliação"
   },
   {
-   "t": 838.89,
+   "t": 836.07,
    "cap": false,
    "texto": "A linha de base será formada pelos números do diagnóstico, levantados antes da série. Ao final de 90 dias, os resultados serão comparados com ela a partir de três fontes: os visitantes e novos membros, por meio de um questionário breve; a equipe do Projeto Acolher e o pastor responsável, em reunião de avaliação; e os registros de fichas, contatos e participação no GCEU."
   },
   {
-   "t": 860.76,
+   "t": 857.68,
    "cap": true,
    "texto": "3 DELIMITAÇÃO DO TEXTO BÍBLICO E ABORDAGEM EXEGÉTICA"
   },
   {
-   "t": 864.94,
+   "t": 861.86,
    "cap": false,
    "texto": "Por ser uma série temática, cada texto é lido em seu próprio contexto. As citações bíblicas seguem a Almeida Revista e Atualizada (ARA)."
   },
   {
-   "t": 874.07,
+   "t": 871.05,
    "cap": false,
    "texto": "Quadro 4 – Textos da série"
   },
   {
-   "t": 876.45,
+   "t": 873.42,
    "cap": false,
    "texto": "Texto: Atos 9.10-19. Gênero e contexto: Narrativa histórica escrita por Lucas; após a conversão de Saulo, Ananias, discípulo em Damasco, recebe a ordem de ir ao encontro do perseguidor. Contribuição para o projeto: Deus chama quem ainda não conhecemos; acolher exige vencer o medo, ir ao encontro e chamar de “irmão”."
   },
   {
-   "t": 896.63,
+   "t": 893.75,
    "cap": false,
    "texto": "Texto: João 15.1-8. Gênero e contexto: Discurso de despedida de Jesus aos discípulos (Jo 13–17), com a metáfora da videira e dos ramos. Contribuição para o projeto: A frutificação depende de permanecer em Cristo; o fruto inclui discípulos que fazem discípulos."
   },
   {
-   "t": 915.04,
+   "t": 912.08,
    "cap": false,
    "texto": "Texto: 1 Pedro 2.9-10. Gênero e contexto: Carta a cristãos dispersos (1 Pe 1.1); descreve a nova identidade do povo de Deus. Contribuição para o projeto: Sacerdócio universal: cada cristão é chamado a anunciar e a cuidar, sem terceirizar a missão."
   },
   {
-   "t": 933.74,
+   "t": 930.57,
    "cap": false,
    "texto": "Fonte: elaborado pelo autor."
   },
   {
-   "t": 936.58,
+   "t": 933.41,
    "cap": true,
    "texto": "4 PLANO DE AÇÃO"
   },
   {
-   "t": 938.76,
+   "t": 935.59,
    "cap": false,
    "texto": "O plano de ação foi organizado pela ferramenta 5W2H (Quadro 5)."
   },
   {
-   "t": 943.65,
+   "t": 940.55,
    "cap": false,
    "texto": "Quadro 5 – Plano de ação (5W2H)"
   },
   {
-   "t": 946.92,
+   "t": 943.8,
    "cap": false,
    "texto": "O quê?: Série de quatro mensagens, reinício do GCEU e implantação de um processo de acolhimento, integração e discipulado para visitantes e novos convertidos, com os Ministérios Boas-Vindas e Acolher"
   },
   {
-   "t": 958.59,
+   "t": 955.07,
    "cap": false,
    "texto": "Por quê?: Promover o acolhimento cristão, fortalecer o sentimento de pertencimento e evitar que quem chega fique sem acompanhamento, oferecendo cuidado pastoral, discipulado e participação nos ministérios"
   },
   {
-   "t": 970.0,
+   "t": 966.68,
    "cap": false,
    "texto": "Quem?: Renato de Almeida da Silva (pregador e coordenador do projeto), o pastor responsável, os líderes dos ministérios, a equipe de recepção, os discipuladores e os voluntários; o GCEU será coordenado pelo autor do projeto, com a equipe do Projeto Acolher; cada visitante acompanhado terá um responsável de referência"
   },
   {
-   "t": 988.07,
+   "t": 984.63,
    "cap": false,
    "texto": "Onde?: Na entrada do templo, no espaço de acolhimento, nas salas de atendimento, nos cultos, no local de reunião do GCEU e nos canais de comunicação autorizados pela igreja"
   },
   {
-   "t": 998.64,
+   "t": 994.86,
    "cap": false,
    "texto": "Quando?: Janeiro de 2027: linha de base, escolha da equipe e preparação das mensagens; fevereiro de 2027: reinício do GCEU (primeira quinta-feira do mês, com reuniões semanais às quintas-feiras), série de mensagens e capacitação; março: implantação da recepção, do acompanhamento e da integração dos novos decididos no GCEU; abril: avaliação e ajustes; a partir de maio: continuidade, com reuniões mensais"
   },
   {
-   "t": 1024.63,
+   "t": 1020.44,
    "cap": false,
    "texto": "Como?: Mensagens nos cultos de domingo; recepção calorosa, apresentação da igreja, escuta atenta, kit de boas-vindas, contato posterior consentido, encaminhamento ao GCEU, discipulado pessoal e avaliação periódica"
   },
   {
-   "t": 1037.95,
+   "t": 1033.49,
    "cap": false,
    "texto": "Quanto custa?: Cerca de R$ 1.500,00 (Quadro 8), priorizando os recursos já existentes"
   },
   {
-   "t": 1043.96,
+   "t": 1039.45,
    "cap": false,
    "texto": "Fonte: elaborado pelo autor."
   },
   {
-   "t": 1046.01,
+   "t": 1041.72,
    "cap": false,
    "texto": "O Quadro 6 apresenta as mensagens e a capacitação correspondente a cada uma."
   },
   {
-   "t": 1050.91,
+   "t": 1046.55,
    "cap": false,
    "texto": "Quadro 6 – Plano das mensagens"
   },
   {
-   "t": 1053.4,
+   "t": 1049.19,
    "cap": false,
    "texto": "Nº: 1. Texto e título: At 9.10-16 · Um instrumento escolhido. Ideia central: Deus vê propósito em quem chega antes de qualquer discipulado.. Objetivo: Ver cada visitante como alguém chamado por Deus. Aplicação e capacitação: Orar pelos visitantes pelo nome · Capacitação: a primeira impressão (Boas-Vindas)."
   },
   {
-   "t": 1072.98,
+   "t": 1068.85,
    "cap": false,
    "texto": "Nº: 2. Texto e título: At 9.17-19 · Irmão Saulo. Ideia central: Acolher é vencer o medo, ir ao encontro e chamar de irmão.. Objetivo: Assumir a responsabilidade pessoal pelo acolhimento. Aplicação e capacitação: Acolher um visitante no culto · Capacitação: sala de acolhimento e perfil do visitante."
   },
   {
-   "t": 1093.35,
+   "t": 1089.01,
    "cap": false,
    "texto": "Nº: 3. Texto e título: Jo 15.1-8 · Permanecer para frutificar. Ideia central: Só quem permanece em Cristo gera discípulos que permanecem.. Objetivo: Ligar o discipulado à comunhão com Cristo. Aplicação e capacitação: Compromisso de oração e discipulado pessoal · Capacitação: atendimento aos novos decididos."
   },
   {
-   "t": 1113.78,
+   "t": 1109.27,
    "cap": false,
    "texto": "Nº: 4. Texto e título: 1 Pe 2.9-10 · Sacerdócio real. Ideia central: Cada cristão é sacerdote chamado a anunciar e a cuidar.. Objetivo: Romper a terceirização da evangelização e do discipulado. Aplicação e capacitação: Inscrever-se como acolhedor ou discipulador · Capacitação: integração no GCEU."
   },
   {
-   "t": 1134.51,
+   "t": 1129.53,
    "cap": false,
    "texto": "Fonte: elaborado pelo autor."
   },
   {
-   "t": 1136.63,
+   "t": 1131.79,
    "cap": false,
    "texto": "O Quadro 7 resume as etapas do processo de acolhimento. O passo a passo de cada ministério está no Apêndice A."
   },
   {
-   "t": 1143.02,
+   "t": 1138.04,
    "cap": false,
    "texto": "Quadro 7 – Etapas do Projeto Acolher"
   },
   {
-   "t": 1146.0,
+   "t": 1141.02,
    "cap": false,
    "texto": "Etapa: 1. Boas-vindas. Por quê?: Oferecer uma primeira experiência acolhedora aos visitantes. Como?: Recepção cordial, apresentação da igreja, identificação dos voluntários e entrega de material informativo."
   },
   {
-   "t": 1158.24,
+   "t": 1153.46,
    "cap": false,
    "texto": "Etapa: 2. Formação de voluntários. Por quê?: Preparar membros para acolher e acompanhar pessoas com responsabilidade cristã. Como?: Treinamentos sobre escuta ativa, comunicação, oração, ética, acolhimento e discipulado."
   },
   {
-   "t": 1171.96,
+   "t": 1167.07,
    "cap": false,
    "texto": "Etapa: 3. Acompanhamento dos novos decididos. Por quê?: Consolidar a decisão por Cristo e iniciar o discipulado. Como?: Atendimento individual, oração, apresentação dos primeiros passos da fé e contato posterior."
   },
   {
-   "t": 1184.98,
+   "t": 1180.33,
    "cap": false,
    "texto": "Etapa: 4. Participação no GCEU. Por quê?: Promover comunhão, vínculos e crescimento espiritual. Como?: Apresentar cada pessoa ao GCEU e a um discipulador, conforme sua realidade e disponibilidade."
   },
   {
-   "t": 1197.54,
+   "t": 1192.42,
    "cap": false,
    "texto": "Etapa: 5. Avaliação e multiplicação. Por quê?: Verificar resultados e formar novos acolhedores e discipuladores. Como?: Reuniões de avaliação, acompanhamento dos indicadores e capacitação de novos voluntários."
   },
   {
-   "t": 1210.35,
+   "t": 1205.24,
    "cap": false,
    "texto": "Fonte: elaborado pelo autor."
   },
   {
-   "t": 1212.45,
+   "t": 1207.33,
    "cap": false,
    "texto": "Quadro 8 – Estimativa inicial de orçamento"
   },
   {
-   "t": 1215.65,
+   "t": 1210.49,
    "cap": false,
    "texto": "Kits de acolhimento e materiais impressos: R$ 500,00"
   },
   {
-   "t": 1219.2,
+   "t": 1214.11,
    "cap": false,
    "texto": "Treinamento e material de apoio: R$ 300,00"
   },
   {
-   "t": 1222.48,
+   "t": 1217.38,
    "cap": false,
    "texto": "Café, água e lanches: R$ 300,00"
   },
   {
-   "t": 1225.73,
+   "t": 1220.52,
    "cap": false,
    "texto": "Identificação e organização do espaço: R$ 200,00"
   },
   {
-   "t": 1229.59,
+   "t": 1224.45,
    "cap": false,
    "texto": "Comunicação e materiais complementares: R$ 200,00"
   },
   {
-   "t": 1233.39,
+   "t": 1228.18,
    "cap": false,
    "texto": "Total estimado: R$ 1.500,00"
   },
   {
-   "t": 1236.22,
+   "t": 1231.09,
    "cap": false,
    "texto": "Fonte: elaborado pelo autor."
   },
   {
-   "t": 1238.53,
+   "t": 1233.31,
    "cap": false,
    "texto": "Quadro 9 – Cronograma"
   },
   {
-   "t": 1240.5,
+   "t": 1235.32,
    "cap": false,
    "texto": "Levantamento da linha de base (fichas e registros): Janeiro de 2027, semanas 1 e 2"
   },
   {
-   "t": 1246.98,
+   "t": 1241.74,
    "cap": false,
    "texto": "Escolha da equipe e preparação das mensagens: Janeiro de 2027"
   },
   {
-   "t": 1252.02,
+   "t": 1246.83,
    "cap": false,
    "texto": "Reinício do GCEU (reuniões semanais às quintas-feiras): Primeira quinta-feira de fevereiro de 2027"
   },
   {
-   "t": 1258.92,
+   "t": 1253.26,
    "cap": false,
    "texto": "Série de mensagens e encontros de capacitação: Fevereiro de 2027, quatro domingos"
   },
   {
-   "t": 1264.89,
+   "t": 1259.09,
    "cap": false,
    "texto": "Implantação da recepção, do acompanhamento e da integração no GCEU: Março de 2027"
   },
   {
-   "t": 1271.06,
+   "t": 1264.97,
    "cap": false,
    "texto": "Avaliação e ajustes: Abril de 2027"
   },
   {
-   "t": 1274.93,
+   "t": 1268.7,
    "cap": false,
    "texto": "Continuidade, com reuniões mensais de acompanhamento: A partir de maio de 2027"
   },
   {
-   "t": 1280.6,
+   "t": 1274.46,
    "cap": false,
    "texto": "Avaliação final dos 90 dias e análise dos resultados: Maio de 2027"
   },
   {
-   "t": 1286.22,
+   "t": 1280.12,
    "cap": false,
    "texto": "Redação final do relatório: Junho de 2027"
   },
   {
-   "t": 1290.15,
+   "t": 1283.96,
    "cap": false,
    "texto": "Fonte: elaborado pelo autor."
   },
   {
-   "t": 1292.27,
+   "t": 1286.05,
    "cap": false,
    "texto": "Viabilidade. A prioridade é usar a estrutura e os recursos já existentes na igreja e aprovar previamente as despesas adicionais. O pastor titular autorizou o projeto, incluindo o reinício do GCEU; a sala de acolhimento já está preparada e sete voluntários se dispuseram a participar. Como, nos últimos seis meses, houve dois novos decididos, um único GCEU tem capacidade para recebê-los; se o número crescer além de 10 a 12 participantes, a equipe avaliará a abertura de um segundo grupo."
   },
   {
-   "t": 1321.08,
+   "t": 1314.43,
    "cap": true,
    "texto": "5 PROPOSTA DE AVALIAÇÃO DE IMPACTO"
   },
   {
-   "t": 1324.12,
+   "t": 1317.43,
    "cap": false,
    "texto": "Quadro 10 – Proposta de avaliação"
   },
   {
-   "t": 1326.71,
+   "t": 1319.96,
    "cap": false,
    "texto": "Quem avaliará?: Os visitantes e novos membros (questionário), a equipe do Projeto Acolher e o pastor responsável (reunião de avaliação)"
   },
   {
-   "t": 1334.38,
+   "t": 1327.68,
    "cap": false,
    "texto": "O que será avaliado?: Retorno dos visitantes, acompanhamento dos novos decididos, participação no GCEU, percepção de acolhimento e compreensão da responsabilidade pessoal pelo discipulado"
   },
   {
-   "t": 1345.25,
+   "t": 1338.11,
    "cap": false,
    "texto": "Como será avaliado?: Fichas de visitantes, registro de acompanhamento (Apêndice B), questionário de percepção em escala de 1 a 5 e reuniões de avaliação"
   },
   {
-   "t": 1354.18,
+   "t": 1346.96,
    "cap": false,
    "texto": "Quando será avaliado?: Linha de base antes da série; acompanhamento mensal; avaliação final ao término do 3º mês"
   },
   {
-   "t": 1361.2,
+   "t": 1354.0,
    "cap": false,
    "texto": "Quais indicadores?: Percentual de visitantes que retornam em até 30 dias; percentual de novos decididos com um responsável de referência; percentual de novos decididos participando do GCEU após 90 dias; número de voluntários capacitados"
   },
   {
-   "t": 1375.46,
+   "t": 1368.0,
    "cap": false,
    "texto": "Fonte: elaborado pelo autor."
   },
   {
-   "t": 1377.67,
+   "t": 1370.09,
    "cap": false,
    "texto": "Resultados esperados. Espera-se que cada novo decidido tenha um responsável de referência, que ao menos a metade dos novos decididos esteja participando do GCEU após 90 dias e que a proporção de visitantes que retornam passe de 33% para 50%."
   },
   {
-   "t": 1393.36,
+   "t": 1385.4,
    "cap": false,
    "texto": "Cuidados éticos. A participação no questionário é voluntária e anônima, com termo de consentimento, e os dados pessoais das fichas só serão usados com a autorização de cada pessoa."
   },
   {
-   "t": 1404.84,
+   "t": 1397.09,
    "cap": true,
    "texto": "REFERÊNCIAS"
   },
   {
-   "t": 1406.7,
+   "t": 1398.9,
    "cap": false,
    "texto": "BESSA, Gustavo. Coram Deo: vivendo perante a face de Deus. Belo Horizonte: Diante do Trono, 2007."
   },
   {
-   "t": 1413.41,
+   "t": 1405.76,
    "cap": false,
    "texto": "BÍBLIA. Português. Bíblia Sagrada: Almeida Revista e Atualizada. 2. ed. Barueri: Sociedade Bíblica do Brasil, 1993."
   },
   {
-   "t": 1422.56,
+   "t": 1414.94,
    "cap": false,
    "texto": "CHO, Paul Yonggi. A quarta dimensão: um guia para o viver vitorioso. [S. l.]: Vida, 1981."
   },
   {
-   "t": 1429.37,
+   "t": 1421.69,
    "cap": false,
    "texto": "COMISKEY, Joel; EGLI, Jim. Grupos que prosperam: 8 descobertas surpreendentes sobre grupos pequenos que transformam vidas. [S. l.]: Ministério Igreja em Células, 2019."
   },
   {
-   "t": 1440.45,
+   "t": 1433.1,
    "cap": false,
    "texto": "EARLEY, Dave. 8 hábitos do líder eficaz de grupos pequenos: orientações para transformar seu ministério fora do encontro do grupo pequeno/célula. Curitiba: Ministério Igreja em Células no Brasil, 2005."
   },
   {
-   "t": 1452.66,
+   "t": 1445.61,
    "cap": false,
    "texto": "EARLEY, Dave. Transformando membros em líderes: como ajudar os membros de seu grupo pequeno a liderar novos grupos. Curitiba: Ministério Igreja em Células, 2009."
   },
   {
-   "t": 1462.57,
+   "t": 1455.56,
    "cap": false,
    "texto": "HENDERSON, D. Michael. Um modelo para fazer discípulos: a reunião de classe de John Wesley. Curitiba: Ministério Igreja em Células, 2012."
   },
   {
-   "t": 1471.63,
+   "t": 1464.37,
    "cap": false,
    "texto": "STOTT, John R. W. Eu creio na pregação. São Paulo: Vida, 2003."
   },
   {
-   "t": 1477.9,
+   "t": 1470.59,
    "cap": true,
    "texto": "APÊNDICE A – ROTEIRO OPERACIONAL DO PROJETO ACOLHER"
   },
   {
-   "t": 1481.65,
+   "t": 1474.32,
    "cap": false,
    "texto": "A.1 Ministério Boas-Vindas"
   },
   {
-   "t": 1484.0,
+   "t": 1476.66,
    "cap": false,
    "texto": "O Ministério Boas-Vindas acolhe com o amor de Cristo as pessoas que visitam a igreja pela primeira vez e oferece a elas informações básicas sobre a comunidade. Cada voluntário deve ver o visitante como um instrumento em potencial nas mãos de Deus (At 9.15). Seus alvos são:"
   },
   {
-   "t": 1500.27,
+   "t": 1493.02,
    "cap": false,
    "texto": "receber cada pessoa como uma vida preciosa para Deus, fazendo quem vem pela primeira vez se sentir acolhido, amado e à vontade;"
   },
   {
-   "t": 1507.7,
+   "t": 1500.4,
    "cap": false,
    "texto": "causar uma boa primeira impressão, com organização, cuidado e atenção aos detalhes, desde a recepção até o ambiente do culto;"
   },
   {
-   "t": 1515.1,
+   "t": 1508.05,
    "cap": false,
    "texto": "levar o visitante a conhecer a igreja como uma comunidade abrangente, ativa e acolhedora, com espaço para ele se envolver;"
   },
   {
-   "t": 1522.21,
+   "t": 1514.82,
    "cap": false,
    "texto": "ajudá-lo a perceber que sua presença ali não é acaso, mas parte do propósito de Deus."
   },
   {
-   "t": 1527.61,
+   "t": 1520.38,
    "cap": false,
    "texto": "Durante o culto"
   },
   {
-   "t": 1529.12,
+   "t": 1521.86,
    "cap": false,
    "texto": "A equipe se posiciona nas entradas e laterais do templo em dois momentos: na identificação dos visitantes e no apelo, ao final da pregação."
   },
   {
-   "t": 1537.36,
+   "t": 1530.15,
    "cap": false,
    "texto": "Logo depois do louvor, o dirigente pergunta quem visita a igreja pela primeira vez, e a equipe entrega o kit de boas-vindas: folder com a história, a visão, os ministérios e os contatos da igreja, além de uma guloseima e um pequeno brinde."
   },
   {
-   "t": 1550.7,
+   "t": 1543.41,
    "cap": false,
    "texto": "No apelo, a equipe ora, acompanha a pessoa ao altar e permanece com ela durante a ministração."
   },
   {
-   "t": 1556.57,
+   "t": 1549.2,
    "cap": false,
    "texto": "Na sala de acolhimento"
   },
   {
-   "t": 1558.35,
+   "t": 1551.02,
    "cap": false,
    "texto": "A equipe conduz os visitantes, sempre com um sorriso, a uma sala confortável, com lanche e TV, e deixa no assento a placa “RESERVADO”."
   },
   {
-   "t": 1566.0,
+   "t": 1558.65,
    "cap": false,
    "texto": "Cada voluntário se apresenta, pergunta o nome da pessoa e passa a chamá-la sempre pelo nome."
   },
   {
-   "t": 1571.24,
+   "t": 1563.82,
    "cap": false,
    "texto": "A equipe faz perguntas para conhecer o perfil do visitante (se é da cidade, se tem filhos, se já frequenta uma igreja, como conheceu a igreja) e apresenta o que a igreja oferece para a realidade dele."
   },
   {
-   "t": 1582.89,
+   "t": 1575.45,
    "cap": false,
    "texto": "O líder da equipe apresenta o pastor presidente e os pastores de área, exibe um vídeo curto sobre a igreja, informa os horários dos cultos, da Escola Bíblica Dominical e do GCEU, e reforça que a igreja é uma família para ser e pertencer."
   },
   {
-   "t": 1596.69,
+   "t": 1589.06,
    "cap": false,
    "texto": "A equipe pede autorização para anotar os dados da pessoa, oferece uma oração de bênção, serve um café ou suco e acompanha o visitante de volta ao templo."
   },
   {
-   "t": 1605.9,
+   "t": 1598.06,
    "cap": false,
    "texto": "A.2 Ministério Acolher: novos decididos"
   },
   {
-   "t": 1609.23,
+   "t": 1601.41,
    "cap": false,
    "texto": "Ao receber cada novo decidido, a igreja celebra a decisão, acolhe a pessoa como membro da família de Deus (Ef 2.19) e consolida a decisão em um atendimento individual. O passo a passo é:"
   },
   {
-   "t": 1621.4,
+   "t": 1613.26,
    "cap": false,
    "texto": "chegar 15 minutos antes do culto, preparar a sala, acender as luzes e orar pela programação e pelas decisões;"
   },
   {
-   "t": 1628.61,
+   "t": 1620.43,
    "cap": false,
    "texto": "arrumar as cadeiras frente a frente e deixar em cada uma o kit de atendimento: prancheta, caneta, cartão de decisão, livreto e panfleto da igreja;"
   },
   {
-   "t": 1636.99,
+   "t": 1628.99,
    "cap": false,
    "texto": "testar o vídeo do pastor e combinar a posição de cada voluntário no templo durante o apelo;"
   },
   {
-   "t": 1642.22,
+   "t": 1634.26,
    "cap": false,
    "texto": "no apelo, identificar quem levantou a mão, convidar com alegria quem não foi à frente e, se a pessoa recusar, orar com ela e anotar os dados básicos;"
   },
   {
-   "t": 1651.13,
+   "t": 1643.45,
    "cap": false,
    "texto": "após a oração do pastor, acompanhar os novos decididos até a sala, onde recebem atendimento individual."
   },
   {
-   "t": 1657.4,
+   "t": 1649.74,
    "cap": false,
    "texto": "A.3 Integração no GCEU"
   },
   {
-   "t": 1660.31,
+   "t": 1652.32,
    "cap": false,
    "texto": "Em até 30 dias, cada novo decidido deve ser apresentado ao GCEU, que se reúne às quintas-feiras, e a um discipulador, conforme sua realidade e disponibilidade, e ser acompanhado por um responsável de referência até completar 90 dias."
   },
   {
-   "t": 1675.24,
+   "t": 1666.75,
    "cap": true,
    "texto": "APÊNDICE B – INSTRUMENTOS DE AVALIAÇÃO"
   },
   {
-   "t": 1678.6,
+   "t": 1670.03,
    "cap": false,
    "texto": "B.1 Questionário de percepção (visitantes e novos membros)"
   },
   {
-   "t": 1682.49,
+   "t": 1673.85,
    "cap": false,
    "texto": "Marque de 1 (discordo totalmente) a 5 (concordo totalmente). A participação é voluntária e anônima."
   },
   {
-   "t": 1688.31,
+   "t": 1679.69,
    "cap": false,
    "texto": "Quadro 11 – Questionário de percepção"
   },
   {
-   "t": 1691.04,
+   "t": 1682.49,
    "cap": false,
    "texto": "Afirmação: Fui recebido com atenção na minha primeira visita.."
   },
   {
-   "t": 1694.69,
+   "t": 1686.13,
    "cap": false,
    "texto": "Afirmação: Alguém me chamou pelo nome e se interessou por mim.."
   },
   {
-   "t": 1698.49,
+   "t": 1689.94,
    "cap": false,
    "texto": "Afirmação: Fui procurado depois da minha visita ou decisão.."
   },
   {
-   "t": 1702.55,
+   "t": 1694.07,
    "cap": false,
    "texto": "Afirmação: Tenho alguém que me acompanha na fé.."
   },
   {
-   "t": 1705.7,
+   "t": 1697.07,
    "cap": false,
    "texto": "Afirmação: Participo de um GCEU.."
   },
   {
-   "t": 1708.63,
+   "t": 1699.69,
    "cap": false,
    "texto": "Afirmação: Sinto-me parte da família da igreja.."
   },
   {
-   "t": 1711.84,
+   "t": 1702.9,
    "cap": false,
    "texto": "Fonte: elaborado pelo autor."
   },
   {
-   "t": 1714.17,
+   "t": 1705.06,
    "cap": false,
    "texto": "B.2 Registro de acompanhamento"
   },
   {
-   "t": 1716.74,
+   "t": 1707.71,
    "cap": false,
    "texto": "Quadro 12 – Registro de acompanhamento"
   },
   {
-   "t": 1719.48,
+   "t": 1710.51,
    "cap": false,
    "texto": "."
   },
   {
-   "t": 1720.11,
+   "t": 1711.16,
    "cap": false,
    "texto": "."
   },
   {
-   "t": 1720.77,
+   "t": 1711.8,
    "cap": false,
    "texto": "."
   },
   {
-   "t": 1721.4,
+   "t": 1712.41,
    "cap": false,
    "texto": "."
   },
   {
-   "t": 1722.03,
+   "t": 1713.04,
    "cap": false,
    "texto": "."
   },
   {
-   "t": 1722.68,
+   "t": 1713.67,
    "cap": false,
    "texto": "."
   },
   {
-   "t": 1723.33,
+   "t": 1714.3,
    "cap": false,
    "texto": "Fonte: elaborado pelo autor."
   }

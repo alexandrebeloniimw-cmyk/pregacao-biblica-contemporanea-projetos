@@ -2,820 +2,820 @@
  "id": "anderson",
  "titulo": "O anúncio da Palavra no contexto relacional: capacitação homilética simplificada para líderes e supervisores de GCEU",
  "autor": "Anderson Alves Moreira",
- "duracao": 1545.4,
+ "duracao": 1527.3,
  "capitulos": [
   {
    "t": 0,
    "titulo": "Apresentação"
   },
   {
-   "t": 20.05,
+   "t": 19.64,
    "titulo": "Sobre o autor"
   },
   {
-   "t": 65.76,
+   "t": 66.33,
    "titulo": "Resumo"
   },
   {
-   "t": 150.89,
+   "t": 151.09,
    "titulo": "1 introdução"
   },
   {
-   "t": 213.27,
+   "t": 212.05,
    "titulo": "1.1 Justificativa"
   },
   {
-   "t": 295.86,
+   "t": 293.79,
    "titulo": "1.2 Objetivos"
   },
   {
-   "t": 349.38,
+   "t": 346.51,
    "titulo": "1.3 Lógica do projeto"
   },
   {
-   "t": 397.37,
+   "t": 393.42,
    "titulo": "1.4 Formato do projeto"
   },
   {
-   "t": 428.88,
+   "t": 424.11,
    "titulo": "2 fundamentação"
   },
   {
-   "t": 431.75,
+   "t": 426.86,
    "titulo": "2.1 Diagnóstico"
   },
   {
-   "t": 584.44,
+   "t": 578.0,
    "titulo": "2.2 Texto bíblico"
   },
   {
-   "t": 724.18,
+   "t": 716.26,
    "titulo": "2.3 Planejamento"
   },
   {
-   "t": 752.25,
+   "t": 743.7,
    "titulo": "2.4 Avaliação"
   },
   {
-   "t": 777.84,
+   "t": 768.93,
    "titulo": "3 delimitação do texto bíblico e abordagem exegética"
   },
   {
-   "t": 867.16,
+   "t": 857.75,
    "titulo": "4 plano de ação e conteúdo simplificado das aulas"
   },
   {
-   "t": 872.06,
+   "t": 862.63,
    "titulo": "4.1 Plano de ação (5W2H)"
   },
   {
-   "t": 931.92,
+   "t": 921.45,
    "titulo": "4.2 Plano dos encontros"
   },
   {
-   "t": 1062.03,
+   "t": 1050.45,
    "titulo": "4.3 Cronograma e viabilidade"
   },
   {
-   "t": 1113.84,
+   "t": 1100.41,
    "titulo": "5 proposta de avaliação de impacto"
   },
   {
-   "t": 1193.97,
+   "t": 1179.44,
    "titulo": "Referências"
   },
   {
-   "t": 1341.0,
+   "t": 1325.86,
    "titulo": "Apêndice A – questionário de autoavaliação do líder de GCEU"
   },
   {
-   "t": 1451.06,
+   "t": 1433.35,
    "titulo": "Apêndice B – ficha de observação homilética do supervisor de GCEU"
   }
  ],
  "transcricao": [
   {
-   "t": 20.05,
+   "t": 19.64,
    "cap": true,
    "texto": "SOBRE O AUTOR"
   },
   {
-   "t": 21.65,
+   "t": 21.31,
    "cap": false,
    "texto": "Anderson Alves Moreira é membro da Igreja Metodista Wesleyana Central de Petrópolis (RJ), onde atua como aspirante, supervisor e líder de GCEU. Tem formação teológica ministerial pelo Instituto Wesleyano de Educação, 1ª Região, Polo Petrópolis, onde cursou de 2023 a 2025, e cursa a Especialização em Aprofundamento na Pregação Bíblica Contemporânea do Instituto Wesleyano de Educação (IWE)."
   },
   {
-   "t": 46.0,
+   "t": 46.19,
    "cap": false,
    "texto": "“Procura apresentar-te a Deus aprovado, como obreiro que não tem de que se envergonhar, que maneja bem a palavra da verdade.”"
   },
   {
-   "t": 52.29,
+   "t": 52.58,
    "cap": false,
    "texto": "2 Timóteo 2.15 (ACF)"
   },
   {
-   "t": 56.89,
+   "t": 57.3,
    "cap": false,
    "texto": "“O problema com um texto não é compreendê-lo, mas sim obedecer-lhe — colocá-lo em prática.”"
   },
   {
-   "t": 61.53,
+   "t": 62.12,
    "cap": false,
    "texto": "Gordon D. Fee e Douglas Stuart, Entendes o que lês?"
   },
   {
-   "t": 65.76,
+   "t": 66.33,
    "cap": true,
    "texto": "RESUMO"
   },
   {
-   "t": 67.24,
+   "t": 67.81,
    "cap": false,
    "texto": "O projeto propõe um curso de capacitação homilética e exegética simplificada, em cinco encontros, fundamentado no relato do caminho de Emaús (Lucas 24.13-35) e na orientação de 1 Pedro 4.7-11 sobre falar “segundo as palavras de Deus”, voltado aos líderes e supervisores de Grupos de Crescimento, Evangelismo e União (GCEUs) da Igreja Metodista Wesleyana Central de Petrópolis (RJ). O diagnóstico aponta que, em uma membresia de cerca de 2.200 pessoas e 70 grupos semanais, muitos facilitadores exercem a ministração sem formação teológica prévia, o que resulta na reprodução de discursos de autoajuda e na perda da profundidade doutrinária. A capacitação adota oficinas de leitura dialogada e roteiros práticos para habilitar os líderes a interpretar com fidelidade e comunicar com clareza o texto bíblico. A avaliação compara uma linha de base de dez ministrações anteriores com dez reuniões observadas depois do curso e cruza três fontes: o questionário de autoavaliação dos líderes (Apêndice A), a ficha de observação homilética preenchida pelos supervisores (Apêndice B) e a percepção do pastor titular, com o propósito de elevar a maturidade hermenêutica e a fidelidade ao texto bíblico no âmbito dos GCEUs."
   },
   {
-   "t": 140.37,
+   "t": 141.05,
    "cap": false,
    "texto": "Palavras-chave: capacitação homilética; pequenos grupos; interpretação bíblica; GCEU; Lucas 24.13-35."
   },
   {
-   "t": 150.89,
+   "t": 151.09,
    "cap": true,
    "texto": "1 INTRODUÇÃO"
   },
   {
-   "t": 152.82,
+   "t": 153.06,
    "cap": false,
    "texto": "O projeto “O anúncio da Palavra no contexto relacional” será desenvolvido no âmbito dos Grupos de Crescimento, Evangelismo e União (GCEUs) da Igreja Metodista Wesleyana Central, localizada na cidade de Petrópolis (RJ). Com uma trajetória de 59 anos e uma membresia de cerca de 2.200 pessoas, a igreja organiza suas atividades em dois cultos às quintas-feiras e três cultos aos domingos e articula 70 grupos nas casas ao longo da semana, dedicados ao estudo do texto bíblico exposto no domingo."
   },
   {
-   "t": 183.47,
+   "t": 182.62,
    "cap": false,
    "texto": "Este trabalho se faz necessário porque grande parte da membresia se dedica ao exame da Bíblia nesses pequenos grupos sem que os líderes tenham recebido instrução formal para interpretá-la. Por meio da capacitação homilética, busca-se responder a essa carência, ensinando-os a ler, expor, elucidar e aplicar o texto bíblico, conforme o modelo pedagógico de Jesus no caminho de Emaús, ao abrir o sentido das Escrituras e conduzir os discípulos à plena compreensão (Lc 24.27-32)."
   },
   {
-   "t": 213.27,
+   "t": 212.05,
    "cap": true,
    "texto": "1.1 Justificativa"
   },
   {
-   "t": 215.88,
+   "t": 214.67,
    "cap": false,
    "texto": "A justificativa estrutura-se em três dimensões, com ênfase na dimensão ministerial."
   },
   {
-   "t": 220.93,
+   "t": 219.69,
    "cap": false,
    "texto": "Ministerial (ênfase do projeto). Os líderes e supervisores de GCEU frequentemente exercem a ministração da Palavra sem formação teológica acadêmica prévia. Torna-se imperativo oferecer uma capacitação homilética reduzida e simplificada que traduza os conceitos da pós-graduação para a prática dos grupos, sem perda de profundidade e sem interpretações errôneas."
   },
   {
-   "t": 241.98,
+   "t": 240.46,
    "cap": false,
    "texto": "Teológica. A pregação e o ensino da Palavra nos GCEUs ocupam papel central na edificação comunitária, exigindo fidelidade ao texto bíblico e discernimento espiritual. A interpretação correta das Escrituras segue um caminho indispensável: antes de responder ao que o texto comunica à igreja hoje, é preciso discernir o que ele significou historicamente para os leitores originais (FEE; STUART, 2022, p. 11-12; BELONI, 2026a, p. 4)."
   },
   {
-   "t": 269.25,
+   "t": 267.38,
    "cap": false,
    "texto": "Social. O ambiente do GCEU acolhe pessoas imersas nas pressões da sociedade contemporânea — cansaço, aceleração e necessidade de escuta (BAUMAN, 2011, p. 6-7; HAN, 2017, p. 7-8) —, demandando comunicadores capazes de relacionar o evangelho às dores reais dos membros. A diversidade educacional e geracional desses grupos exige líderes preparados para comunicar o texto com clareza a todos os perfis."
   },
   {
-   "t": 295.86,
+   "t": 293.79,
    "cap": true,
    "texto": "1.2 Objetivos"
   },
   {
-   "t": 298.56,
+   "t": 296.51,
    "cap": false,
    "texto": "Objetivo geral: propor, realizar e avaliar um curso de capacitação homilética e exegética de cinco encontros, fundamentado em Lucas 24.13-35 e 1 Pedro 4.7-11, visando capacitar líderes e supervisores de GCEU na elaboração e ministração de estudos bíblicos claros e fiéis."
   },
   {
-   "t": 319.55,
+   "t": 317.38,
    "cap": false,
    "texto": "a) mapear as principais dificuldades de comunicação e de preparação de lições entre os líderes de GCEU;"
   },
   {
-   "t": 325.85,
+   "t": 323.19,
    "cap": false,
    "texto": "b) analisar os textos bíblicos que fundamentam o ministério da Palavra no pequeno grupo;"
   },
   {
-   "t": 330.97,
+   "t": 328.22,
    "cap": false,
    "texto": "c) elaborar o plano e os materiais pedagógicos simplificados dos cinco encontros (incluindo o módulo de exegese e gêneros literários);"
   },
   {
-   "t": 338.99,
+   "t": 336.29,
    "cap": false,
    "texto": "d) ministrar a capacitação para o grupo de líderes e supervisores;"
   },
   {
-   "t": 343.2,
+   "t": 340.43,
    "cap": false,
    "texto": "e) avaliar a mudança na clareza e na fidelidade bíblica das ministrações após o treinamento."
   },
   {
-   "t": 349.38,
+   "t": 346.51,
    "cap": true,
    "texto": "1.3 Lógica do projeto"
   },
   {
-   "t": 352.44,
+   "t": 349.56,
    "cap": false,
    "texto": "O Quadro 1 mostra como as partes do projeto se ligam, do problema à avaliação."
   },
   {
-   "t": 357.18,
+   "t": 354.1,
    "cap": false,
    "texto": "Quadro 1 – Lógica do projeto"
   },
   {
-   "t": 359.53,
+   "t": 356.23,
    "cap": false,
    "texto": "Problema: Líderes de GCEU sem formação teológica apresentam dificuldades para preparar o estudo bíblico, usando jargões ou mensagens motivacionais superficiais.. Texto bíblico: Lc 24.13-35 e 1 Pe 4.7-11. Resposta teológica: A Palavra deve ser explicada com clareza, fidelidade e aplicação prática ao cotidiano da comunidade.. Proposta: Curso de capacitação homilética e exegética de cinco encontros práticos. Avaliação: Questionário de autoavaliação e ficha de observação do estudo na reunião do GCEU."
   },
   {
-   "t": 394.5,
+   "t": 390.53,
    "cap": false,
    "texto": "Fonte: elaborado pelo autor."
   },
   {
-   "t": 397.37,
+   "t": 393.42,
    "cap": true,
    "texto": "1.4 Formato do projeto"
   },
   {
-   "t": 400.45,
+   "t": 396.48,
    "cap": false,
    "texto": "Quadro 2 – Formato do projeto"
   },
   {
-   "t": 402.93,
+   "t": 398.98,
    "cap": false,
    "texto": "Formato: Curso de capacitação homilética e exegética simplificada"
   },
   {
-   "t": 407.29,
+   "t": 403.3,
    "cap": false,
    "texto": "Público: Líderes e supervisores de GCEU da igreja local (104 líderes e 24 supervisores)"
   },
   {
-   "t": 414.65,
+   "t": 410.17,
    "cap": false,
    "texto": "Encontros: Cinco encontros semanais de 1h30"
   },
   {
-   "t": 418.6,
+   "t": 414.21,
    "cap": false,
    "texto": "Por que este formato: Permite reestruturar o conteúdo acadêmico das aulas em ferramentas práticas de estudo e pregação nos GCEUs"
   },
   {
-   "t": 425.99,
+   "t": 421.35,
    "cap": false,
    "texto": "Fonte: elaborado pelo autor."
   },
   {
-   "t": 428.88,
+   "t": 424.11,
    "cap": true,
    "texto": "2 FUNDAMENTAÇÃO"
   },
   {
-   "t": 431.75,
+   "t": 426.86,
    "cap": true,
    "texto": "2.1 Diagnóstico"
   },
   {
-   "t": 434.38,
+   "t": 429.44,
    "cap": false,
    "texto": "O levantamento junto às reuniões de GCEU revela que os líderes, por não possuírem graduação em teologia, enfrentam desafios para estruturar a lição bíblica. Nota-se a tendência ao uso de frases prontas, a presença de ruídos comunicativos na pregação (AMÂNCIO, 2020) e a reprodução da “cultura do espetáculo” (VARGAS LLOSA, 2013, p. 13-15) e do pragmatismo motivacional, deslocando o foco do texto bíblico para opiniões pessoais."
   },
   {
-   "t": 460.81,
+   "t": 455.55,
    "cap": false,
    "texto": "Atualmente, a estrutura ministerial dos pequenos grupos é composta por 104 líderes de GCEU e 24 supervisores, dos quais 74 não possuem formação teológica formal. A constatação da necessidade desta capacitação fundamenta-se em uma análise realizada ao longo de mais de um ano, mediante reuniões periódicas de alinhamento com a liderança e a supervisão, aliada a visitas in loco às reuniões dos GCEUs, em que se evidenciou a urgência de fornecer ferramentas exegéticas e homiléticas simplificadas para o preparo dos estudos."
   },
   {
-   "t": 492.43,
+   "t": 486.66,
    "cap": false,
    "texto": "O Quadro 3 organiza o problema em causas e consequências e indica as causas que o projeto alcança."
   },
   {
-   "t": 498.55,
+   "t": 492.66,
    "cap": false,
    "texto": "Quadro 3 – Árvore do problema"
   },
   {
-   "t": 500.86,
+   "t": 495.0,
    "cap": false,
    "texto": "Consequências: 1. Estudos centrados em opiniões pessoais, frases prontas e chavões motivacionais;\n2. Interpretações equivocadas do texto bíblico e proliferação de discursos superficiais;\n3. Membros do GCEU pouco formados na Palavra e com fé sem raízes sólidas;\n4. Reuniões com baixa participação dos membros, tendência ao monólogo do líder e enfraquecimento do acolhimento relacional."
   },
   {
-   "t": 525.2,
+   "t": 519.04,
    "cap": false,
    "texto": "Problema central: Líderes de GCEU com dificuldade para preparar e ministrar o estudo bíblico com clareza e fidelidade ao texto."
   },
   {
-   "t": 532.9,
+   "t": 526.4,
    "cap": false,
    "texto": "Causas: 1. Falta de formação teológica e hermenêutica formal na maioria da liderança leiga;\n2. Ausência de um roteiro modelo simplificado para a preparação da lição;\n3. Influência da “cultura do espetáculo”, do pragmatismo motivacional e da retórica de coaching;\n4. Pouco tempo disponível na rotina dos líderes para o estudo pessoal."
   },
   {
-   "t": 552.46,
+   "t": 545.81,
    "cap": false,
    "texto": "Causas que o projeto alcança: Alcança diretamente: a falta de formação hermenêutica e a ausência de um roteiro de preparo, por meio das aulas expositivas e oficinas práticas do curso.\nAlcança indiretamente: a influência da cultura do espetáculo e do pragmatismo motivacional, mediante a desconstrução da performance e o resgate da mordomia bíblica nos encontros 2, 3 e 4.\nNão alcança: o pouco tempo de preparo dos líderes (limitação de rotina pessoal e profissional que independe da intervenção pedagógica)."
   },
   {
-   "t": 581.65,
+   "t": 575.23,
    "cap": false,
    "texto": "Fonte: elaborado pelo autor."
   },
   {
-   "t": 584.44,
+   "t": 578.0,
    "cap": true,
    "texto": "2.2 Texto bíblico"
   },
   {
-   "t": 587.19,
+   "t": 580.68,
    "cap": false,
    "texto": "O projeto fundamenta-se teologicamente em duas matrizes bíblicas complementares para o trabalho nos GCEUs: Lucas 24.13-35 e 1 Pedro 4.7-11. A articulação dessas duas perícopes estabelece que a autoridade e a eficácia da ministração no grupo não derivam do carisma individual, de discursos motivacionais superficiais ou de técnicas de coaching, mas da exposição fiel das Escrituras em um ambiente relacional e consciente do dever de servir diante de Deus (coram Deo)."
   },
   {
-   "t": 618.12,
+   "t": 611.0,
    "cap": false,
    "texto": "Em Lucas 24.13-35, o encontro de Jesus com os discípulos no caminho de Emaús fornece o modelo pedagógico e homilético para o pequeno grupo. Diante da frustração e do desânimo dos discípulos, Jesus explicou e abriu as Escrituras, e o reconhecimento aconteceu no ambiente doméstico da mesa comunitária. Transposto para a realidade dos GCEUs, esse relato mostra que o grupo nas casas é um espaço relacional adequado para acolher pessoas imersas nas pressões cotidianas, oferecendo a elucidação clara da Palavra em vez de opiniões humanas ou clichês."
   },
   {
-   "t": 651.69,
+   "t": 644.07,
    "cap": false,
    "texto": "Complementarmente, 1 Pedro 4.7-11 define os limites éticos e espirituais do comunicador cristão na comunidade. Ao instruir que o exercício dos dons ocorra sob a ótica da mordomia e que “se alguém falar, fale segundo as palavras de Deus” (1 Pe 4.11, ACF), o texto exige que o líder transmita fielmente o conteúdo da revelação divina. Essa diretriz combate a vaidade retórica, o exibicionismo e a busca por aprovação pessoal, direcionando o ensino para a edificação mútua e a glorificação de Deus (STOTT, 2011, p. 11-30)."
   },
   {
-   "t": 686.11,
+   "t": 679.01,
    "cap": false,
    "texto": "Diante das pressões da sociedade contemporânea — marcada pela aceleração, pelo cansaço e pela “cultura do espetáculo” —, essa fundamentação orienta a capacitação dos líderes e supervisores. O projeto incorpora os princípios da exegese e da hermenêutica por meio da “ponte hermenêutica”: investigar o sentido original da passagem no seu contexto histórico e literário (“lá e então”) para extrair a aplicação correta para a vida da igreja hoje (“aqui e agora”) (FEE; STUART, 2022, p. 11-12). Respeitando os gêneros literários bíblicos, procura-se assegurar que a lição do GCEU não transmita um significado que o texto nunca teve para seus leitores originais."
   },
   {
-   "t": 724.18,
+   "t": 716.26,
    "cap": true,
    "texto": "2.3 Planejamento"
   },
   {
-   "t": 726.94,
+   "t": 718.89,
    "cap": false,
    "texto": "O planejamento adota o método expositivo simplificado (STOTT, 2003, p. 45). A linha de base será estabelecida pela análise prévia de dez ministrações recentes nos GCEUs, registradas em áudio, vídeo ou roteiro, antes do início do curso. Essas dez ministrações serão avaliadas com a mesma ficha de observação homilética do Apêndice B, para que a comparação com as dez reuniões observadas depois do curso seja possível."
   },
   {
-   "t": 752.25,
+   "t": 743.7,
    "cap": true,
    "texto": "2.4 Avaliação"
   },
   {
-   "t": 755.06,
+   "t": 746.54,
    "cap": false,
    "texto": "A avaliação comparará a linha de base com os resultados obtidos depois do curso, a partir de três fontes: a autoavaliação dos líderes (Apêndice A), a observação dos supervisores em dez reuniões de GCEU (Apêndice B) e a percepção do pastor titular. O cruzamento dessas fontes permitirá verificar se houve avanço na fidelidade exegética e na condução relacional das reuniões."
   },
   {
-   "t": 777.84,
+   "t": 768.93,
    "cap": true,
    "texto": "3 DELIMITAÇÃO DO TEXTO BÍBLICO E ABORDAGEM EXEGÉTICA"
   },
   {
-   "t": 782.12,
+   "t": 773.13,
    "cap": false,
    "texto": "Quadro 4 – Delimitação do corpus bíblico"
   },
   {
-   "t": 785.31,
+   "t": 776.19,
    "cap": false,
    "texto": "Corpus: Lucas 24.13-35 (o ensino relacional no caminho de Emaús) e 1 Pedro 4.7-11 (o exercício da Palavra “segundo as palavras de Deus” no GCEU)"
   },
   {
-   "t": 797.65,
+   "t": 788.32,
    "cap": false,
    "texto": "Perícopes: Lucas 24.13-35; 1 Pedro 4.7-11"
   },
   {
-   "t": 806.04,
+   "t": 796.66,
    "cap": false,
    "texto": "Autor e contexto: Lucas (evangelho sinótico; pedagogia discipular de Jesus após a ressurreição) e Pedro (epístola geral; instrução aos cristãos dispersos quanto à mordomia dos dons na comunidade)"
   },
   {
-   "t": 817.12,
+   "t": 807.89,
    "cap": false,
    "texto": "Destinatários: Lucas: Teófilo (Lc 1.3); 1 Pedro: cristãos dispersos no Ponto, na Galácia, na Capadócia, na Ásia e na Bitínia (1 Pe 1.1)"
   },
   {
-   "t": 829.95,
+   "t": 820.6,
    "cap": false,
    "texto": "Gênero: Narrativa teológica (evangelho) e epístola pastoral/apostólica"
   },
   {
-   "t": 834.56,
+   "t": 825.22,
    "cap": false,
    "texto": "Temas principais: Lucas 24: abertura das Escrituras e reconhecimento de Cristo no ambiente doméstico da mesa. 1 Pedro 4: sobriedade espiritual, exercício dos dons sob a ótica da mordomia (oikonomos), falar segundo as palavras de Deus (logia Theou) e serviço para a glorificação de Deus"
   },
   {
-   "t": 853.2,
+   "t": 843.69,
    "cap": false,
    "texto": "Relação com o diagnóstico: Aponta a necessidade de elucidação das Escrituras no ambiente relacional e o dever do líder de atuar como mordomo fiel da Palavra, sem retórica pessoal ou autopromoção"
   },
   {
-   "t": 864.31,
+   "t": 855.09,
    "cap": false,
    "texto": "Fonte: elaborado pelo autor."
   },
   {
-   "t": 867.16,
+   "t": 857.75,
    "cap": true,
    "texto": "4 PLANO DE AÇÃO E CONTEÚDO SIMPLIFICADO DAS AULAS"
   },
   {
-   "t": 872.06,
+   "t": 862.63,
    "cap": true,
    "texto": "4.1 Plano de ação (5W2H)"
   },
   {
-   "t": 875.89,
+   "t": 866.51,
    "cap": false,
    "texto": "Quadro 5 – Plano de ação (5W2H)"
   },
   {
-   "t": 879.21,
+   "t": 869.79,
    "cap": false,
    "texto": "O quê?: Curso de capacitação homilética e exegética simplificada para GCEUs (cinco aulas)"
   },
   {
-   "t": 885.41,
+   "t": 875.5,
    "cap": false,
    "texto": "Por quê?: Capacitar líderes leigos a comunicar a Palavra com clareza, fidelidade exegética e aplicação prática"
   },
   {
-   "t": 892.02,
+   "t": 882.09,
    "cap": false,
    "texto": "Quem?: Anderson Alves Moreira (autor do projeto e instrutor), com os líderes e supervisores de GCEU"
   },
   {
-   "t": 898.1,
+   "t": 887.91,
    "cap": false,
    "texto": "Onde?: Nas dependências da igreja local (sala de treinamento)"
   },
   {
-   "t": 901.95,
+   "t": 891.7,
    "cap": false,
    "texto": "Quando?: Cinco sábados consecutivos, de 06/03/2027 a 03/04/2027"
   },
   {
-   "t": 908.83,
+   "t": 898.62,
    "cap": false,
    "texto": "Como?: Exposição dialogada, oficinas de leitura bíblica por gêneros e elaboração de roteiros para os GCEUs"
   },
   {
-   "t": 915.53,
+   "t": 905.01,
    "cap": false,
    "texto": "Quanto custa?: Impressão do material didático simplificado e das fichas exegéticas (valor estimado: R$ 1.375,00); os questionários podem ser aplicados por formulário digital ou impressos com recursos da igreja"
   },
   {
-   "t": 929.2,
+   "t": 918.6,
    "cap": false,
    "texto": "Fonte: elaborado pelo autor."
   },
   {
-   "t": 931.92,
+   "t": 921.45,
    "cap": true,
    "texto": "4.2 Plano dos encontros"
   },
   {
-   "t": 935.11,
+   "t": 924.75,
    "cap": false,
    "texto": "O Quadro 6 traduz o conteúdo das cinco aulas da especialização para uma linguagem direta, operacional e adequada a pregadores leigos."
   },
   {
-   "t": 942.98,
+   "t": 932.69,
    "cap": false,
    "texto": "Quadro 6 – Plano dos encontros"
   },
   {
-   "t": 945.35,
+   "t": 935.11,
    "cap": false,
    "texto": "Nº: 1. Origem (especialização): Aula 1: Pregando em tempos líquidos. Título simplificado: A Palavra certa no tempo certo. Ideia central adaptada: A mensagem bíblica precisa responder às dores reais das pessoas hoje (cansaço, correria e incertezas), mantendo a esperança viva sem complicar a linguagem.. Aplicação prática: Identificar a necessidade real dos membros do GCEU e escolher uma aplicação direta para o dia a dia da semana.."
   },
   {
-   "t": 970.67,
+   "t": 959.54,
    "cap": false,
    "texto": "Nº: 2. Origem (especialização): Aula 2: Desafios e autoridade da Palavra. Título simplificado: A Bíblia no centro do GCEU. Ideia central adaptada: O poder da reunião vem do texto bíblico, e não de frases motivacionais, coaching ou opiniões pessoais.. Aplicação prática: Montar um roteiro simples focado em explicar o versículo-chave antes de dar conselhos.."
   },
   {
-   "t": 992.59,
+   "t": 980.88,
    "cap": false,
    "texto": "Nº: 3. Origem (especialização): Aula 3: Escuta e espetáculo. Título simplificado: Saber ouvir para saber ensinar. Ideia central adaptada: Liderar o grupo não é dar um “show” ou buscar aplausos, mas criar um ambiente acolhedor onde as pessoas sejam ouvidas.. Aplicação prática: Fazer perguntas no estudo para incentivar a participação de todos, evitando monólogos longos.."
   },
   {
-   "t": 1014.34,
+   "t": 1002.34,
    "cap": false,
    "texto": "Nº: 4. Origem (especialização): Aula 4: Integridade do pregador. Título simplificado: Vida que confirma o ensino. Ideia central adaptada: O líder ensina mais pelo exemplo de vida, pela humildade e pela centralidade em Jesus do que por discursos bonitos.. Aplicação prática: Avaliar as motivações pessoais ao liderar e servir ao grupo com atitude de gratidão.."
   },
   {
-   "t": 1035.12,
+   "t": 1023.31,
    "cap": false,
    "texto": "Nº: 5. Origem (especialização): Aula 5: Entendes o que lês?. Título simplificado: Entendes o que lês? (exegese prática). Ideia central adaptada: A Bíblia deve ser interpretada respeitando o sentido original do texto e seu gênero literário, sem inventar regras ou alegorias.. Aplicação prática: Aplicar a “ponte hermenêutica”: identificar o que o texto dizia “lá e então” para chegar à aplicação correta “aqui e agora”.."
   },
   {
-   "t": 1059.16,
+   "t": 1047.57,
    "cap": false,
    "texto": "Fonte: elaborado pelo autor."
   },
   {
-   "t": 1062.03,
+   "t": 1050.45,
    "cap": true,
    "texto": "4.3 Cronograma e viabilidade"
   },
   {
-   "t": 1065.65,
+   "t": 1054.08,
    "cap": false,
    "texto": "Quadro 7 – Cronograma"
   },
   {
-   "t": 1067.63,
+   "t": 1056.06,
    "cap": false,
    "texto": "Diagnóstico inicial (análise de ministrações anteriores): Fevereiro de 2027"
   },
   {
-   "t": 1073.47,
+   "t": 1061.83,
    "cap": false,
    "texto": "Elaboração do material didático simplificado: Fevereiro de 2027"
   },
   {
-   "t": 1078.55,
+   "t": 1066.86,
    "cap": false,
    "texto": "Execução dos cinco encontros com os líderes de GCEU: 06/03/2027 a 03/04/2027"
   },
   {
-   "t": 1086.32,
+   "t": 1074.32,
    "cap": false,
    "texto": "Aplicação da avaliação de impacto nas reuniões de GCEU: Abril a maio de 2027"
   },
   {
-   "t": 1092.31,
+   "t": 1080.05,
    "cap": false,
    "texto": "Elaboração do relatório final de intervenção prática: Maio a junho de 2027"
   },
   {
-   "t": 1097.77,
+   "t": 1085.17,
    "cap": false,
    "texto": "Fonte: elaborado pelo autor."
   },
   {
-   "t": 1100.03,
+   "t": 1087.26,
    "cap": false,
    "texto": "Viabilidade. O projeto contará com a autorização do pastor titular e da coordenação dos GCEUs. Os encontros ocorrerão no espaço físico da igreja, e os custos restringem-se à impressão das apostilas adaptadas."
   },
   {
-   "t": 1113.84,
+   "t": 1100.41,
    "cap": true,
    "texto": "5 PROPOSTA DE AVALIAÇÃO DE IMPACTO"
   },
   {
-   "t": 1116.86,
+   "t": 1103.44,
    "cap": false,
    "texto": "Quadro 8 – Proposta de avaliação"
   },
   {
-   "t": 1119.38,
+   "t": 1106.04,
    "cap": false,
    "texto": "Quem avaliará?: Os supervisores de GCEU (por ficha de observação), os próprios líderes (por questionário de autoavaliação) e o pastor titular"
   },
   {
-   "t": 1127.81,
+   "t": 1113.88,
    "cap": false,
    "texto": "O que será avaliado?: A clareza na explicação do texto bíblico, a eliminação de jargões e vícios motivacionais e o nível de participação dos membros no GCEU"
   },
   {
-   "t": 1137.39,
+   "t": 1123.03,
    "cap": false,
    "texto": "Como e quando será avaliado?: Aplicação do questionário após a 5ª aula e visita de supervisão a dez reuniões de GCEU nas semanas seguintes ao curso"
   },
   {
-   "t": 1146.27,
+   "t": 1131.51,
    "cap": false,
    "texto": "Quais indicadores?: Média das notas da ficha de observação antes e depois do curso; número de reuniões com nota 4 ou 5 em fidelidade ao texto; média do questionário de autoavaliação"
   },
   {
-   "t": 1156.97,
+   "t": 1142.14,
    "cap": false,
    "texto": "Fonte: elaborado pelo autor."
   },
   {
-   "t": 1159.15,
+   "t": 1144.32,
    "cap": false,
    "texto": "Resultados esperados. Espera-se o aumento do uso direto do texto bíblico e a melhoria na aplicação prática das lições nos pequenos grupos. Como meta quantitativa, estabelece-se que ao menos 8 das 10 reuniões observadas depois do curso alcancem nota 4 ou 5 em “fidelidade ao texto bíblico”, partindo de uma linha de base estimada em cerca de 3 das 10 ministrações, a ser confirmada no diagnóstico inicial."
   },
   {
-   "t": 1182.84,
+   "t": 1168.24,
    "cap": false,
    "texto": "Cuidados éticos. A participação no questionário é voluntária e anônima, com termo de consentimento, e as gravações das ministrações só serão usadas com a autorização dos líderes."
   },
   {
-   "t": 1193.97,
+   "t": 1179.44,
    "cap": true,
    "texto": "REFERÊNCIAS"
   },
   {
-   "t": 1195.79,
+   "t": 1181.26,
    "cap": false,
    "texto": "AMÂNCIO, Artur. Série de Conferência Prega a Palavra. Niterói: Igreja Metodista Wesleyana – 6ª Região, 22 jul. 2020. 1 vídeo (1 h 19 min). Disponível em: https://www.youtube.com/watch?v=cRPZGEUs988. Acesso em: 4 ago. 2026."
   },
   {
-   "t": 1215.76,
+   "t": 1201.28,
    "cap": false,
    "texto": "BAUMAN, Zygmunt. 44 cartas do mundo líquido moderno. Rio de Janeiro: Zahar, 2011."
   },
   {
-   "t": 1222.13,
+   "t": 1207.63,
    "cap": false,
    "texto": "BELONI, Alexandre Prado. Aula: Entendes o que lês?: exegese e hermenêutica a partir dos gêneros literários da Bíblia. Espírito Santo do Pinhal: Instituto Wesleyano de Educação, 2026a. Material didático do curso de Especialização em Aprofundamento na Pregação Bíblica Contemporânea."
   },
   {
-   "t": 1239.32,
+   "t": 1224.8,
    "cap": false,
    "texto": "BELONI, Alexandre Prado. Aula 1: os desafios da pregação bíblica no mundo contemporâneo: fundamentos teológicos e implicações homiléticas. Espírito Santo do Pinhal: Instituto Wesleyano de Educação, 2026b."
   },
   {
-   "t": 1252.3,
+   "t": 1237.83,
    "cap": false,
    "texto": "BELONI, Alexandre Prado. Aula 2: os desafios da pregação bíblica no mundo contemporâneo: fundamentos teológicos e implicações homiléticas. Espírito Santo do Pinhal: Instituto Wesleyano de Educação, 2026c."
   },
   {
-   "t": 1265.53,
+   "t": 1250.92,
    "cap": false,
    "texto": "BELONI, Alexandre Prado. Aula 3: homilética em crise: escuta e espetáculo. Espírito Santo do Pinhal: Instituto Wesleyano de Educação, 2026d."
   },
   {
-   "t": 1275.58,
+   "t": 1260.72,
    "cap": false,
    "texto": "BELONI, Alexandre Prado. Aula 4: fundamentos, desafios e caminhos para a integridade homilética. Espírito Santo do Pinhal: Instituto Wesleyano de Educação, 2026e."
   },
   {
-   "t": 1286.84,
+   "t": 1271.86,
    "cap": false,
    "texto": "BELONI, Alexandre Prado. Manual do TCC prático aplicado: guia simplificado do projeto. Espírito Santo do Pinhal: Instituto Wesleyano de Educação, 2026f."
   },
   {
-   "t": 1297.45,
+   "t": 1282.47,
    "cap": false,
    "texto": "BÍBLIA. Português. Bíblia Sagrada: Almeida Corrigida Fiel. São Paulo: Sociedade Bíblica Trinitariana do Brasil, 2011."
   },
   {
-   "t": 1305.7,
+   "t": 1290.8,
    "cap": false,
    "texto": "FEE, Gordon D.; STUART, Douglas. Entendes o que lês?: um guia para entender a Bíblia com auxílio da exegese e da hermenêutica. São Paulo: Vida Nova, 2022."
   },
   {
-   "t": 1316.05,
+   "t": 1301.14,
    "cap": false,
    "texto": "HAN, Byung-Chul. Sociedade do cansaço. Petrópolis: Vozes, 2017."
   },
   {
-   "t": 1321.49,
+   "t": 1306.46,
    "cap": false,
    "texto": "STOTT, John. Eu creio na pregação. São Paulo: Vida, 2003."
   },
   {
-   "t": 1326.43,
+   "t": 1311.33,
    "cap": false,
    "texto": "STOTT, John. O perfil do pregador. São Paulo: Vida Nova, 2011."
   },
   {
-   "t": 1331.26,
+   "t": 1316.34,
    "cap": false,
    "texto": "VARGAS LLOSA, Mario. A civilização do espetáculo: uma radiografia do nosso tempo e da nossa cultura. Rio de Janeiro: Objetiva, 2013."
   },
   {
-   "t": 1341.0,
+   "t": 1325.86,
    "cap": true,
    "texto": "APÊNDICE A – QUESTIONÁRIO DE AUTOAVALIAÇÃO DO LÍDER DE GCEU"
   },
   {
-   "t": 1345.56,
+   "t": 1329.9,
    "cap": false,
    "texto": "Curso: Capacitação Homilética e Exegética Simplificada. Público: líderes e supervisores de GCEU. Objetivo: avaliar a percepção do líder quanto ao aprendizado, à clareza interpretativa e à mudança na preparação das lições após os cinco encontros. Caráter: voluntário e anônimo."
   },
   {
-   "t": 1362.51,
+   "t": 1346.33,
    "cap": false,
    "texto": "Parte 1 – Escala de percepção. Marque um “X” na opção que melhor reflete sua percepção: 1 = discordo totalmente; 2 = discordo parcialmente; 3 = neutro; 4 = concordo parcialmente; 5 = concordo totalmente."
   },
   {
-   "t": 1376.9,
+   "t": 1360.8,
    "cap": false,
    "texto": "Quadro 9 – Afirmações do questionário"
   },
   {
-   "t": 1379.72,
+   "t": 1363.66,
    "cap": false,
    "texto": "Afirmação: Compreendi como adaptar a mensagem bíblica às dores e pressões atuais dos membros do GCEU sem complicar a linguagem (Aula 1).."
   },
   {
-   "t": 1388.02,
+   "t": 1371.65,
    "cap": false,
    "texto": "Afirmação: Passei a focar o estudo no texto bíblico-chave, evitando frases motivacionais prontas ou discursos de coaching (Aula 2).."
   },
   {
-   "t": 1396.34,
+   "t": 1379.99,
    "cap": false,
    "texto": "Afirmação: Consigo conduzir a reunião como um ambiente de escuta e acolhimento, fazendo perguntas e evitando monólogos longos (Aula 3).."
   },
   {
-   "t": 1404.78,
+   "t": 1388.15,
    "cap": false,
    "texto": "Afirmação: Reconheço que a minha autoridade no GCEU vem da mordomia fiel da Palavra e do meu testemunho de vida coram Deo (Aula 4).."
   },
   {
-   "t": 1413.1,
+   "t": 1395.95,
    "cap": false,
    "texto": "Afirmação: Consigo aplicar a “ponte hermenêutica”, identificando o que o texto significava “lá e então” antes de extrair a aplicação para “aqui e agora” (Aula 5).."
   },
   {
-   "t": 1422.14,
+   "t": 1405.21,
    "cap": false,
    "texto": "Afirmação: Sinto maior segurança e clareza para preparar a lição do GCEU utilizando o roteiro simplificado fornecido no curso.."
   },
   {
-   "t": 1430.24,
+   "t": 1413.14,
    "cap": false,
    "texto": "Fonte: elaborado pelo autor."
   },
   {
-   "t": 1432.36,
+   "t": 1415.22,
    "cap": false,
    "texto": "Parte 2 – Questões abertas."
   },
   {
-   "t": 1434.78,
+   "t": 1417.49,
    "cap": false,
    "texto": "1. Qual foi a principal mudança na sua forma de preparar e ministrar a lição do GCEU após a capacitação?"
   },
   {
-   "t": 1441.23,
+   "t": 1423.54,
    "cap": false,
    "texto": "2. Encontrou alguma dificuldade para aplicar os métodos de interpretação (gêneros literários ou ponte hermenêutica) nas reuniões? Explique e descreva quais."
   },
   {
-   "t": 1451.06,
+   "t": 1433.35,
    "cap": true,
    "texto": "APÊNDICE B – FICHA DE OBSERVAÇÃO HOMILÉTICA DO SUPERVISOR DE GCEU"
   },
   {
-   "t": 1456.24,
+   "t": 1438.08,
    "cap": false,
    "texto": "Avaliador: supervisor de GCEU / pastor titular."
   },
   {
-   "t": 1460.12,
+   "t": 1441.51,
    "cap": false,
    "texto": "I. Critérios homiléticos e exegéticos. Avalie o desempenho do líder durante a observação da reunião, atribuindo uma nota de 1 a 5: 1 = insuficiente; 2 = em desenvolvimento; 3 = satisfatório; 4 = bom; 5 = excelente."
   },
   {
-   "t": 1474.3,
+   "t": 1455.87,
    "cap": false,
    "texto": "Quadro 10 – Registro de desempenho do líder mediante observação prática"
   },
   {
-   "t": 1478.74,
+   "t": 1460.34,
    "cap": false,
    "texto": "Critério: Fidelidade ao texto bíblico. Indicador observado: O líder explicou o texto bíblico principal ou usou o versículo apenas como pretexto para emitir opiniões pessoais?."
   },
   {
-   "t": 1488.29,
+   "t": 1470.1,
    "cap": false,
    "texto": "Critério: Clareza da ideia central. Indicador observado: O estudo teve um tema focal claro e compreensível, sem dispersão em assuntos alheios ao roteiro?."
   },
   {
-   "t": 1497.46,
+   "t": 1478.97,
    "cap": false,
    "texto": "Critério: Linguagem e comunicação. Indicador observado: A linguagem foi acessível e direta para os leigos, sem jargões acadêmicos ou motivacionais?."
   },
   {
-   "t": 1506.54,
+   "t": 1487.97,
    "cap": false,
    "texto": "Critério: Aplicação prática (ponte hermenêutica). Indicador observado: A aplicação proposta conectou-se de forma direta e concreta com a vida diária e os desafios dos membros?."
   },
   {
-   "t": 1516.89,
+   "t": 1498.64,
    "cap": false,
    "texto": "Critério: Ambiente relacional e participativo. Indicador observado: O líder incentivou a participação, ouviu os membros e promoveu acolhimento, evitando postura performática ou monólogo?."
   },
   {
-   "t": 1528.27,
+   "t": 1509.87,
    "cap": false,
    "texto": "Fonte: elaborado pelo autor."
   },
   {
-   "t": 1530.36,
+   "t": 1511.98,
    "cap": false,
    "texto": "II. Síntese e retorno pastoral do supervisor"
   },
   {
-   "t": 1533.94,
+   "t": 1515.56,
    "cap": false,
    "texto": "Recomendações de melhoria para o próximo estudo: ______________________________________"
   }
