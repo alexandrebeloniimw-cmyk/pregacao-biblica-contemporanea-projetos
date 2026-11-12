@@ -241,15 +241,88 @@ footer a{color:#e7b49f;text-decoration:none}
  .prof ul{columns:1}
  section{padding:52px 0}
 }
+
+/* ===== melhorias: acessibilidade, interação, números, mapa, inscrições ===== */
+:root{--z:1}
+.hero,.nums,section:not(#mapa),footer{zoom:var(--z)}
+.filtro{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin:0 0 8px}
+.filtro>span{font:600 13px Inter;color:var(--muted)}
+#fbtns{display:flex;flex-wrap:wrap;gap:8px}
+.fb{font:600 13px Inter;border:1.5px solid var(--line);background:#fff;color:var(--ink);border-radius:999px;padding:6px 12px;cursor:pointer;display:inline-flex;gap:6px;align-items:center}
+.fb i{font-style:normal;font-size:11px;background:var(--sand);border-radius:999px;padding:1px 7px;color:#6b4a3a}
+.fb.on{background:var(--acc);border-color:var(--acc);color:#fff}.fb.on i{background:rgba(255,255,255,.25);color:#fff}
+.fmsg{min-height:22px;margin:0 0 14px;font:500 14px Inter;color:var(--acc)}
+.card[hidden]{display:none}
+.cards{align-items:start}
+.card .meta .tagf{font:500 12px Inter;background:var(--sand);color:#6b4a3a;border-radius:999px;padding:3px 10px;border:0;cursor:pointer}
+.card .meta .tagf:hover,.card .meta .tagf.on{background:var(--acc);color:#fff}
+.acts{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 10px}
+.act{font:600 13px Inter;color:var(--ink);background:#fff;border:1.5px solid var(--line);border-radius:10px;padding:7px 11px;cursor:pointer;text-decoration:none}
+.act:hover,.act[aria-expanded=true]{border-color:var(--acc);color:var(--acc)}
+.painel{background:var(--sand);border-radius:12px;padding:14px 16px;margin:0 0 14px;animation:abre .25s ease}
+.painel h4{margin:0 0 8px;font:700 12px Inter;letter-spacing:.14em;text-transform:uppercase;color:var(--acc)}
+.card .painel p{flex:none;font:400 14.5px/1.65 Lora;color:#3b3732;margin:0 0 10px;text-align:left}
+.card .painel p.kw{font:400 13.5px/1.5 Inter}
+.card .painel p.ref{font:400 14px/1.55 Inter}
+.copy{font:600 13px Inter;background:var(--acc);color:#fff;border:0;border-radius:999px;padding:7px 14px;cursor:pointer}
+@keyframes abre{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:none}}
+.nums{background:#182638;color:#fff;padding:26px 0}
+.ngrid{display:grid;grid-template-columns:repeat(5,1fr);gap:14px;text-align:center}
+.ngrid b{display:block;font:700 40px/1 Lora;color:#e7b49f;font-variant-numeric:tabular-nums}
+.ngrid span{font:500 13px Inter;letter-spacing:.04em;opacity:.85}
+.mapa{padding:80px 0;background:#fff}
+.mgrid{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:40px;align-items:center}
+.kickc{font:700 12px Inter;letter-spacing:.16em;text-transform:uppercase;color:var(--acc);margin-bottom:6px}
+.mtxt{font:400 17px/1.7 Lora;color:#3b3732}
+.mlist{list-style:none;padding:0;margin:18px 0 0;display:grid;gap:8px}
+.mlist button{width:100%;text-align:left;background:var(--sand);border:1.5px solid transparent;border-radius:12px;padding:11px 14px;cursor:pointer;display:flex;flex-direction:column;gap:2px}
+.mlist button b{font:600 15px Inter;color:var(--ink)}.mlist button span{font:400 13px Inter;color:var(--muted)}
+.mlist button:hover,.mlist button.on{border-color:var(--acc)}
+#mapabox{height:440px;border-radius:18px;overflow:hidden;border:1px solid var(--line);background:#e9eef3;box-shadow:0 14px 30px rgba(31,48,72,.10)}
+.pin{background:none;border:0}
+.pinf{display:flex;gap:4px;justify-content:center;background:#fff;border:2px solid #9c4a2f;border-radius:999px;padding:3px;box-shadow:0 6px 14px rgba(0,0,0,.25);position:relative}
+.pinf:after{content:"";position:absolute;left:50%;bottom:-9px;margin-left:-7px;border:7px solid transparent;border-top-color:#9c4a2f;border-bottom:0}
+.pinf.lado:after{display:none}
+.pinf img{width:38px;height:38px;border-radius:50%;object-fit:cover}
+.leaflet-popup-content b{display:block;font:700 14px Inter;color:#1f3048;margin-bottom:6px}
+a.pop{display:block;font:500 13px Inter;color:#9c4a2f;margin:4px 0;text-decoration:none}
+.mfall{padding:30px;font:500 14px Inter;color:var(--muted)}
+.insc{padding:80px 0;background:linear-gradient(135deg,#fdf6ee,#f3e4d6)}
+.igrid{display:grid;grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:40px;align-items:center}
+.insc p{font:400 17px/1.7 Lora;color:#3b3732;max-width:620px}
+.btn.igdm{background:linear-gradient(45deg,#f09433,#dc2743 50%,#bc1888);color:#fff;border:0;display:inline-flex;gap:8px;align-items:center}
+.btn.igdm .ico{width:18px;height:18px;fill:#fff}
+.btn.out2{border:1.5px solid var(--ink);color:var(--ink);background:transparent}
+.ifatos{list-style:none;padding:0;margin:0;display:grid;gap:12px}
+.ifatos li{background:#fff;border-radius:14px;padding:16px 18px;border-left:4px solid var(--acc);box-shadow:0 6px 16px rgba(31,48,72,.06)}
+.ifatos b{display:block;font:700 18px Lora;color:var(--ink)}.ifatos span{font:400 14px Inter;color:var(--muted)}
+.a11y{position:fixed;left:16px;bottom:16px;z-index:60}
+.a11y-btn{width:52px;height:52px;border-radius:50%;border:0;background:#1f3048;color:#fff;cursor:pointer;box-shadow:0 8px 20px rgba(0,0,0,.25);display:grid;place-items:center}
+.a11y-btn svg{width:28px;height:28px;fill:#fff}
+.a11y-panel{position:absolute;left:0;bottom:62px;width:240px;background:#fff;border:1px solid var(--line);border-radius:16px;padding:14px;box-shadow:0 16px 36px rgba(0,0,0,.2);display:grid;gap:8px;font:500 14px Inter;color:var(--ink)}
+.a11y-panel .row{display:flex;gap:6px}
+.a11y-panel .row button{flex:1}
+.a11y-panel button,.a11y-panel a{font:600 14px Inter;border:1.5px solid var(--line);background:#fff;color:var(--ink);border-radius:10px;padding:9px;cursor:pointer;text-decoration:none;text-align:center}
+.a11y-panel button[aria-pressed=true]{background:var(--ink);color:#fff}
+.a11y-panel[hidden]{display:none}.a11y-panel small{font-size:12px;color:var(--muted)}
+.totop{position:fixed;right:16px;bottom:16px;z-index:60;width:48px;height:48px;border-radius:50%;border:0;background:var(--acc);color:#fff;font:700 22px Inter;cursor:pointer;box-shadow:0 8px 20px rgba(0,0,0,.25);opacity:0;pointer-events:none;transform:translateY(10px);transition:.25s}
+.totop.on{opacity:1;pointer-events:auto;transform:none}
+.fb:focus-visible,.act:focus-visible,.tagf:focus-visible,.mlist button:focus-visible,.a11y-btn:focus-visible,.totop:focus-visible,.copy:focus-visible{outline:3px solid #e7b49f;outline-offset:2px}
+html.hc body,html.hc body *:not(img):not(video):not(svg):not(svg *):not(#mapabox *):not([vw] *){background:#000!important;color:#fff!important;border-color:#fff!important;box-shadow:none!important;text-shadow:none!important}
+html.hc a:not([vw] *){color:#ffd166!important;text-decoration:underline!important}html.hc button:not([vw] *),html.hc a.btn,html.hc a.act,html.hc a.ouvir,html.hc .a11y-panel a{border:2px solid #ffd166!important;text-decoration:none!important}
+html.hc .ico{fill:#ffd166!important}
+@media (max-width:900px){.mgrid,.igrid{grid-template-columns:1fr}#mapabox{height:360px}.ngrid{grid-template-columns:repeat(3,1fr)}}
+@media (max-width:640px){.apres .text,.apres .text p,.vtext,.obj p,.perfil p{text-align:left!important}.ngrid{grid-template-columns:repeat(2,1fr)}.ngrid b{font-size:32px}.mapa,.insc{padding:56px 0}}
+@media (prefers-reduced-motion:reduce){.painel{animation:none}.totop{transition:none}}
 </style>
 </head>
 <body>
 
 <nav><div class="wrap">
  <a class="brand" href="#topo"><img src="img/logo-iwe-claro.png" alt="Logo do IWE">Projetos · Volume 1</a>
- <div class="links"><a href="#video">Vídeo</a><a href="#projetos">Projetos</a><a href="#ementa">Ementa</a><a href="#expediente">Expediente</a><a href="flipbook.html">Flipbook</a><a href="ouvir.html">Audiolivros</a><a href="pdf/revista-projetos-pregacao-biblica-contemporanea-v1.pdf" target="_blank">PDF</a><span class="sep"></span><a href="https://alexandrebeloniimw-cmyk.github.io/revistateologicoministerialiwecascadura2026/">IWE Cascadura</a><a href="https://alexandrebeloniimw-cmyk.github.io/revista-iwe-2026/">IWE John Wesley</a><a href="https://alexandrebeloniimw-cmyk.github.io/revistateologicoministerialiwecascadura2026/acervo.html">Acervo</a><a class="insta-pill" href="https://www.instagram.com/iwegeral/" target="_blank" rel="noopener" aria-label="Instagram do IWE (@iwegeral)"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm0 8.2a3.2 3.2 0 1 1 0-6.4 3.2 3.2 0 0 1 0 6.4zM17.3 5.5a1.2 1.2 0 1 0 0 2.4 1.2 1.2 0 0 0 0-2.4zM21.9 7.1c-.1-1.6-.4-3-1.6-4.2S17.6 1.3 16 1.2C14.3 1.1 9.7 1.1 8 1.2c-1.6.1-3 .4-4.2 1.6S2.2 5.5 2.1 7.1C2 8.8 2 13.4 2.1 15.1c.1 1.6.4 3 1.6 4.2s2.6 1.5 4.2 1.6c1.7.1 6.3.1 8 0 1.6-.1 3-.4 4.2-1.6s1.5-2.6 1.6-4.2c.1-1.7.1-6.3 0-8zm-2.1 9.9a3.2 3.2 0 0 1-1.8 1.8c-1.3.5-4.2.4-5.6.4s-4.3.1-5.6-.4A3.2 3.2 0 0 1 5 17c-.5-1.3-.4-4.2-.4-5.6S4.5 7.1 5 5.8A3.2 3.2 0 0 1 6.8 4c1.3-.5 4.2-.4 5.6-.4s4.3-.1 5.6.4A3.2 3.2 0 0 1 19.8 5.8c.5 1.3.4 4.2.4 5.6s.1 4.3-.4 5.6z"/></svg>@iwegeral</a><a class="nshare wa" data-wa="revista" href="#" title="Compartilhar a página no WhatsApp" aria-label="Compartilhar no WhatsApp"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.3 2.2 2.2 0 0 0 .2-1.3c-.1-.1-.3-.2-.5-.3z"/></svg></a><button class="nshare ig" data-ig="revista" type="button" title="Card da página para o feed do Instagram" aria-label="Compartilhar no Instagram"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm0 8.2a3.2 3.2 0 1 1 0-6.4 3.2 3.2 0 0 1 0 6.4zM17.3 5.5a1.2 1.2 0 1 0 0 2.4 1.2 1.2 0 0 0 0-2.4zM21.9 7.1c-.1-1.6-.4-3-1.6-4.2S17.6 1.3 16 1.2C14.3 1.1 9.7 1.1 8 1.2c-1.6.1-3 .4-4.2 1.6S2.2 5.5 2.1 7.1C2 8.8 2 13.4 2.1 15.1c.1 1.6.4 3 1.6 4.2s2.6 1.5 4.2 1.6c1.7.1 6.3.1 8 0 1.6-.1 3-.4 4.2-1.6s1.5-2.6 1.6-4.2c.1-1.7.1-6.3 0-8zm-2.1 9.9a3.2 3.2 0 0 1-1.8 1.8c-1.3.5-4.2.4-5.6.4s-4.3.1-5.6-.4A3.2 3.2 0 0 1 5 17c-.5-1.3-.4-4.2-.4-5.6S4.5 7.1 5 5.8A3.2 3.2 0 0 1 6.8 4c1.3-.5 4.2-.4 5.6-.4s4.3-.1 5.6.4A3.2 3.2 0 0 1 19.8 5.8c.5 1.3.4 4.2.4 5.6s.1 4.3-.4 5.6z"/></svg></button></div>
+ <div class="links"><a href="#video">Vídeo</a><a href="#projetos">Projetos</a><a href="#ementa">Ementa</a><a href="#expediente">Expediente</a><a href="flipbook.html">Flipbook</a><a href="ouvir.html">Audiolivros</a><a href="#inscricoes">Inscrições</a><a href="pdf/revista-projetos-pregacao-biblica-contemporanea-v1.pdf" target="_blank">PDF</a><span class="sep"></span><a href="https://alexandrebeloniimw-cmyk.github.io/revistateologicoministerialiwecascadura2026/">IWE Cascadura</a><a href="https://alexandrebeloniimw-cmyk.github.io/revista-iwe-2026/">IWE John Wesley</a><a href="https://alexandrebeloniimw-cmyk.github.io/revistateologicoministerialiwecascadura2026/acervo.html">Acervo</a><a class="insta-pill" href="https://www.instagram.com/iwegeral/" target="_blank" rel="noopener" aria-label="Instagram do IWE (@iwegeral)"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm0 8.2a3.2 3.2 0 1 1 0-6.4 3.2 3.2 0 0 1 0 6.4zM17.3 5.5a1.2 1.2 0 1 0 0 2.4 1.2 1.2 0 0 0 0-2.4zM21.9 7.1c-.1-1.6-.4-3-1.6-4.2S17.6 1.3 16 1.2C14.3 1.1 9.7 1.1 8 1.2c-1.6.1-3 .4-4.2 1.6S2.2 5.5 2.1 7.1C2 8.8 2 13.4 2.1 15.1c.1 1.6.4 3 1.6 4.2s2.6 1.5 4.2 1.6c1.7.1 6.3.1 8 0 1.6-.1 3-.4 4.2-1.6s1.5-2.6 1.6-4.2c.1-1.7.1-6.3 0-8zm-2.1 9.9a3.2 3.2 0 0 1-1.8 1.8c-1.3.5-4.2.4-5.6.4s-4.3.1-5.6-.4A3.2 3.2 0 0 1 5 17c-.5-1.3-.4-4.2-.4-5.6S4.5 7.1 5 5.8A3.2 3.2 0 0 1 6.8 4c1.3-.5 4.2-.4 5.6-.4s4.3-.1 5.6.4A3.2 3.2 0 0 1 19.8 5.8c.5 1.3.4 4.2.4 5.6s.1 4.3-.4 5.6z"/></svg>@iwegeral</a><a class="nshare wa" data-wa="revista" href="#" title="Compartilhar a página no WhatsApp" aria-label="Compartilhar no WhatsApp"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.3 2.2 2.2 0 0 0 .2-1.3c-.1-.1-.3-.2-.5-.3z"/></svg></a><button class="nshare ig" data-ig="revista" type="button" title="Card da página para o feed do Instagram" aria-label="Compartilhar no Instagram"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm0 8.2a3.2 3.2 0 1 1 0-6.4 3.2 3.2 0 0 1 0 6.4zM17.3 5.5a1.2 1.2 0 1 0 0 2.4 1.2 1.2 0 0 0 0-2.4zM21.9 7.1c-.1-1.6-.4-3-1.6-4.2S17.6 1.3 16 1.2C14.3 1.1 9.7 1.1 8 1.2c-1.6.1-3 .4-4.2 1.6S2.2 5.5 2.1 7.1C2 8.8 2 13.4 2.1 15.1c.1 1.6.4 3 1.6 4.2s2.6 1.5 4.2 1.6c1.7.1 6.3.1 8 0 1.6-.1 3-.4 4.2-1.6s1.5-2.6 1.6-4.2c.1-1.7.1-6.3 0-8zm-2.1 9.9a3.2 3.2 0 0 1-1.8 1.8c-1.3.5-4.2.4-5.6.4s-4.3.1-5.6-.4A3.2 3.2 0 0 1 5 17c-.5-1.3-.4-4.2-.4-5.6S4.5 7.1 5 5.8A3.2 3.2 0 0 1 6.8 4c1.3-.5 4.2-.4 5.6-.4s4.3-.1 5.6.4A3.2 3.2 0 0 1 19.8 5.8c.5 1.3.4 4.2.4 5.6s.1 4.3-.4 5.6z"/></svg></button></div>
 </div>
-<div class="mlinks"><a class="nshare wa" data-wa="revista" href="#" title="Compartilhar a página no WhatsApp" aria-label="Compartilhar no WhatsApp"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.3 2.2 2.2 0 0 0 .2-1.3c-.1-.1-.3-.2-.5-.3z"/></svg></a><button class="nshare ig" data-ig="revista" type="button" title="Card da página para o feed do Instagram" aria-label="Compartilhar no Instagram"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm0 8.2a3.2 3.2 0 1 1 0-6.4 3.2 3.2 0 0 1 0 6.4zM17.3 5.5a1.2 1.2 0 1 0 0 2.4 1.2 1.2 0 0 0 0-2.4zM21.9 7.1c-.1-1.6-.4-3-1.6-4.2S17.6 1.3 16 1.2C14.3 1.1 9.7 1.1 8 1.2c-1.6.1-3 .4-4.2 1.6S2.2 5.5 2.1 7.1C2 8.8 2 13.4 2.1 15.1c.1 1.6.4 3 1.6 4.2s2.6 1.5 4.2 1.6c1.7.1 6.3.1 8 0 1.6-.1 3-.4 4.2-1.6s1.5-2.6 1.6-4.2c.1-1.7.1-6.3 0-8zm-2.1 9.9a3.2 3.2 0 0 1-1.8 1.8c-1.3.5-4.2.4-5.6.4s-4.3.1-5.6-.4A3.2 3.2 0 0 1 5 17c-.5-1.3-.4-4.2-.4-5.6S4.5 7.1 5 5.8A3.2 3.2 0 0 1 6.8 4c1.3-.5 4.2-.4 5.6-.4s4.3-.1 5.6.4A3.2 3.2 0 0 1 19.8 5.8c.5 1.3.4 4.2.4 5.6s.1 4.3-.4 5.6z"/></svg></button><a href="#video">Vídeo</a><a href="#projetos">Projetos</a><a href="#ementa">Ementa</a><a href="#expediente">Expediente</a><a href="flipbook.html">Flipbook</a><a href="ouvir.html">Audiolivros</a><a href="pdf/revista-projetos-pregacao-biblica-contemporanea-v1.pdf" target="_blank">PDF</a><a href="https://alexandrebeloniimw-cmyk.github.io/revistateologicoministerialiwecascadura2026/">IWE Cascadura</a><a href="https://alexandrebeloniimw-cmyk.github.io/revista-iwe-2026/">IWE John Wesley</a><a href="https://alexandrebeloniimw-cmyk.github.io/revistateologicoministerialiwecascadura2026/acervo.html">Acervo</a><a class="insta-pill" href="https://www.instagram.com/iwegeral/" target="_blank" rel="noopener"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm0 8.2a3.2 3.2 0 1 1 0-6.4 3.2 3.2 0 0 1 0 6.4zM17.3 5.5a1.2 1.2 0 1 0 0 2.4 1.2 1.2 0 0 0 0-2.4zM21.9 7.1c-.1-1.6-.4-3-1.6-4.2S17.6 1.3 16 1.2C14.3 1.1 9.7 1.1 8 1.2c-1.6.1-3 .4-4.2 1.6S2.2 5.5 2.1 7.1C2 8.8 2 13.4 2.1 15.1c.1 1.6.4 3 1.6 4.2s2.6 1.5 4.2 1.6c1.7.1 6.3.1 8 0 1.6-.1 3-.4 4.2-1.6s1.5-2.6 1.6-4.2c.1-1.7.1-6.3 0-8zm-2.1 9.9a3.2 3.2 0 0 1-1.8 1.8c-1.3.5-4.2.4-5.6.4s-4.3.1-5.6-.4A3.2 3.2 0 0 1 5 17c-.5-1.3-.4-4.2-.4-5.6S4.5 7.1 5 5.8A3.2 3.2 0 0 1 6.8 4c1.3-.5 4.2-.4 5.6-.4s4.3-.1 5.6.4A3.2 3.2 0 0 1 19.8 5.8c.5 1.3.4 4.2.4 5.6s.1 4.3-.4 5.6z"/></svg>@iwegeral</a>
+<div class="mlinks"><a class="nshare wa" data-wa="revista" href="#" title="Compartilhar a página no WhatsApp" aria-label="Compartilhar no WhatsApp"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.3 2.2 2.2 0 0 0 .2-1.3c-.1-.1-.3-.2-.5-.3z"/></svg></a><button class="nshare ig" data-ig="revista" type="button" title="Card da página para o feed do Instagram" aria-label="Compartilhar no Instagram"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm0 8.2a3.2 3.2 0 1 1 0-6.4 3.2 3.2 0 0 1 0 6.4zM17.3 5.5a1.2 1.2 0 1 0 0 2.4 1.2 1.2 0 0 0 0-2.4zM21.9 7.1c-.1-1.6-.4-3-1.6-4.2S17.6 1.3 16 1.2C14.3 1.1 9.7 1.1 8 1.2c-1.6.1-3 .4-4.2 1.6S2.2 5.5 2.1 7.1C2 8.8 2 13.4 2.1 15.1c.1 1.6.4 3 1.6 4.2s2.6 1.5 4.2 1.6c1.7.1 6.3.1 8 0 1.6-.1 3-.4 4.2-1.6s1.5-2.6 1.6-4.2c.1-1.7.1-6.3 0-8zm-2.1 9.9a3.2 3.2 0 0 1-1.8 1.8c-1.3.5-4.2.4-5.6.4s-4.3.1-5.6-.4A3.2 3.2 0 0 1 5 17c-.5-1.3-.4-4.2-.4-5.6S4.5 7.1 5 5.8A3.2 3.2 0 0 1 6.8 4c1.3-.5 4.2-.4 5.6-.4s4.3-.1 5.6.4A3.2 3.2 0 0 1 19.8 5.8c.5 1.3.4 4.2.4 5.6s.1 4.3-.4 5.6z"/></svg></button><a href="#video">Vídeo</a><a href="#projetos">Projetos</a><a href="#ementa">Ementa</a><a href="#expediente">Expediente</a><a href="flipbook.html">Flipbook</a><a href="ouvir.html">Audiolivros</a><a href="#inscricoes">Inscrições</a><a href="pdf/revista-projetos-pregacao-biblica-contemporanea-v1.pdf" target="_blank">PDF</a><a href="https://alexandrebeloniimw-cmyk.github.io/revistateologicoministerialiwecascadura2026/">IWE Cascadura</a><a href="https://alexandrebeloniimw-cmyk.github.io/revista-iwe-2026/">IWE John Wesley</a><a href="https://alexandrebeloniimw-cmyk.github.io/revistateologicoministerialiwecascadura2026/acervo.html">Acervo</a><a class="insta-pill" href="https://www.instagram.com/iwegeral/" target="_blank" rel="noopener"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm0 8.2a3.2 3.2 0 1 1 0-6.4 3.2 3.2 0 0 1 0 6.4zM17.3 5.5a1.2 1.2 0 1 0 0 2.4 1.2 1.2 0 0 0 0-2.4zM21.9 7.1c-.1-1.6-.4-3-1.6-4.2S17.6 1.3 16 1.2C14.3 1.1 9.7 1.1 8 1.2c-1.6.1-3 .4-4.2 1.6S2.2 5.5 2.1 7.1C2 8.8 2 13.4 2.1 15.1c.1 1.6.4 3 1.6 4.2s2.6 1.5 4.2 1.6c1.7.1 6.3.1 8 0 1.6-.1 3-.4 4.2-1.6s1.5-2.6 1.6-4.2c.1-1.7.1-6.3 0-8zm-2.1 9.9a3.2 3.2 0 0 1-1.8 1.8c-1.3.5-4.2.4-5.6.4s-4.3.1-5.6-.4A3.2 3.2 0 0 1 5 17c-.5-1.3-.4-4.2-.4-5.6S4.5 7.1 5 5.8A3.2 3.2 0 0 1 6.8 4c1.3-.5 4.2-.4 5.6-.4s4.3-.1 5.6.4A3.2 3.2 0 0 1 19.8 5.8c.5 1.3.4 4.2.4 5.6s.1 4.3-.4 5.6z"/></svg>@iwegeral</a>
 </div></nav>
 
 <header class="hero" id="topo">
@@ -268,12 +341,20 @@ footer a{color:#e7b49f;text-decoration:none}
    <div class="btns">
     <a class="btn primary" href="flipbook.html">📖 Folhear a revista (flipbook)</a>
     <a class="btn ghost" href="pdf/revista-projetos-pregacao-biblica-contemporanea-v1.pdf" target="_blank">Ler em PDF</a>
-    
+    <a class="btn ghost" href="ouvir.html">🎧 Ouvir os projetos</a>
    </div>
   </div>
   <a href="flipbook.html" title="Folhear a revista"><img class="cover" src="img/capa-01.jpg" alt="Capa da revista Projetos"></a>
  </div>
 </header>
+
+<section class="nums" aria-label="A revista em números"><div class="wrap ngrid">
+ <div><b data-n="5">5</b><span>projetos aplicados</span></div>
+ <div><b data-n="4">4</b><span>igrejas locais</span></div>
+ <div><b data-n="3">3</b><span>estados do Brasil</span></div>
+ <div><b data-n="360" data-suf="h">360h</b><span>de formação</span></div>
+ <div><b data-n="2" data-pre="+" data-suf="h">+2h</b><span>de audiolivros</span></div>
+</div></section>
 
 <section class="vid" id="video"><div class="wrap vgrid">
  <div class="vcol"><div class="phone"><button class="unmute" id="unmute" type="button">🔊 Toque para ouvir a trilha</button><video id="vrev" src="video/video-revista-projetos-orquestra.mp4" poster="video/poster.jpg" controls muted playsinline loop preload="metadata"></video></div>
@@ -308,13 +389,18 @@ footer a{color:#e7b49f;text-decoration:none}
 
 <section id="projetos"><div class="wrap">
  <h2>Os projetos</h2><div class="h2line"></div>
+ <div class="filtro" role="group" aria-label="Filtrar projetos"><span>Filtrar por livro ou tema:</span><div id="fbtns"></div></div>
+ <p class="fmsg" id="fmsg" aria-live="polite"></p>
  <div class="cards">
 
   <article class="card" id="anderson">
    <div class="who"><img src="img/anderson.jpg" alt="Anderson Alves Moreira"><div><div class="au">Anderson Alves Moreira</div><div class="ch">Igreja Metodista Wesleyana Central · Petrópolis (RJ)</div></div></div>
    <h3>O anúncio da Palavra no contexto relacional</h3>
    <p>Capacitação homilética simplificada, em cinco encontros, para líderes e supervisores de GCEU, a partir do caminho de Emaús e de 1 Pedro 4.7-11.</p>
-   <div class="meta"><span>Lucas 24.13-35</span><span>1 Pedro 4.7-11</span><span>GCEU</span></div>
+   <div class="meta"><button type="button" class="tagf" data-tag="Lucas 24.13-35" aria-label="Filtrar projetos por Lucas 24.13-35">Lucas 24.13-35</button><button type="button" class="tagf" data-tag="1 Pedro 4.7-11" aria-label="Filtrar projetos por 1 Pedro 4.7-11">1 Pedro 4.7-11</button><button type="button" class="tagf" data-tag="GCEU" aria-label="Filtrar projetos por GCEU">GCEU</button></div>
+   <div class="acts"><button type="button" class="act" aria-expanded="false" aria-controls="res-anderson" data-painel="res-anderson">📄 Ver resumo</button><a class="act" href="flipbook.html?p=5">📖 Folhear</a><button type="button" class="act" aria-expanded="false" aria-controls="cit-anderson" data-painel="cit-anderson">❝ Como citar</button></div>
+   <div class="painel" id="res-anderson" hidden><h4>Resumo</h4><p>O projeto propõe um curso de capacitação homilética e exegética simplificada, em cinco encontros, fundamentado no relato do caminho de Emaús (Lucas 24.13-35) e na orientação de 1 Pedro 4.7-11 sobre falar “segundo as palavras de Deus”, voltado aos líderes e supervisores de Grupos de Crescimento, Evangelismo e União (GCEUs) da Igreja Metodista Wesleyana Central de Petrópolis (RJ). O diagnóstico aponta que, em uma membresia de cerca de 2.200 pessoas e 70 grupos semanais, muitos facilitadores exercem a ministração sem formação teológica prévia, o que resulta na reprodução de discursos de autoajuda e na perda da profundidade doutrinária. A capacitação adota oficinas de leitura dialogada e roteiros práticos para habilitar os líderes a interpretar com fidelidade e comunicar com clareza o texto bíblico. A avaliação compara uma linha de base de dez ministrações anteriores com dez reuniões observadas depois do curso e cruza três fontes: o questionário de autoavaliação dos líderes (Apêndice A), a ficha de observação homilética preenchida pelos supervisores (Apêndice B) e a percepção do pastor titular, com o propósito de elevar a maturidade hermenêutica e a fidelidade ao texto bíblico no âmbito dos GCEUs.</p><p class="kw"><b>Palavras-chave:</b> capacitação homilética; pequenos grupos; interpretação bíblica; GCEU; Lucas 24.13-35.</p></div>
+   <div class="painel" id="cit-anderson" hidden><h4>Como citar (ABNT)</h4><p class="ref">MOREIRA, Anderson Alves. O anúncio da Palavra no contexto relacional: capacitação homilética simplificada para líderes e supervisores de GCEU. <b>Projetos</b>: Especialização em Aprofundamento na Pregação Bíblica Contemporânea, Rio de Janeiro, v. 1, p. 4-11, 2026. Disponível em: https://alexandrebeloniimw-cmyk.github.io/pregacao-biblica-contemporanea-projetos/#anderson. Acesso em: <span class="hoje"></span>.</p><button type="button" class="copy" data-copy="cit-anderson">Copiar referência</button></div>
    <a class="ouvir" href="ouvir.html?p=anderson"><span aria-hidden="true">🎧</span> Ouvir o projeto <small>audiolivro · leitura integral</small></a>
    <div class="foot"><a class="read" href="pdf/anderson-alves-moreira.pdf" target="_blank">Ler o projeto (PDF)</a><div class="share"><a class="sbtn wa" data-wa="anderson" href="#" aria-label="Compartilhar no WhatsApp"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.3 2.2 2.2 0 0 0 .2-1.3c-.1-.1-.3-.2-.5-.3z"/></svg>WhatsApp</a><button class="sbtn ig" data-ig="anderson" type="button" aria-label="Compartilhar no feed do Instagram"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm0 8.2a3.2 3.2 0 1 1 0-6.4 3.2 3.2 0 0 1 0 6.4zM17.3 5.5a1.2 1.2 0 1 0 0 2.4 1.2 1.2 0 0 0 0-2.4zM21.9 7.1c-.1-1.6-.4-3-1.6-4.2S17.6 1.3 16 1.2C14.3 1.1 9.7 1.1 8 1.2c-1.6.1-3 .4-4.2 1.6S2.2 5.5 2.1 7.1C2 8.8 2 13.4 2.1 15.1c.1 1.6.4 3 1.6 4.2s2.6 1.5 4.2 1.6c1.7.1 6.3.1 8 0 1.6-.1 3-.4 4.2-1.6s1.5-2.6 1.6-4.2c.1-1.7.1-6.3 0-8zm-2.1 9.9a3.2 3.2 0 0 1-1.8 1.8c-1.3.5-4.2.4-5.6.4s-4.3.1-5.6-.4A3.2 3.2 0 0 1 5 17c-.5-1.3-.4-4.2-.4-5.6S4.5 7.1 5 5.8A3.2 3.2 0 0 1 6.8 4c1.3-.5 4.2-.4 5.6-.4s4.3-.1 5.6.4A3.2 3.2 0 0 1 19.8 5.8c.5 1.3.4 4.2.4 5.6s.1 4.3-.4 5.6z"/></svg>Instagram</button></div></div>
   </article>
@@ -323,7 +409,10 @@ footer a{color:#e7b49f;text-decoration:none}
    <div class="who"><img src="img/jakson.jpg" alt="Jakson Fernandes"><div><div class="au">Jakson Fernandes</div><div class="ch">Igreja Metodista Wesleyana Central · Cuiabá (MT)</div></div></div>
    <h3>Reunidos para adorar</h3>
    <p>Uma série de cinco mensagens sobre o significado do culto e da comunhão, para que o culto comunitário deixe de ser apenas mais um compromisso da agenda.</p>
-   <div class="meta"><span>Hebreus 10.19-25</span><span>Atos 2.42-47</span><span>1 Coríntios 12</span></div>
+   <div class="meta"><button type="button" class="tagf" data-tag="Hebreus 10.19-25" aria-label="Filtrar projetos por Hebreus 10.19-25">Hebreus 10.19-25</button><button type="button" class="tagf" data-tag="Atos 2.42-47" aria-label="Filtrar projetos por Atos 2.42-47">Atos 2.42-47</button><button type="button" class="tagf" data-tag="1 Coríntios 12" aria-label="Filtrar projetos por 1 Coríntios 12">1 Coríntios 12</button></div>
+   <div class="acts"><button type="button" class="act" aria-expanded="false" aria-controls="res-jakson" data-painel="res-jakson">📄 Ver resumo</button><a class="act" href="flipbook.html?p=13">📖 Folhear</a><button type="button" class="act" aria-expanded="false" aria-controls="cit-jakson" data-painel="cit-jakson">❝ Como citar</button></div>
+   <div class="painel" id="res-jakson" hidden><h4>Resumo</h4><p>O projeto propõe uma série de cinco mensagens temáticas, fundamentada em Hebreus 10.19-25, Atos 2.42-47 e 1 Coríntios 12.12-27, para a Igreja Metodista Wesleyana Central de Cuiabá (MT). O diagnóstico indica que cerca de metade dos 80 membros e congregados participa dos cultos de domingo à noite, enquanto os cultos de Santa Ceia reúnem número expressivamente maior, o que sugere que o culto regular tem sido tratado como compromisso comum da agenda. A série, retomada nos pequenos grupos, busca fundamentar nas Escrituras o valor do culto comunitário, e não em percepções individuais. A avaliação cruza questionários aplicados antes e depois da série, a percepção do pastor titular e a contagem da frequência em quatro domingos anteriores e nos domingos posteriores à série, com a meta de elevar a presença de cerca de 50% para 65% dos membros e congregados.</p><p class="kw"><b>Palavras-chave:</b> culto comunitário; comunhão; pregação temática; Hebreus 10.19-25.</p></div>
+   <div class="painel" id="cit-jakson" hidden><h4>Como citar (ABNT)</h4><p class="ref">FERNANDES, Jakson. Reunidos para adorar: o significado do culto e da comunhão na vida da igreja. <b>Projetos</b>: Especialização em Aprofundamento na Pregação Bíblica Contemporânea, Rio de Janeiro, v. 1, p. 12-20, 2026. Disponível em: https://alexandrebeloniimw-cmyk.github.io/pregacao-biblica-contemporanea-projetos/#jakson. Acesso em: <span class="hoje"></span>.</p><button type="button" class="copy" data-copy="cit-jakson">Copiar referência</button></div>
    <a class="ouvir" href="ouvir.html?p=jakson"><span aria-hidden="true">🎧</span> Ouvir o projeto <small>audiolivro · leitura integral</small></a>
    <div class="foot"><a class="read" href="pdf/jakson-fernandes.pdf" target="_blank">Ler o projeto (PDF)</a><div class="share"><a class="sbtn wa" data-wa="jakson" href="#" aria-label="Compartilhar no WhatsApp"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.3 2.2 2.2 0 0 0 .2-1.3c-.1-.1-.3-.2-.5-.3z"/></svg>WhatsApp</a><button class="sbtn ig" data-ig="jakson" type="button" aria-label="Compartilhar no feed do Instagram"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm0 8.2a3.2 3.2 0 1 1 0-6.4 3.2 3.2 0 0 1 0 6.4zM17.3 5.5a1.2 1.2 0 1 0 0 2.4 1.2 1.2 0 0 0 0-2.4zM21.9 7.1c-.1-1.6-.4-3-1.6-4.2S17.6 1.3 16 1.2C14.3 1.1 9.7 1.1 8 1.2c-1.6.1-3 .4-4.2 1.6S2.2 5.5 2.1 7.1C2 8.8 2 13.4 2.1 15.1c.1 1.6.4 3 1.6 4.2s2.6 1.5 4.2 1.6c1.7.1 6.3.1 8 0 1.6-.1 3-.4 4.2-1.6s1.5-2.6 1.6-4.2c.1-1.7.1-6.3 0-8zm-2.1 9.9a3.2 3.2 0 0 1-1.8 1.8c-1.3.5-4.2.4-5.6.4s-4.3.1-5.6-.4A3.2 3.2 0 0 1 5 17c-.5-1.3-.4-4.2-.4-5.6S4.5 7.1 5 5.8A3.2 3.2 0 0 1 6.8 4c1.3-.5 4.2-.4 5.6-.4s4.3-.1 5.6.4A3.2 3.2 0 0 1 19.8 5.8c.5 1.3.4 4.2.4 5.6s.1 4.3-.4 5.6z"/></svg>Instagram</button></div></div>
   </article>
@@ -332,7 +421,10 @@ footer a{color:#e7b49f;text-decoration:none}
    <div class="who"><img src="img/livea.jpg" alt="Lívea Rosa de Oliveira de Souza"><div><div class="au">Lívea Rosa de Oliveira de Souza</div><div class="ch">Igreja Metodista Wesleyana Central · Petrópolis (RJ)</div></div></div>
    <h3>Antes do impacto</h3>
    <p>Formação bíblica, espiritual e homilética para jovens pregadores, em sete encontros fundamentados em 1 e 2 Timóteo, com Cristo no centro.</p>
-   <div class="meta"><span>1 e 2 Timóteo</span><span>Jovens</span><span>Pregação cristocêntrica</span></div>
+   <div class="meta"><button type="button" class="tagf" data-tag="1 e 2 Timóteo" aria-label="Filtrar projetos por 1 e 2 Timóteo">1 e 2 Timóteo</button><button type="button" class="tagf" data-tag="Jovens" aria-label="Filtrar projetos por Jovens">Jovens</button><button type="button" class="tagf" data-tag="Pregação cristocêntrica" aria-label="Filtrar projetos por Pregação cristocêntrica">Pregação cristocêntrica</button></div>
+   <div class="acts"><button type="button" class="act" aria-expanded="false" aria-controls="res-livea" data-painel="res-livea">📄 Ver resumo</button><a class="act" href="flipbook.html?p=22">📖 Folhear</a><button type="button" class="act" aria-expanded="false" aria-controls="cit-livea" data-painel="cit-livea">❝ Como citar</button></div>
+   <div class="painel" id="res-livea" hidden><h4>Resumo</h4><p>Este trabalho apresenta uma proposta de formação introdutória em pregação bíblica cristocêntrica para os participantes da Escola Timóteo 2027, iniciativa voltada à formação de adolescentes e jovens da Igreja Metodista Wesleyana. A proposta parte da identificação de dificuldades relacionadas à interpretação das Escrituras, à preparação de mensagens e à comunicação da mensagem bíblica, observadas durante a edição de 2026. O objetivo é propor um percurso formativo que integre fundamentos introdutórios de interpretação bíblica, reflexão teológica e princípios homiléticos, tendo a centralidade da pessoa e da obra de Jesus Cristo como eixo transversal. A metodologia prevê sete encontros durante a etapa teórica da Escola, fundamentados em passagens selecionadas das cartas de 1 e 2 Timóteo, seguidos da aplicação dos conhecimentos na etapa prática. A avaliação compara um diagnóstico inicial e final, analisa as mensagens produzidas e conta com relatórios individuais elaborados pelos líderes dos grupos, destinados ao acompanhamento pelas lideranças e pelos pastores locais. Espera-se contribuir para a formação de participantes mais preparados para interpretar as Escrituras e comunicar fielmente a mensagem do evangelho, fortalecendo o desenvolvimento de suas habilidades e sua participação no serviço ministerial.</p><p class="kw"><b>Palavras-chave:</b> pregação bíblica; formação ministerial; exegese; homilética; centralidade de Cristo.</p></div>
+   <div class="painel" id="cit-livea" hidden><h4>Como citar (ABNT)</h4><p class="ref">SOUZA, Lívea Rosa de Oliveira de. Antes do impacto: a importância da formação bíblica, espiritual e homilética do jovem pregador. <b>Projetos</b>: Especialização em Aprofundamento na Pregação Bíblica Contemporânea, Rio de Janeiro, v. 1, p. 21-29, 2026. Disponível em: https://alexandrebeloniimw-cmyk.github.io/pregacao-biblica-contemporanea-projetos/#livea. Acesso em: <span class="hoje"></span>.</p><button type="button" class="copy" data-copy="cit-livea">Copiar referência</button></div>
    <a class="ouvir" href="ouvir.html?p=livea"><span aria-hidden="true">🎧</span> Ouvir o projeto <small>audiolivro · leitura integral</small></a>
    <div class="foot"><a class="read" href="pdf/livea-rosa.pdf" target="_blank">Ler o projeto (PDF)</a><div class="share"><a class="sbtn wa" data-wa="livea" href="#" aria-label="Compartilhar no WhatsApp"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.3 2.2 2.2 0 0 0 .2-1.3c-.1-.1-.3-.2-.5-.3z"/></svg>WhatsApp</a><button class="sbtn ig" data-ig="livea" type="button" aria-label="Compartilhar no feed do Instagram"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm0 8.2a3.2 3.2 0 1 1 0-6.4 3.2 3.2 0 0 1 0 6.4zM17.3 5.5a1.2 1.2 0 1 0 0 2.4 1.2 1.2 0 0 0 0-2.4zM21.9 7.1c-.1-1.6-.4-3-1.6-4.2S17.6 1.3 16 1.2C14.3 1.1 9.7 1.1 8 1.2c-1.6.1-3 .4-4.2 1.6S2.2 5.5 2.1 7.1C2 8.8 2 13.4 2.1 15.1c.1 1.6.4 3 1.6 4.2s2.6 1.5 4.2 1.6c1.7.1 6.3.1 8 0 1.6-.1 3-.4 4.2-1.6s1.5-2.6 1.6-4.2c.1-1.7.1-6.3 0-8zm-2.1 9.9a3.2 3.2 0 0 1-1.8 1.8c-1.3.5-4.2.4-5.6.4s-4.3.1-5.6-.4A3.2 3.2 0 0 1 5 17c-.5-1.3-.4-4.2-.4-5.6S4.5 7.1 5 5.8A3.2 3.2 0 0 1 6.8 4c1.3-.5 4.2-.4 5.6-.4s4.3-.1 5.6.4A3.2 3.2 0 0 1 19.8 5.8c.5 1.3.4 4.2.4 5.6s.1 4.3-.4 5.6z"/></svg>Instagram</button></div></div>
   </article>
@@ -341,7 +433,10 @@ footer a{color:#e7b49f;text-decoration:none}
    <div class="who"><img src="img/renato.jpg" alt="Renato de Almeida da Silva"><div><div class="au">Renato de Almeida da Silva</div><div class="ch">Primeira Igreja Metodista Wesleyana · Nilópolis (RJ)</div></div></div>
    <h3>Projeto Acolher</h3>
    <p>Pregação bíblica e relacionamentos na integração de visitantes e novos convertidos, com uma série de mensagens e a capacitação da equipe de acolhimento.</p>
-   <div class="meta"><span>Atos 9</span><span>João 15</span><span>1 Pedro 2</span></div>
+   <div class="meta"><button type="button" class="tagf" data-tag="Atos 9" aria-label="Filtrar projetos por Atos 9">Atos 9</button><button type="button" class="tagf" data-tag="João 15" aria-label="Filtrar projetos por João 15">João 15</button><button type="button" class="tagf" data-tag="1 Pedro 2" aria-label="Filtrar projetos por 1 Pedro 2">1 Pedro 2</button></div>
+   <div class="acts"><button type="button" class="act" aria-expanded="false" aria-controls="res-renato" data-painel="res-renato">📄 Ver resumo</button><a class="act" href="flipbook.html?p=31">📖 Folhear</a><button type="button" class="act" aria-expanded="false" aria-controls="cit-renato" data-painel="cit-renato">❝ Como citar</button></div>
+   <div class="painel" id="res-renato" hidden><h4>Resumo</h4><p>O projeto propõe uma série de quatro mensagens, fundamentada em Atos 9.10-19, João 15.1-8 e 1 Pedro 2.9-10, acompanhada da capacitação da equipe do Projeto Acolher, no Ministério de Consolidação da Primeira Igreja Metodista Wesleyana de Nilópolis (RJ). O diagnóstico, feito a partir do livro da secretaria, mostra que, dos cerca de trinta visitantes dos últimos seis meses, apenas dez voltaram (33%), e aponta como causas o acolhimento improvisado, a falta de acompanhamento depois da decisão e a cultura de terceirizar a evangelização e o discipulado à liderança. As mensagens mobilizam a igreja para a responsabilidade pessoal de cada cristão, chamado ao sacerdócio universal, e a capacitação transforma essa visão em prática, com recepção, sala de acolhimento, atendimento aos novos decididos e integração no Grupo de Crescimento, Evangelismo e União (GCEU), que será reiniciado em fevereiro de 2027. A avaliação compara a linha de base com os resultados após 90 dias, a partir de três fontes: questionário de percepção dos visitantes e novos membros, reunião de avaliação com a equipe e o pastor responsável, e registros de acompanhamento. Espera-se que a proporção de visitantes que retornam passe de 33% para 50% e que cada novo decidido tenha um responsável de referência.</p><p class="kw"><b>Palavras-chave:</b> acolhimento; integração; discipulado; sacerdócio universal; pregação temática.</p></div>
+   <div class="painel" id="cit-renato" hidden><h4>Como citar (ABNT)</h4><p class="ref">SILVA, Renato de Almeida da. Projeto Acolher: pregação bíblica e relacionamentos na integração de visitantes e novos convertidos. <b>Projetos</b>: Especialização em Aprofundamento na Pregação Bíblica Contemporânea, Rio de Janeiro, v. 1, p. 30-40, 2026. Disponível em: https://alexandrebeloniimw-cmyk.github.io/pregacao-biblica-contemporanea-projetos/#renato. Acesso em: <span class="hoje"></span>.</p><button type="button" class="copy" data-copy="cit-renato">Copiar referência</button></div>
    <a class="ouvir" href="ouvir.html?p=renato"><span aria-hidden="true">🎧</span> Ouvir o projeto <small>audiolivro · leitura integral</small></a>
    <div class="foot"><a class="read" href="pdf/renato-de-almeida.pdf" target="_blank">Ler o projeto (PDF)</a><div class="share"><a class="sbtn wa" data-wa="renato" href="#" aria-label="Compartilhar no WhatsApp"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.3 2.2 2.2 0 0 0 .2-1.3c-.1-.1-.3-.2-.5-.3z"/></svg>WhatsApp</a><button class="sbtn ig" data-ig="renato" type="button" aria-label="Compartilhar no feed do Instagram"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm0 8.2a3.2 3.2 0 1 1 0-6.4 3.2 3.2 0 0 1 0 6.4zM17.3 5.5a1.2 1.2 0 1 0 0 2.4 1.2 1.2 0 0 0 0-2.4zM21.9 7.1c-.1-1.6-.4-3-1.6-4.2S17.6 1.3 16 1.2C14.3 1.1 9.7 1.1 8 1.2c-1.6.1-3 .4-4.2 1.6S2.2 5.5 2.1 7.1C2 8.8 2 13.4 2.1 15.1c.1 1.6.4 3 1.6 4.2s2.6 1.5 4.2 1.6c1.7.1 6.3.1 8 0 1.6-.1 3-.4 4.2-1.6s1.5-2.6 1.6-4.2c.1-1.7.1-6.3 0-8zm-2.1 9.9a3.2 3.2 0 0 1-1.8 1.8c-1.3.5-4.2.4-5.6.4s-4.3.1-5.6-.4A3.2 3.2 0 0 1 5 17c-.5-1.3-.4-4.2-.4-5.6S4.5 7.1 5 5.8A3.2 3.2 0 0 1 6.8 4c1.3-.5 4.2-.4 5.6-.4s4.3-.1 5.6.4A3.2 3.2 0 0 1 19.8 5.8c.5 1.3.4 4.2.4 5.6s.1 4.3-.4 5.6z"/></svg>Instagram</button></div></div>
   </article>
@@ -350,12 +445,30 @@ footer a{color:#e7b49f;text-decoration:none}
    <div class="who"><img src="img/vitoria.jpg" alt="Vitória Celina Ferreira de Lima"><div><div class="au">Vitória Celina Ferreira de Lima</div><div class="ch">Igreja Metodista Wesleyana · Muriaé (MG)</div></div></div>
    <h3>Entendes o que lês?</h3>
    <p>Oficinas de leitura bíblica para jovens na era das telas, diante do analfabetismo bíblico e da leitura fragmentada da cultura digital.</p>
-   <div class="meta"><span>Atos 8.26-40</span><span>Jovens</span><span>Cultura digital</span></div>
+   <div class="meta"><button type="button" class="tagf" data-tag="Atos 8.26-40" aria-label="Filtrar projetos por Atos 8.26-40">Atos 8.26-40</button><button type="button" class="tagf" data-tag="Jovens" aria-label="Filtrar projetos por Jovens">Jovens</button><button type="button" class="tagf" data-tag="Cultura digital" aria-label="Filtrar projetos por Cultura digital">Cultura digital</button></div>
+   <div class="acts"><button type="button" class="act" aria-expanded="false" aria-controls="res-vitoria" data-painel="res-vitoria">📄 Ver resumo</button><a class="act" href="flipbook.html?p=42">📖 Folhear</a><button type="button" class="act" aria-expanded="false" aria-controls="cit-vitoria" data-painel="cit-vitoria">❝ Como citar</button></div>
+   <div class="painel" id="res-vitoria" hidden><h4>Resumo</h4><p>O projeto propõe seis oficinas de leitura bíblica para um grupo de sete jovens da Igreja Metodista Wesleyana em Muriaé (MG), fundamentadas no encontro de Filipe com o etíope em Atos 8.26-40 e na pergunta “Entendes o que lês?” (At 8.30). O diagnóstico mostra que jovens com algum tempo de fé, quando desafiados a compartilhar uma palavra ou a participar da Escola Bíblica Dominical, demonstram pouco conhecimento das Escrituras, e que o celular é usado mais para consumir conteúdo cristão do que para ler o texto bíblico, em um cenário de leitura fragmentada próprio da cultura digital. As oficinas, realizadas aos sábados entre fevereiro e março de 2027, seguem o movimento do texto: ler, perguntar, compreender o contexto, encontrar Cristo, responder e compartilhar. A avaliação compara um questionário aplicado no primeiro e no último encontros e observa a apresentação de uma breve palavra por cada jovem, com a meta de que ao menos cinco dos sete expliquem o contexto do texto e façam uma aplicação fiel.</p><p class="kw"><b>Palavras-chave:</b> analfabetismo bíblico; cultura digital; leitura bíblica; jovens; Atos 8.26-40.</p></div>
+   <div class="painel" id="cit-vitoria" hidden><h4>Como citar (ABNT)</h4><p class="ref">LIMA, Vitória Celina Ferreira de. Entendes o que lês?: oficinas de leitura bíblica para jovens na era das telas. <b>Projetos</b>: Especialização em Aprofundamento na Pregação Bíblica Contemporânea, Rio de Janeiro, v. 1, p. 41-48, 2026. Disponível em: https://alexandrebeloniimw-cmyk.github.io/pregacao-biblica-contemporanea-projetos/#vitoria. Acesso em: <span class="hoje"></span>.</p><button type="button" class="copy" data-copy="cit-vitoria">Copiar referência</button></div>
    <a class="ouvir" href="ouvir.html?p=vitoria"><span aria-hidden="true">🎧</span> Ouvir o projeto <small>audiolivro · leitura integral</small></a>
    <div class="foot"><a class="read" href="pdf/vitoria-celina.pdf" target="_blank">Ler o projeto (PDF)</a><div class="share"><a class="sbtn wa" data-wa="vitoria" href="#" aria-label="Compartilhar no WhatsApp"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.3 2.2 2.2 0 0 0 .2-1.3c-.1-.1-.3-.2-.5-.3z"/></svg>WhatsApp</a><button class="sbtn ig" data-ig="vitoria" type="button" aria-label="Compartilhar no feed do Instagram"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm0 8.2a3.2 3.2 0 1 1 0-6.4 3.2 3.2 0 0 1 0 6.4zM17.3 5.5a1.2 1.2 0 1 0 0 2.4 1.2 1.2 0 0 0 0-2.4zM21.9 7.1c-.1-1.6-.4-3-1.6-4.2S17.6 1.3 16 1.2C14.3 1.1 9.7 1.1 8 1.2c-1.6.1-3 .4-4.2 1.6S2.2 5.5 2.1 7.1C2 8.8 2 13.4 2.1 15.1c.1 1.6.4 3 1.6 4.2s2.6 1.5 4.2 1.6c1.7.1 6.3.1 8 0 1.6-.1 3-.4 4.2-1.6s1.5-2.6 1.6-4.2c.1-1.7.1-6.3 0-8zm-2.1 9.9a3.2 3.2 0 0 1-1.8 1.8c-1.3.5-4.2.4-5.6.4s-4.3.1-5.6-.4A3.2 3.2 0 0 1 5 17c-.5-1.3-.4-4.2-.4-5.6S4.5 7.1 5 5.8A3.2 3.2 0 0 1 6.8 4c1.3-.5 4.2-.4 5.6-.4s4.3-.1 5.6.4A3.2 3.2 0 0 1 19.8 5.8c.5 1.3.4 4.2.4 5.6s.1 4.3-.4 5.6z"/></svg>Instagram</button></div></div>
   </article>
 
  </div>
+</div></section>
+
+<section class="mapa" id="mapa"><div class="wrap mgrid">
+ <div>
+  <div class="kickc">De onde vêm os projetos</div>
+  <h2>Igrejas locais, um só chamado</h2><div class="h2line"></div>
+  <p class="mtxt">Cada projeto nasceu em uma igreja real. Toque nas fotos do mapa ou na lista abaixo para conhecer o projeto de cada cidade.</p>
+  <ul class="mlist">
+   <li><button type="button" data-ir="petropolis"><b>Petrópolis (RJ)</b><span>Anderson Alves Moreira e Lívea Rosa · IMW Central</span></button></li>
+   <li><button type="button" data-ir="nilopolis"><b>Nilópolis (RJ)</b><span>Renato de Almeida da Silva · Primeira IMW</span></button></li>
+   <li><button type="button" data-ir="muriae"><b>Muriaé (MG)</b><span>Vitória Celina Ferreira de Lima · IMW</span></button></li>
+   <li><button type="button" data-ir="cuiaba"><b>Cuiabá (MT)</b><span>Jakson Fernandes · IMW Central</span></button></li>
+  </ul>
+ </div>
+ <div id="mapabox" role="region" aria-label="Mapa das igrejas dos projetos"></div>
 </div></section>
 
 <section class="ementa" id="ementa"><div class="wrap">
@@ -405,6 +518,24 @@ footer a{color:#e7b49f;text-decoration:none}
   <div class="dhead"><div class="kick">Quem ensina</div><h3>Corpo docente</h3><p>Especialização em Aprofundamento na Pregação Bíblica Contemporânea</p></div>
   <div class="dgrid"><div class="doc"><span class="mono">AL</span><span class="nm">Alexander Pereira Lima</span></div><div class="doc"><span class="mono">AS</span><span class="nm">Alcinei Jardim de Souza</span></div><div class="doc"><span class="mono">AB</span><span class="nm">Ana Beloni</span></div><div class="doc"><span class="mono">CS</span><span class="nm">Carla Damasceno Soares da Silva</span></div><div class="doc"><span class="mono">CP</span><span class="nm">Cassio Mota Pedroso</span></div><div class="doc"><span class="mono">CR</span><span class="nm">Claudio Luiz Pereira Rosa</span></div><div class="doc"><span class="mono">EL</span><span class="nm">Eli Velasco Leite</span></div><div class="doc"><span class="mono">JT</span><span class="nm">Joeci Tirello</span></div><div class="doc"><span class="mono">JO</span><span class="nm">Jorge Luiz Ferreira de Oliveira</span></div><div class="doc"><span class="mono">LS</span><span class="nm">Leandro Chagas da Silva</span></div><div class="doc"><span class="mono">MM</span><span class="nm">Marcelo Majeste</span></div><div class="doc"><span class="mono">RA</span><span class="nm">Rosilene Rangel Assunção de Araújo</span></div></div>
  </div>
+</div></section>
+
+<section class="insc" id="inscricoes"><div class="wrap igrid">
+ <div>
+  <div class="kickc">Inscrições</div>
+  <h2>Quer fazer a especialização?</h2><div class="h2line"></div>
+  <p>A Especialização em Aprofundamento na Pregação Bíblica Contemporânea forma pregadores, pastores e líderes para anunciar a Palavra com fidelidade às Escrituras e atenção ao nosso tempo.</p>
+  <p>Para saber sobre <b>inscrições, próximas turmas e valores</b>, fale com o Instituto Wesleyano de Educação pelo Instagram <b>@iwegeral</b>.</p>
+  <div class="btns">
+   <a class="btn igdm" href="https://ig.me/m/iwegeral" target="_blank" rel="noopener"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm0 8.2a3.2 3.2 0 1 1 0-6.4 3.2 3.2 0 0 1 0 6.4zM17.3 5.5a1.2 1.2 0 1 0 0 2.4 1.2 1.2 0 0 0 0-2.4zM21.9 7.1c-.1-1.6-.4-3-1.6-4.2S17.6 1.3 16 1.2C14.3 1.1 9.7 1.1 8 1.2c-1.6.1-3 .4-4.2 1.6S2.2 5.5 2.1 7.1C2 8.8 2 13.4 2.1 15.1c.1 1.6.4 3 1.6 4.2s2.6 1.5 4.2 1.6c1.7.1 6.3.1 8 0 1.6-.1 3-.4 4.2-1.6s1.5-2.6 1.6-4.2c.1-1.7.1-6.3 0-8zm-2.1 9.9a3.2 3.2 0 0 1-1.8 1.8c-1.3.5-4.2.4-5.6.4s-4.3.1-5.6-.4A3.2 3.2 0 0 1 5 17c-.5-1.3-.4-4.2-.4-5.6S4.5 7.1 5 5.8A3.2 3.2 0 0 1 6.8 4c1.3-.5 4.2-.4 5.6-.4s4.3-.1 5.6.4A3.2 3.2 0 0 1 19.8 5.8c.5 1.3.4 4.2.4 5.6s.1 4.3-.4 5.6z"/></svg>Enviar mensagem no Instagram</a>
+   <a class="btn out2" href="https://www.instagram.com/iwegeral/" target="_blank" rel="noopener">Ver o perfil @iwegeral</a>
+  </div>
+ </div>
+ <ul class="ifatos">
+  <li><b>360h</b><span>carga horária total</span></li>
+  <li><b>Presencial síncrono</b><span>segundas, quartas e sextas, das 19h às 22h</span></li>
+  <li><b>TCC prático aplicado</b><span>um projeto de pregação para a sua igreja local</span></li>
+ </ul>
 </div></section>
 
 <section class="sharebox" id="compartilhar"><div class="wrap grid2">
@@ -474,6 +605,90 @@ document.querySelectorAll('[data-ig]').forEach(el=>el.addEventListener('click',a
   const a=document.createElement('a');a.href='video/video-revista-projetos-orquestra.mp4';a.download='Revista-Projetos-IWE-2026.mp4';document.body.appendChild(a);a.click();a.remove();
   if(typeof toast==='function')toast('Vídeo baixado. Publique no status do WhatsApp ou nos Reels/Stories do Instagram.');
  }));
+})();
+</script>
+
+<div class="a11y" id="a11y">
+ <button type="button" class="a11y-btn" id="a11yBtn" aria-expanded="false" aria-controls="a11yPanel" aria-label="Opções de acessibilidade"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="4" r="2"/><path d="M19 8.5c-2.2.6-4.5.9-7 .9s-4.8-.3-7-.9l-.5 1.9c1.9.5 3.8.8 5.6.9V14l-2 7.2 1.9.5L12 15.5l2 6.2 1.9-.5-2-7.2v-2.7c1.8-.1 3.7-.4 5.6-.9z"/></svg></button>
+ <div class="a11y-panel" id="a11yPanel" hidden>
+  <b>Acessibilidade</b>
+  <div class="row"><button type="button" id="fMenos" aria-label="Diminuir o texto">A−</button><button type="button" id="fNorm" aria-label="Tamanho normal do texto">A</button><button type="button" id="fMais" aria-label="Aumentar o texto">A+</button></div>
+  <button type="button" id="hcBtn" aria-pressed="false">◐ Alto contraste</button>
+  <a href="ouvir.html">🎧 Ouvir os projetos</a>
+  <small>Libras: use o botão azul do VLibras, à direita da tela.</small>
+ </div>
+</div>
+<button type="button" class="totop" id="totop" aria-label="Voltar ao topo da página">↑</button>
+<div vw class="enabled"><div vw-access-button class="active"></div><div vw-plugin-wrapper><div class="vw-plugin-top-wrapper"></div></div></div>
+<script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+<script>try{new window.VLibras.Widget('https://vlibras.gov.br/app');}catch(e){}</script>
+<link rel="stylesheet" href="js/leaflet/leaflet.css">
+<script src="js/leaflet/leaflet.js"></script>
+<script>
+(function(){
+const $=id=>document.getElementById(id);
+const ls={get:k=>{try{return localStorage.getItem(k)}catch(e){return null}},set:(k,v)=>{try{localStorage.setItem(k,v)}catch(e){}}};
+// data de acesso nas referências
+const M=['jan.','fev.','mar.','abr.','maio','jun.','jul.','ago.','set.','out.','nov.','dez.'],d=new Date();
+document.querySelectorAll('.hoje').forEach(e=>e.textContent=d.getDate()+' '+M[d.getMonth()]+' '+d.getFullYear());
+// painéis (resumo / citar)
+document.querySelectorAll('[data-painel]').forEach(b=>b.addEventListener('click',()=>{
+ const card=b.closest('.card'),alvo=$(b.dataset.painel),abrir=alvo.hidden;
+ card.querySelectorAll('.painel').forEach(p=>p.hidden=true);card.querySelectorAll('[data-painel]').forEach(x=>x.setAttribute('aria-expanded','false'));
+ if(abrir){alvo.hidden=false;b.setAttribute('aria-expanded','true');}
+}));
+document.querySelectorAll('[data-copy]').forEach(b=>b.addEventListener('click',async()=>{
+ const t=$(b.dataset.copy).querySelector('.ref').innerText;const ok=await copiar(t);toast(ok?'Referência copiada.':'Selecione e copie a referência.');}));
+// filtro por livro ou tema
+const LIVROS=['1 e 2 Timóteo','1 Pedro','1 Coríntios','Lucas','Hebreus','Atos','João'];
+const chave=t=>{for(const l of LIVROS)if(t.startsWith(l))return l;return t;};
+const cards=[...document.querySelectorAll('#projetos .card')];
+const mapa={};cards.forEach(c=>c.querySelectorAll('.tagf').forEach(b=>{const k=chave(b.dataset.tag);b.dataset.k=k;(mapa[k]=mapa[k]||new Set()).add(c.id);}));
+const chaves=Object.keys(mapa).sort((a,b)=>mapa[b].size-mapa[a].size||a.localeCompare(b,'pt'));
+$('fbtns').innerHTML='<button type="button" class="fb on" data-k="">Todos</button>'+chaves.map(k=>`<button type="button" class="fb" data-k="${k}">${k}<i>${mapa[k].size}</i></button>`).join('');
+function filtrar(k){
+ document.querySelectorAll('.fb').forEach(b=>{const on=b.dataset.k===k;b.classList.toggle('on',on);b.setAttribute('aria-pressed',on)});
+ let n=0;cards.forEach(c=>{const ok=!k||mapa[k].has(c.id);c.hidden=!ok;if(ok)n++;});
+ cards.forEach(c=>c.querySelectorAll('.tagf').forEach(b=>b.classList.toggle('on',!!k&&b.dataset.k===k)));
+ $('fmsg').textContent=k?`${n} projeto${n>1?'s':''} com “${k}”.`:'';
+}
+document.querySelectorAll('.fb').forEach(b=>b.addEventListener('click',()=>filtrar(b.dataset.k)));
+document.querySelectorAll('.tagf').forEach(b=>b.addEventListener('click',()=>{filtrar(b.classList.contains('on')?'':b.dataset.k);$('projetos').scrollIntoView({behavior:'smooth'});}));
+// números que contam
+const nums=document.querySelectorAll('.nums b[data-n]');
+const conta=el=>{const n=+el.dataset.n,pre=el.dataset.pre||'',suf=el.dataset.suf||'',t0=performance.now(),dur=1400;
+ const f=t=>{const p=Math.min(1,(t-t0)/dur),v=Math.round(n*(1-Math.pow(1-p,3)));el.textContent=pre+v+suf;if(p<1)requestAnimationFrame(f)};requestAnimationFrame(f);};
+if('IntersectionObserver' in window&&!matchMedia('(prefers-reduced-motion: reduce)').matches){
+ const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){conta(e.target);io.unobserve(e.target)}}),{threshold:.6});nums.forEach(n=>{n.textContent=(n.dataset.pre||'')+'0'+(n.dataset.suf||'');io.observe(n)});}
+// voltar ao topo
+const tt=$('totop');addEventListener('scroll',()=>tt.classList.toggle('on',scrollY>900),{passive:true});tt.onclick=()=>scrollTo({top:0,behavior:'smooth'});
+// acessibilidade
+const pn=$('a11yPanel'),ab=$('a11yBtn');ab.onclick=()=>{pn.hidden=!pn.hidden;ab.setAttribute('aria-expanded',!pn.hidden)};
+let z=parseFloat(ls.get('iwe-z'))||1;const aplZ=()=>{document.documentElement.style.setProperty('--z',z);ls.set('iwe-z',z)};
+$('fMais').onclick=()=>{z=Math.min(1.5,+(z+.1).toFixed(2));aplZ()};$('fMenos').onclick=()=>{z=Math.max(.9,+(z-.1).toFixed(2));aplZ()};$('fNorm').onclick=()=>{z=1;aplZ()};
+const hc=on=>{document.documentElement.classList.toggle('hc',on);$('hcBtn').setAttribute('aria-pressed',on);ls.set('iwe-hc',on?'1':'0')};
+$('hcBtn').onclick=()=>hc(!document.documentElement.classList.contains('hc'));
+aplZ();hc(ls.get('iwe-hc')==='1');
+// mapa
+const L_=window.L,box=$('mapabox');
+const pts={petropolis:{c:[-22.505,-43.178],ids:['anderson','livea'],nome:'Petrópolis (RJ)'},nilopolis:{c:[-22.807,-43.414],ids:['renato'],nome:'Nilópolis (RJ)'},
+ muriae:{c:[-21.131,-42.366],ids:['vitoria'],nome:'Muriaé (MG)'},cuiaba:{c:[-15.601,-56.097],ids:['jakson'],nome:'Cuiabá (MT)'}};
+const nomes={anderson:'Anderson',livea:'Lívea',renato:'Renato',vitoria:'Vitória',jakson:'Jakson'};
+const titulos={};cards.forEach(c=>titulos[c.id]=c.querySelector('h3').textContent);
+let mk={},map=null;
+if(L_&&box){
+ map=L_.map(box,{scrollWheelZoom:false,zoomSnap:.25}).setView([-19,-49],4.75);
+ L_.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png',{attribution:'&copy; OpenStreetMap &copy; CARTO',maxZoom:12}).addTo(map);
+ for(const [k,p] of Object.entries(pts)){
+  const fotos=p.ids.map(i=>`<img src="img/${i}.jpg" alt="">`).join('');
+  const ic=L_.divIcon({className:'pin',html:`<div class="pinf n${p.ids.length}${(k==='nilopolis'||k==='petropolis')?' lado':''}">${fotos}</div>`,iconSize:[p.ids.length*44+6,50],iconAnchor:[k==='nilopolis'?p.ids.length*44+6-6:k==='petropolis'?6:(p.ids.length*44+6)/2,50]});
+  mk[k]=L_.marker(p.c,{icon:ic,title:p.nome,keyboard:true}).addTo(map).bindPopup(`<b>${p.nome}</b>`+p.ids.map(i=>`<a class="pop" href="#${i}">${nomes[i]} · ${titulos[i]}</a>`).join(''));
+ }
+ map.fitBounds(L_.latLngBounds(Object.values(pts).map(p=>p.c)),{padding:[60,60]});
+} else if(box){box.innerHTML='<p class="mfall">O mapa não pôde ser carregado agora.</p>';}
+document.querySelectorAll('[data-ir]').forEach(b=>b.addEventListener('click',()=>{const k=b.dataset.ir;
+ document.querySelectorAll('[data-ir]').forEach(x=>x.classList.toggle('on',x===b));
+ if(map){map.flyTo(pts[k].c,9,{duration:1.2});setTimeout(()=>mk[k].openPopup(),1250);}}));
 })();
 </script>
 </body>
