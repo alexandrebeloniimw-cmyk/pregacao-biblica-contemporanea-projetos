@@ -1,0 +1,1061 @@
+{
+ "id": "livea",
+ "titulo": "Antes do impacto: a importância da formação bíblica, espiritual e homilética do jovem pregador",
+ "autor": "Lívea Rosa de Oliveira de Souza",
+ "duracao": 2009.6,
+ "capitulos": [
+  {
+   "t": 0,
+   "titulo": "Apresentação"
+  },
+  {
+   "t": 18.61,
+   "titulo": "Sobre a autora"
+  },
+  {
+   "t": 114.33,
+   "titulo": "Resumo"
+  },
+  {
+   "t": 200.13,
+   "titulo": "1 introdução"
+  },
+  {
+   "t": 294.66,
+   "titulo": "1.1 Justificativa"
+  },
+  {
+   "t": 430.16,
+   "titulo": "1.2 Objetivos"
+  },
+  {
+   "t": 512.0,
+   "titulo": "1.3 Lógica do projeto"
+  },
+  {
+   "t": 576.66,
+   "titulo": "1.4 Formato do projeto"
+  },
+  {
+   "t": 638.48,
+   "titulo": "2 fundamentação"
+  },
+  {
+   "t": 648.3,
+   "titulo": "2.1 Diagnóstico"
+  },
+  {
+   "t": 784.23,
+   "titulo": "2.2 Texto bíblico"
+  },
+  {
+   "t": 852.86,
+   "titulo": "2.3 Planejamento"
+  },
+  {
+   "t": 954.87,
+   "titulo": "2.4 Avaliação"
+  },
+  {
+   "t": 1034.34,
+   "titulo": "3 delimitação do texto bíblico e abordagem exegética"
+  },
+  {
+   "t": 1159.95,
+   "titulo": "4 plano de ação"
+  },
+  {
+   "t": 1162.59,
+   "titulo": "4.1 Plano de ação (5W2H)"
+  },
+  {
+   "t": 1282.32,
+   "titulo": "4.2 Plano dos encontros formativos"
+  },
+  {
+   "t": 1375.54,
+   "titulo": "4.3 Metodologia dos encontros"
+  },
+  {
+   "t": 1445.32,
+   "titulo": "4.4 Cronograma de execução"
+  },
+  {
+   "t": 1521.71,
+   "titulo": "4.5 Viabilidade"
+  },
+  {
+   "t": 1566.48,
+   "titulo": "5 proposta de avaliação de impacto"
+  },
+  {
+   "t": 1606.4,
+   "titulo": "5.1 Responsáveis pela avaliação"
+  },
+  {
+   "t": 1635.88,
+   "titulo": "5.2 Critérios e instrumentos"
+  },
+  {
+   "t": 1690.88,
+   "titulo": "5.3 Momentos da avaliação"
+  },
+  {
+   "t": 1739.78,
+   "titulo": "5.4 Indicadores e resultados esperados"
+  },
+  {
+   "t": 1810.0,
+   "titulo": "5.5 Cuidados éticos"
+  },
+  {
+   "t": 1846.9,
+   "titulo": "Referências"
+  },
+  {
+   "t": 1885.0,
+   "titulo": "Apêndice A – questionário diagnóstico (inicial e final)"
+  },
+  {
+   "t": 1957.48,
+   "titulo": "Apêndice B – ficha de observação e relatório individual"
+  }
+ ],
+ "transcricao": [
+  {
+   "t": 18.61,
+   "cap": true,
+   "texto": "SOBRE A AUTORA"
+  },
+  {
+   "t": 20.38,
+   "cap": false,
+   "texto": "Lívea Rosa de Oliveira de Souza é carioca, tem 25 anos e é filha de Washington e Nívea. É membro da Igreja Metodista Wesleyana Central de Petrópolis (RJ), onde atua como professora da Escola Bíblica Dominical e do Start Baby. Atualmente, integra o Time Fire Geral, liderança geral de adolescentes, atuando nas áreas de gestão pedagógica e administrativa."
+  },
+  {
+   "t": 42.1,
+   "cap": false,
+   "texto": "É funcionária interna da Secretaria Geral de Educação Cristã, onde trabalha com gestão de equipes e projetos, produção de conteúdo para as redes sociais e administração do portal Voz Wesleyana. Sua trajetória reúne educação, comunicação e teologia, áreas pelas quais tem grande interesse e nas quais desenvolve seu serviço ministerial."
+  },
+  {
+   "t": 61.45,
+   "cap": false,
+   "texto": "Entusiasta do conhecimento e da formação de pessoas, acredita na importância das Escrituras como fundamento para uma vida cristã consistente e de uma educação que ultrapasse a transmissão de informações, contribuindo para a transformação de vidas e gerações. Tem formação teológica ministerial pelo Instituto Wesleyano de Educação (IWE) e cursa a Especialização em Aprofundamento na Pregação Bíblica Contemporânea na mesma instituição."
+  },
+  {
+   "t": 86.09,
+   "cap": false,
+   "texto": "“Procura apresentar-te a Deus aprovado, como obreiro que não tem de que se envergonhar, que maneja bem a palavra da verdade.”"
+  },
+  {
+   "t": 92.42,
+   "cap": false,
+   "texto": "2 Timóteo 2.15 (ARA)"
+  },
+  {
+   "t": 97.37,
+   "cap": false,
+   "texto": "“Se um homem é chamado para ser gari, deve varrer as ruas tão bem quanto Michelangelo pintava, ou Beethoven compunha... Ele deve varrer as ruas tão bem que todas as hostes do céu e da terra hão de parar para dizer: aqui viveu um grande gari que fez bem o seu trabalho.”"
+  },
+  {
+   "t": 111.5,
+   "cap": false,
+   "texto": "Martin Luther King Jr."
+  },
+  {
+   "t": 114.33,
+   "cap": true,
+   "texto": "RESUMO"
+  },
+  {
+   "t": 115.81,
+   "cap": false,
+   "texto": "Este trabalho apresenta uma proposta de formação introdutória em pregação bíblica cristocêntrica para os participantes da Escola Timóteo 2027, iniciativa voltada à formação de adolescentes e jovens da Igreja Metodista Wesleyana. A proposta parte da identificação de dificuldades relacionadas à interpretação das Escrituras, à preparação de mensagens e à comunicação da mensagem bíblica, observadas durante a edição de 2026. O objetivo é propor um percurso formativo que integre fundamentos introdutórios de interpretação bíblica, reflexão teológica e princípios homiléticos, tendo a centralidade da pessoa e da obra de Jesus Cristo como eixo transversal. A metodologia prevê sete encontros durante a etapa teórica da Escola, fundamentados em passagens selecionadas das cartas de 1 e 2 Timóteo, seguidos da aplicação dos conhecimentos na etapa prática. A avaliação compara um diagnóstico inicial e final, analisa as mensagens produzidas e conta com relatórios individuais elaborados pelos líderes dos grupos, destinados ao acompanhamento pelas lideranças e pelos pastores locais. Espera-se contribuir para a formação de participantes mais preparados para interpretar as Escrituras e comunicar fielmente a mensagem do evangelho, fortalecendo o desenvolvimento de suas habilidades e sua participação no serviço ministerial."
+  },
+  {
+   "t": 192.77,
+   "cap": false,
+   "texto": "Palavras-chave: pregação bíblica; formação ministerial; exegese; homilética; centralidade de Cristo."
+  },
+  {
+   "t": 200.13,
+   "cap": true,
+   "texto": "1 INTRODUÇÃO"
+  },
+  {
+   "t": 202.11,
+   "cap": false,
+   "texto": "O presente projeto propõe uma formação introdutória em pregação bíblica cristocêntrica para os participantes da Escola Timóteo 2027, iniciativa de formação ministerial voltada a adolescentes e jovens, com idades entre 14 e 21 anos, provenientes de diferentes igrejas e regiões da Igreja Metodista Wesleyana. A proposta busca contribuir para o desenvolvimento de fundamentos bíblicos, teológicos e homiléticos necessários à preparação e à comunicação de mensagens fundamentadas nas Escrituras e orientadas pela centralidade de Cristo."
+  },
+  {
+   "t": 234.31,
+   "cap": false,
+   "texto": "A formação será organizada em sete encontros durante a etapa teórica da Escola Timóteo, realizada na Pousada Costa Verde, em Xerém, Duque de Caxias (RJ). Os encontros terão como base textos selecionados das cartas de Paulo a Timóteo, considerando a relação entre a rotina devocional dos participantes e o conteúdo formativo proposto. A escolha desses escritos permite trabalhar temas como o compromisso com a Palavra, a responsabilidade de ensinar, a interpretação das Escrituras, a formação ministerial e a proclamação do evangelho."
+  },
+  {
+   "t": 265.17,
+   "cap": false,
+   "texto": "A centralidade de Cristo será o eixo teológico que orientará todo o percurso. Dessa forma, a proposta não pretende apenas ensinar técnicas de preparação de mensagens, mas desenvolver nos participantes uma compreensão responsável das Escrituras e de sua relação com a pessoa e a obra de Jesus Cristo. O objetivo é contribuir para a formação de jovens que compreendam a importância de conhecer, interpretar e comunicar fielmente a Palavra de Deus antes de assumirem responsabilidades de proclamação e serviço ministerial."
+  },
+  {
+   "t": 294.66,
+   "cap": true,
+   "texto": "1.1 Justificativa"
+  },
+  {
+   "t": 297.29,
+   "cap": false,
+   "texto": "Ministerial. A Escola Timóteo tem como propósito contribuir para a formação de adolescentes e jovens que desejam servir à Igreja e participar de sua missão. A edição de 2026 evidenciou que o entusiasmo e a disposição para o serviço precisam ser acompanhados de formação consistente. As dificuldades observadas na interpretação bíblica, na organização de mensagens e na comunicação de conteúdos estudados indicam a necessidade de oferecer ferramentas que auxiliem os participantes a desenvolver maior autonomia na preparação de estudos e mensagens. A capacitação proposta pretende fortalecer essa dimensão formativa, oferecendo fundamentos que possam ser utilizados tanto durante a Escola quanto no serviço posterior às igrejas de origem e às comunidades atendidas na etapa prática."
+  },
+  {
+   "t": 343.21,
+   "cap": false,
+   "texto": "Teológica. A centralidade de Cristo constitui o eixo teológico deste projeto, pois a proclamação cristã deve reconhecer a pessoa e a obra de Jesus como centro da mensagem do evangelho. Isso não significa inserir referências a Cristo artificialmente em qualquer passagem, mas interpretar cada texto com responsabilidade, considerando seu lugar no desenvolvimento da história da redenção e sua relação legítima com o testemunho das Escrituras sobre Jesus. A proposta dialoga com a compreensão de pregação cristocêntrica desenvolvida por Chapell (2016), com os fundamentos de interpretação bíblica apresentados por Kaiser Jr. e Silva (2009) e com a reflexão de Stott (2003) sobre a responsabilidade e a natureza da pregação cristã."
+  },
+  {
+   "t": 384.31,
+   "cap": false,
+   "texto": "Social. Os participantes pertencem a diferentes contextos e comunidades, trazendo experiências, níveis de conhecimento bíblico e oportunidades ministeriais distintos. Uma capacitação comum pode oferecer uma base compartilhada de interpretação e comunicação da fé, respeitando as diferenças entre os participantes e contribuindo para que o serviço cristão seja desenvolvido com responsabilidade nos diversos contextos em que estarão inseridos."
+  },
+  {
+   "t": 409.63,
+   "cap": false,
+   "texto": "Ênfase. A ênfase deste projeto recai sobre a dimensão teológica, porque sua necessidade central está relacionada à formação de uma compreensão bíblica e cristocêntrica da pregação. A dimensão ministerial aparece como campo de aplicação dessa formação, enquanto a dimensão social considera a diversidade dos contextos de origem dos participantes."
+  },
+  {
+   "t": 430.16,
+   "cap": true,
+   "texto": "1.2 Objetivos"
+  },
+  {
+   "t": 432.89,
+   "cap": false,
+   "texto": "Objetivo geral: propor uma capacitação introdutória em pregação bíblica cristocêntrica para os participantes da Escola Timóteo 2027, por meio de um percurso formativo que integre interpretação das Escrituras, compreensão teológica e fundamentos homiléticos, visando ao desenvolvimento de conhecimentos e habilidades para a preparação e a comunicação de mensagens fundamentadas no texto bíblico e orientadas pela centralidade da pessoa e da obra de Jesus Cristo."
+  },
+  {
+   "t": 459.99,
+   "cap": false,
+   "texto": "a) identificar as necessidades formativas relacionadas à interpretação bíblica e à preparação de mensagens, considerando as experiências observadas na edição de 2026 da Escola Timóteo;"
+  },
+  {
+   "t": 471.67,
+   "cap": false,
+   "texto": "b) analisar os fundamentos bíblicos da interpretação das Escrituras e da responsabilidade da proclamação cristã;"
+  },
+  {
+   "t": 478.37,
+   "cap": false,
+   "texto": "c) apresentar princípios introdutórios de exegese, considerando o contexto histórico e literário, o gênero e a intenção comunicativa dos textos bíblicos;"
+  },
+  {
+   "t": 487.27,
+   "cap": false,
+   "texto": "d) planejar encontros formativos que articulem leitura bíblica, reflexão teológica e exercícios de preparação de mensagens;"
+  },
+  {
+   "t": 494.67,
+   "cap": false,
+   "texto": "e) estabelecer critérios para acompanhar o desenvolvimento dos participantes durante as atividades práticas dirigidas à pregação;"
+  },
+  {
+   "t": 502.12,
+   "cap": false,
+   "texto": "f) contribuir para a identificação de possíveis áreas de serviço ministerial nas quais os participantes possam desenvolver e aplicar os conhecimentos adquiridos."
+  },
+  {
+   "t": 512.0,
+   "cap": true,
+   "texto": "1.3 Lógica do projeto"
+  },
+  {
+   "t": 515.02,
+   "cap": false,
+   "texto": "O Quadro 1 mostra como as partes do projeto se ligam, do problema à avaliação."
+  },
+  {
+   "t": 519.64,
+   "cap": false,
+   "texto": "Quadro 1 – Lógica do projeto"
+  },
+  {
+   "t": 522.06,
+   "cap": false,
+   "texto": "Problema: Dificuldades observadas na Escola Timóteo 2026 relacionadas à interpretação bíblica, à organização de mensagens e à comunicação do conteúdo das Escrituras"
+  },
+  {
+   "t": 533.62,
+   "cap": false,
+   "texto": "Textos: Passagens selecionadas das cartas de 1 e 2 Timóteo, com destaque para 2 Timóteo 3.14-17 e 2 Timóteo 4.1-5"
+  },
+  {
+   "t": 546.05,
+   "cap": false,
+   "texto": "Resposta teológica: A proclamação cristã deve estar fundamentada nas Escrituras, ser realizada com responsabilidade e permanecer centrada na pessoa e na obra de Jesus Cristo"
+  },
+  {
+   "t": 556.47,
+   "cap": false,
+   "texto": "Proposta: Realização de sete encontros introdutórios sobre interpretação bíblica, leitura cristocêntrica das Escrituras e preparação de mensagens"
+  },
+  {
+   "t": 565.21,
+   "cap": false,
+   "texto": "Avaliação: Diagnóstico inicial e final, análise das mensagens produzidas e relatórios individuais elaborados pelos líderes dos grupos"
+  },
+  {
+   "t": 573.8,
+   "cap": false,
+   "texto": "Fonte: elaborado pelo autor."
+  },
+  {
+   "t": 576.66,
+   "cap": true,
+   "texto": "1.4 Formato do projeto"
+  },
+  {
+   "t": 579.72,
+   "cap": false,
+   "texto": "Quadro 2 – Formato do projeto"
+  },
+  {
+   "t": 582.24,
+   "cap": false,
+   "texto": "Formato: Formação introdutória em pregação bíblica cristocêntrica, com exposições, exercícios de interpretação e oficinas homiléticas"
+  },
+  {
+   "t": 590.63,
+   "cap": false,
+   "texto": "Público: Todos os participantes da Escola Timóteo 2027, adolescentes e jovens de 14 a 21 anos, provenientes de diferentes igrejas e regiões da Igreja Metodista Wesleyana"
+  },
+  {
+   "t": 602.73,
+   "cap": false,
+   "texto": "Encontros: Sete encontros formativos distribuídos durante a etapa teórica de sete dias"
+  },
+  {
+   "t": 608.4,
+   "cap": false,
+   "texto": "Local: Pousada Costa Verde, Xerém, Duque de Caxias (RJ)"
+  },
+  {
+   "t": 613.03,
+   "cap": false,
+   "texto": "Continuidade: Aplicação e observação dos conhecimentos durante a etapa prática de seis dias, nas igrejas parceiras, conforme as oportunidades e orientações das lideranças locais"
+  },
+  {
+   "t": 623.91,
+   "cap": false,
+   "texto": "Por que este formato: O curso permite desenvolver progressivamente as competências necessárias à preparação de uma mensagem bíblica, articulando exposição teórica, exercícios orientados e produção prática"
+  },
+  {
+   "t": 635.64,
+   "cap": false,
+   "texto": "Fonte: elaborado pelo autor."
+  },
+  {
+   "t": 638.48,
+   "cap": true,
+   "texto": "2 FUNDAMENTAÇÃO"
+  },
+  {
+   "t": 640.53,
+   "cap": false,
+   "texto": "A fundamentação apoia o projeto em quatro passos: o diagnóstico, o texto bíblico, o planejamento e a avaliação."
+  },
+  {
+   "t": 648.3,
+   "cap": true,
+   "texto": "2.1 Diagnóstico"
+  },
+  {
+   "t": 650.96,
+   "cap": false,
+   "texto": "A necessidade que fundamenta este projeto foi identificada a partir de observações realizadas durante a Escola Timóteo 2026. Ao longo das atividades formativas, foram percebidas dificuldades de alguns participantes na interpretação de passagens bíblicas, na identificação da ideia central de um texto, na elaboração de esboços e na comunicação organizada de mensagens."
+  },
+  {
+   "t": 674.11,
+   "cap": false,
+   "texto": "Em determinadas situações, os monitores precisaram auxiliar os participantes em etapas básicas da preparação, como a escolha e a compreensão do texto, a organização do esboço e a estruturação da mensagem. Essas intervenções demonstraram a importância do acompanhamento pedagógico, mas também indicaram a necessidade de oferecer fundamentos que permitam aos participantes desenvolver maior autonomia no processo de preparação."
+  },
+  {
+   "t": 698.16,
+   "cap": false,
+   "texto": "Como essas observações possuem caráter qualitativo, não se pretende atribuir a elas números ou proporções que não foram registrados. A edição de 2027 deverá iniciar com uma atividade diagnóstica estruturada (Apêndice A), capaz de identificar o nível de familiaridade dos participantes com a interpretação bíblica e a preparação de mensagens. Essa etapa permitirá estabelecer uma linha de base para a avaliação dos resultados da capacitação. O Quadro 3 organiza o problema em causas e consequências."
+  },
+  {
+   "t": 727.61,
+   "cap": false,
+   "texto": "Quadro 3 – Árvore do problema"
+  },
+  {
+   "t": 729.96,
+   "cap": false,
+   "texto": "Consequências: Dependência dos monitores em etapas básicas da preparação; mensagens pouco fundamentadas no texto; risco de interpretações isoladas e de aplicações que não correspondem ao sentido da passagem"
+  },
+  {
+   "t": 742.1,
+   "cap": false,
+   "texto": "Problema central: Dificuldade dos participantes da Escola Timóteo em interpretar passagens bíblicas e em preparar e comunicar mensagens com autonomia"
+  },
+  {
+   "t": 750.77,
+   "cap": false,
+   "texto": "Causas: Pouca formação prévia em interpretação bíblica; dificuldade em identificar a ideia central e em elaborar esboços; níveis distintos de conhecimento bíblico e de oportunidades ministeriais nas igrejas de origem; entusiasmo pelo serviço sem formação correspondente"
+  },
+  {
+   "t": 766.19,
+   "cap": false,
+   "texto": "Causas que o projeto alcança: A falta de fundamentos de interpretação, de identificação da ideia central e de organização da mensagem, diretamente, pelos sete encontros; as diferenças entre os contextos de origem são respeitadas, mas não eliminadas pela capacitação"
+  },
+  {
+   "t": 781.32,
+   "cap": false,
+   "texto": "Fonte: elaborado pelo autor."
+  },
+  {
+   "t": 784.23,
+   "cap": true,
+   "texto": "2.2 Texto bíblico"
+  },
+  {
+   "t": 786.91,
+   "cap": false,
+   "texto": "A proposta terá como corpus bíblico principal as cartas de 1 e 2 Timóteo. Esses escritos apresentam orientações relacionadas à formação ministerial, à responsabilidade com o ensino, à preservação da verdade das Escrituras e à proclamação da Palavra. Por essa razão, constituem uma base pertinente para uma formação introdutória em pregação bíblica."
+  },
+  {
+   "t": 807.27,
+   "cap": false,
+   "texto": "Paulo destaca a importância da permanência no ensino recebido e apresenta as Escrituras como fundamento para ensinar, corrigir, instruir e preparar o servo de Deus para toda boa obra (2 Tm 3.14-17). Ele também traz orientações para manejar corretamente a palavra da verdade, o que evidencia a responsabilidade envolvida em sua interpretação e transmissão (2 Tm 2.15), e apresenta a pregação da Palavra como compromisso que exige perseverança, fidelidade e responsabilidade diante de Deus (2 Tm 4.1-5). O eixo cristocêntrico será desenvolvido pela leitura das cartas em seu contexto bíblico e teológico, considerando a relação de seus ensinamentos com a pessoa, a obra e o evangelho de Jesus Cristo."
+  },
+  {
+   "t": 852.86,
+   "cap": true,
+   "texto": "2.3 Planejamento"
+  },
+  {
+   "t": 855.46,
+   "cap": false,
+   "texto": "O planejamento dos encontros será orientado pela integração de três dimensões fundamentais da pregação bíblica: interpretação das Escrituras, compreensão cristocêntrica do texto e comunicação da mensagem."
+  },
+  {
+   "t": 867.04,
+   "cap": false,
+   "texto": "A primeira dimensão corresponde ao cuidado com a interpretação bíblica. A partir das contribuições de Kaiser Jr. e Silva (2009), a proposta considera a importância de compreender o texto em seu contexto histórico, literário e teológico, evitando interpretações isoladas ou aplicações que não correspondam ao sentido da passagem."
+  },
+  {
+   "t": 885.87,
+   "cap": false,
+   "texto": "A segunda dimensão diz respeito à centralidade de Cristo na pregação. Em diálogo com a perspectiva cristocêntrica de Chapell (2016), os participantes serão introduzidos à compreensão de que a mensagem cristã deve considerar a pessoa e a obra de Cristo, respeitando o sentido do texto bíblico e sua relação com o conjunto das Escrituras."
+  },
+  {
+   "t": 906.07,
+   "cap": false,
+   "texto": "A terceira dimensão envolve a organização e a comunicação da mensagem. Considerando a reflexão de Stott (2003) sobre a natureza e a responsabilidade da pregação cristã, os encontros buscarão desenvolver nos participantes a capacidade de comunicar o conteúdo bíblico com clareza, fidelidade e compromisso com a mensagem das Escrituras."
+  },
+  {
+   "t": 925.67,
+   "cap": false,
+   "texto": "Assim, a proposta combinará exposição bíblica, leitura orientada, reflexão teológica e atividades práticas de interpretação e preparação de mensagens. O percurso será introdutório e progressivo, respeitando o nível de formação dos participantes e buscando oferecer fundamentos que possam ser desenvolvidos posteriormente no contexto de suas igrejas locais. A capacitação não pretende esgotar esses campos de estudo, mas oferecer uma introdução organizada e aplicável à realidade dos participantes."
+  },
+  {
+   "t": 954.87,
+   "cap": true,
+   "texto": "2.4 Avaliação"
+  },
+  {
+   "t": 957.48,
+   "cap": false,
+   "texto": "A avaliação acompanhará os participantes em dois momentos. Na etapa teórica, o diagnóstico inicial será comparado com o diagnóstico final (Apêndice A), e as mensagens ou estudos produzidos no último encontro serão analisados. Na etapa prática, os líderes responsáveis por cada grupo observarão o desempenho dos participantes nas atividades dirigidas à pregação bíblica, considerando a compreensão e a interpretação das Escrituras, a identificação da mensagem central do texto, a organização da mensagem, a relação com a pessoa e a obra de Cristo, a clareza na comunicação e a postura durante as atividades ministeriais."
+  },
+  {
+   "t": 993.22,
+   "cap": false,
+   "texto": "Ao final do período prático, cada líder elaborará um relatório individual sobre os participantes sob sua responsabilidade (Apêndice B). Esses relatórios serão encaminhados aos líderes e pastores locais, servindo como instrumento de acompanhamento e recomendação quanto às possíveis áreas de serviço ministerial nas quais os participantes demonstrem habilidades e potencial de desenvolvimento."
+  },
+  {
+   "t": 1015.33,
+   "cap": false,
+   "texto": "Dessa forma, a avaliação não terá como finalidade estabelecer uma classificação definitiva dos participantes ou determinar sua vocação ministerial, mas oferecer às igrejas de origem informações que contribuam para o acompanhamento pastoral, o reconhecimento de habilidades e o direcionamento de oportunidades de serviço e formação."
+  },
+  {
+   "t": 1034.34,
+   "cap": true,
+   "texto": "3 DELIMITAÇÃO DO TEXTO BÍBLICO E ABORDAGEM EXEGÉTICA"
+  },
+  {
+   "t": 1038.57,
+   "cap": false,
+   "texto": "A primeira carta a Timóteo apresenta orientações sobre a organização e a vida da comunidade cristã, o caráter daqueles que exercem responsabilidades ministeriais e a preservação do ensino. A segunda carta, por sua vez, enfatiza a perseverança no ministério, a fidelidade às Escrituras e a responsabilidade de transmitir a mensagem recebida. As citações bíblicas seguem a Almeida Revista e Atualizada (ARA). Para os encontros, serão utilizadas sete unidades textuais:"
+  },
+  {
+   "t": 1066.77,
+   "cap": false,
+   "texto": "1 Timóteo 4.6-16: o caráter, o exemplo e a dedicação de quem serve;"
+  },
+  {
+   "t": 1073.79,
+   "cap": false,
+   "texto": "2 Timóteo 3.14-17: as Escrituras como fundamento da formação;"
+  },
+  {
+   "t": 1080.64,
+   "cap": false,
+   "texto": "2 Timóteo 2.14-19: a responsabilidade de manejar corretamente a Palavra;"
+  },
+  {
+   "t": 1087.68,
+   "cap": false,
+   "texto": "2 Timóteo 2.1-7: a formação e a transmissão do ensino;"
+  },
+  {
+   "t": 1093.46,
+   "cap": false,
+   "texto": "2 Timóteo 4.1-5: o compromisso com a proclamação;"
+  },
+  {
+   "t": 1099.19,
+   "cap": false,
+   "texto": "1 Timóteo 1.12-17: a graça de Cristo como fundamento do testemunho;"
+  },
+  {
+   "t": 1105.89,
+   "cap": false,
+   "texto": "2 Timóteo 2.8-13: a centralidade de Jesus Cristo e a perseverança no evangelho."
+  },
+  {
+   "t": 1113.3,
+   "cap": false,
+   "texto": "A abordagem exegética considerará o contexto histórico e literário das cartas, seus destinatários, as circunstâncias relacionadas às orientações apresentadas e os temas desenvolvidos em cada passagem. A análise buscará identificar o sentido dos textos em seu contexto original e sua contribuição para a formação de pessoas comprometidas com o ensino e a proclamação das Escrituras. A relação com a pregação cristocêntrica será estabelecida de maneira transversal, considerando especialmente as referências à pessoa e à obra de Jesus Cristo, à fidelidade ao evangelho e à responsabilidade de comunicar a mensagem bíblica. Dessa forma, a proposta pretende evitar aplicações superficiais e oferecer aos participantes princípios introdutórios para uma interpretação responsável e uma proclamação fiel."
+  },
+  {
+   "t": 1159.95,
+   "cap": true,
+   "texto": "4 PLANO DE AÇÃO"
+  },
+  {
+   "t": 1162.59,
+   "cap": true,
+   "texto": "4.1 Plano de ação (5W2H)"
+  },
+  {
+   "t": 1166.36,
+   "cap": false,
+   "texto": "A etapa teórica será organizada em sete encontros formativos, fundamentados em passagens selecionadas das cartas de 1 e 2 Timóteo. Os encontros serão articulados à rotina devocional da Escola, buscando estabelecer continuidade entre a leitura bíblica diária e o aprofundamento dos conteúdos relacionados à interpretação das Escrituras, à centralidade de Cristo e à preparação de mensagens. A realização e a distribuição dos encontros deverão ser integradas à programação geral da Escola Timóteo 2027, em diálogo com a coordenação responsável. O Quadro 4 resume o plano."
+  },
+  {
+   "t": 1202.1,
+   "cap": false,
+   "texto": "Quadro 4 – Plano de ação (5W2H)"
+  },
+  {
+   "t": 1205.43,
+   "cap": false,
+   "texto": "O quê?: Formação introdutória em pregação bíblica cristocêntrica, em sete encontros, com exposições, exercícios de interpretação e oficinas homiléticas"
+  },
+  {
+   "t": 1214.75,
+   "cap": false,
+   "texto": "Por quê?: Ajudar os participantes a interpretar as Escrituras e a preparar e comunicar mensagens com autonomia, fidelidade ao texto e centralidade de Cristo, a partir das dificuldades observadas em 2026"
+  },
+  {
+   "t": 1227.28,
+   "cap": false,
+   "texto": "Quem?: A autora (responsável pela capacitação), os monitores e líderes de grupo (acompanhamento e relatórios), a coordenação da Escola Timóteo e um avaliador convidado; público: participantes de 14 a 21 anos"
+  },
+  {
+   "t": 1239.58,
+   "cap": false,
+   "texto": "Onde?: Pousada Costa Verde, Xerém, Duque de Caxias (RJ), na etapa teórica; igrejas parceiras, na etapa prática"
+  },
+  {
+   "t": 1247.52,
+   "cap": false,
+   "texto": "Quando?: Durante os sete dias da etapa teórica da Escola Timóteo 2027, com observação complementar nos seis dias da etapa prática, conforme o calendário definido pela coordenação"
+  },
+  {
+   "t": 1259.09,
+   "cap": false,
+   "texto": "Como?: Diagnóstico inicial; exposição dialogada, leitura orientada, exercícios individuais e em grupo; produção de uma mensagem ou estudo bíblico; diagnóstico final e relatórios individuais"
+  },
+  {
+   "t": 1270.67,
+   "cap": false,
+   "texto": "Quanto custa?: Sem custo adicional relevante: Bíblias, material de apoio impresso, papelaria, mesas e cadeiras, integrados à estrutura da Escola"
+  },
+  {
+   "t": 1279.54,
+   "cap": false,
+   "texto": "Fonte: elaborado pelo autor."
+  },
+  {
+   "t": 1282.32,
+   "cap": true,
+   "texto": "4.2 Plano dos encontros formativos"
+  },
+  {
+   "t": 1286.31,
+   "cap": false,
+   "texto": "Quadro 5 – Encontros formativos"
+  },
+  {
+   "t": 1289.1,
+   "cap": false,
+   "texto": "Encontro: 1. Texto: 1 Tm 4.6-16. Tema: O caráter de quem serve. Direcionamento formativo: Formação pessoal e responsabilidade ministerial."
+  },
+  {
+   "t": 1300.77,
+   "cap": false,
+   "texto": "Encontro: 2. Texto: 2 Tm 3.14-17. Tema: As Escrituras como fundamento. Direcionamento formativo: Autoridade e finalidade da Palavra de Deus."
+  },
+  {
+   "t": 1313.21,
+   "cap": false,
+   "texto": "Encontro: 3. Texto: 2 Tm 2.14-19. Tema: Manejar bem a Palavra. Direcionamento formativo: Princípios introdutórios de interpretação bíblica."
+  },
+  {
+   "t": 1325.02,
+   "cap": false,
+   "texto": "Encontro: 4. Texto: 2 Tm 2.1-7. Tema: Preparados para transmitir. Direcionamento formativo: Fidelidade no ensino e transmissão da mensagem."
+  },
+  {
+   "t": 1336.57,
+   "cap": false,
+   "texto": "Encontro: 5. Texto: 2 Tm 4.1-5. Tema: Prega a Palavra. Direcionamento formativo: Responsabilidade e compromisso com a proclamação."
+  },
+  {
+   "t": 1347.87,
+   "cap": false,
+   "texto": "Encontro: 6. Texto: 1 Tm 1.12-17. Tema: Cristo no centro do testemunho. Direcionamento formativo: A graça e a obra de Cristo como fundamento da mensagem."
+  },
+  {
+   "t": 1360.44,
+   "cap": false,
+   "texto": "Encontro: 7. Texto: 2 Tm 2.8-13. Tema: Da Escritura à proclamação. Direcionamento formativo: Integração dos fundamentos na preparação de uma mensagem."
+  },
+  {
+   "t": 1372.85,
+   "cap": false,
+   "texto": "Fonte: elaborado pelo autor."
+  },
+  {
+   "t": 1375.54,
+   "cap": true,
+   "texto": "4.3 Metodologia dos encontros"
+  },
+  {
+   "t": 1379.09,
+   "cap": false,
+   "texto": "Os encontros combinarão exposição dialogada, leitura orientada das passagens bíblicas, exercícios individuais e em grupo e atividades práticas. A metodologia seguirá uma sequência progressiva: primeiro, o participante será orientado a observar e compreender o texto; depois, a reconhecer sua contribuição para a mensagem global das Escrituras e sua relação com Cristo; por fim, a organizar e comunicar uma mensagem."
+  },
+  {
+   "t": 1403.09,
+   "cap": false,
+   "texto": "As atividades práticas deverão utilizar textos bíblicos completos ou perícopes adequadamente delimitadas, evitando o uso de versículos isolados sem consideração de seu contexto. Durante os exercícios, os participantes serão orientados a identificar informações do texto, formular sua ideia central, observar sua relação com o contexto e desenvolver uma aplicação coerente."
+  },
+  {
+   "t": 1424.37,
+   "cap": false,
+   "texto": "No último encontro, cada participante ou grupo deverá preparar uma mensagem ou estudo bíblico a partir de uma passagem selecionada. A apresentação poderá ser oral ou realizada em formato de oficina, conforme o tempo disponível e a organização da Escola. A avaliação deverá considerar o processo de interpretação e preparação, e não apenas a habilidade de falar em público."
+  },
+  {
+   "t": 1445.32,
+   "cap": true,
+   "texto": "4.4 Cronograma de execução"
+  },
+  {
+   "t": 1448.49,
+   "cap": false,
+   "texto": "Quadro 6 – Cronograma previsto"
+  },
+  {
+   "t": 1450.97,
+   "cap": false,
+   "texto": "Etapa: Planejamento. Período: Antes da Escola Timóteo 2027. Atividade: Alinhamento com a coordenação, definição dos responsáveis, revisão do conteúdo e preparação dos instrumentos."
+  },
+  {
+   "t": 1463.16,
+   "cap": false,
+   "texto": "Etapa: Diagnóstico. Período: Início da etapa teórica. Atividade: Apresentação e atividade diagnóstica de interpretação bíblica (Apêndice A)."
+  },
+  {
+   "t": 1472.14,
+   "cap": false,
+   "texto": "Etapa: Formação. Período: Sete dias da etapa teórica. Atividade: Realização dos sete encontros e atividades práticas."
+  },
+  {
+   "t": 1480.12,
+   "cap": false,
+   "texto": "Etapa: Produção. Período: Final da etapa teórica. Atividade: Elaboração e apresentação de mensagem ou estudo bíblico pelos participantes."
+  },
+  {
+   "t": 1489.2,
+   "cap": false,
+   "texto": "Etapa: Avaliação. Período: Encerramento da etapa teórica. Atividade: Aplicação do diagnóstico final e avaliação das produções."
+  },
+  {
+   "t": 1497.66,
+   "cap": false,
+   "texto": "Etapa: Observação complementar. Período: Seis dias da etapa prática. Atividade: Registro de oportunidades de aplicação dos conhecimentos nas igrejas parceiras, respeitando as orientações locais (Apêndice B)."
+  },
+  {
+   "t": 1509.8,
+   "cap": false,
+   "texto": "Etapa: Análise. Período: Após a Escola. Atividade: Organização dos dados, comparação dos instrumentos e elaboração da avaliação final."
+  },
+  {
+   "t": 1519.01,
+   "cap": false,
+   "texto": "Fonte: elaborado pelo autor."
+  },
+  {
+   "t": 1521.71,
+   "cap": true,
+   "texto": "4.5 Viabilidade"
+  },
+  {
+   "t": 1524.59,
+   "cap": false,
+   "texto": "A proposta está vinculada a uma programação já estruturada, com uma etapa teórica de sete dias e uma etapa prática de seis dias. Sua realização será alinhada à programação da Escola Timóteo 2027, conforme a disponibilidade dos horários destinados ao devocional, à partilha e às palestras gerais. Os recursos necessários incluem Bíblias, materiais de apoio, folhas e outros recursos de papelaria, mesas e cadeiras."
+  },
+  {
+   "t": 1550.28,
+   "cap": false,
+   "texto": "A capacitação poderá ser integrada à programação formativa sem pressupor a substituição das demais atividades da Escola. A etapa prática será considerada uma oportunidade complementar de aplicação, não uma exigência de que todos os participantes realizem pregações públicas."
+  },
+  {
+   "t": 1566.48,
+   "cap": true,
+   "texto": "5 PROPOSTA DE AVALIAÇÃO DE IMPACTO"
+  },
+  {
+   "t": 1569.51,
+   "cap": false,
+   "texto": "A avaliação pretende verificar se a capacitação contribuiu para o desenvolvimento das competências introdutórias previstas nos objetivos. Para isso, serão comparadas as respostas do diagnóstico inicial com os resultados obtidos ao final dos encontros, considerando também a qualidade das produções elaboradas pelos participantes."
+  },
+  {
+   "t": 1588.68,
+   "cap": false,
+   "texto": "A avaliação não terá como finalidade medir a espiritualidade, o chamado ministerial ou a maturidade cristã dos participantes. Seu foco será o desenvolvimento de conhecimentos e habilidades relacionados à interpretação bíblica, à leitura cristocêntrica e à preparação de mensagens."
+  },
+  {
+   "t": 1606.4,
+   "cap": true,
+   "texto": "5.1 Responsáveis pela avaliação"
+  },
+  {
+   "t": 1609.88,
+   "cap": false,
+   "texto": "1. Participantes: respondem ao diagnóstico inicial e final e realizam as atividades propostas em cada encontro."
+  },
+  {
+   "t": 1616.97,
+   "cap": false,
+   "texto": "2. Responsáveis pela capacitação e líderes de grupo: acompanham as atividades, registram o desenvolvimento observado e elaboram os relatórios individuais."
+  },
+  {
+   "t": 1626.44,
+   "cap": false,
+   "texto": "3. Avaliador convidado ou representante da coordenação: analisa as produções homiléticas com base nos critérios definidos no item 5.2."
+  },
+  {
+   "t": 1635.88,
+   "cap": true,
+   "texto": "5.2 Critérios e instrumentos"
+  },
+  {
+   "t": 1639.37,
+   "cap": false,
+   "texto": "Durante as atividades práticas dirigidas à pregação, os líderes dos grupos observarão o desenvolvimento dos participantes considerando os seguintes aspectos:"
+  },
+  {
+   "t": 1648.39,
+   "cap": false,
+   "texto": "compreensão e interpretação do texto bíblico em seu contexto;"
+  },
+  {
+   "t": 1652.07,
+   "cap": false,
+   "texto": "identificação da mensagem central da passagem;"
+  },
+  {
+   "t": 1655.14,
+   "cap": false,
+   "texto": "fidelidade da mensagem ao conteúdo das Escrituras;"
+  },
+  {
+   "t": 1658.31,
+   "cap": false,
+   "texto": "relação adequada entre o texto bíblico e a pessoa e a obra de Cristo;"
+  },
+  {
+   "t": 1662.82,
+   "cap": false,
+   "texto": "organização e desenvolvimento da mensagem;"
+  },
+  {
+   "t": 1665.81,
+   "cap": false,
+   "texto": "clareza na comunicação;"
+  },
+  {
+   "t": 1667.76,
+   "cap": false,
+   "texto": "envolvimento, responsabilidade e postura durante as atividades ministeriais."
+  },
+  {
+   "t": 1672.84,
+   "cap": false,
+   "texto": "Esses aspectos compõem a ficha de observação e relatório individual (Apêndice B). Os registros deverão considerar tanto as habilidades demonstradas quanto os pontos que ainda necessitam de desenvolvimento, contribuindo para o acompanhamento pastoral e para a identificação de possíveis áreas de serviço ministerial."
+  },
+  {
+   "t": 1690.88,
+   "cap": true,
+   "texto": "5.3 Momentos da avaliação"
+  },
+  {
+   "t": 1694.11,
+   "cap": false,
+   "texto": "1. Antes da capacitação: conversa diagnóstica e aplicação do questionário inicial (Apêndice A), com a finalidade de identificar conhecimentos prévios e dificuldades dos participantes."
+  },
+  {
+   "t": 1705.2,
+   "cap": false,
+   "texto": "2. Durante a capacitação: acompanhamento das atividades, observação dos exercícios de interpretação, análise dos esboços e registro das dificuldades recorrentes."
+  },
+  {
+   "t": 1715.29,
+   "cap": false,
+   "texto": "3. Após a capacitação: aplicação do mesmo questionário utilizado inicialmente, realização de uma atividade final e avaliação da mensagem ou estudo bíblico produzido pelos participantes."
+  },
+  {
+   "t": 1726.79,
+   "cap": false,
+   "texto": "4. Durante a etapa prática: registro complementar das oportunidades de aplicação dos conhecimentos nas igrejas parceiras (Apêndice B), sem exigir que todos os participantes assumam publicamente a função de pregador."
+  },
+  {
+   "t": 1739.78,
+   "cap": true,
+   "texto": "5.4 Indicadores e resultados esperados"
+  },
+  {
+   "t": 1743.97,
+   "cap": false,
+   "texto": "Os resultados serão considerados a partir de indicadores verificáveis, como:"
+  },
+  {
+   "t": 1748.35,
+   "cap": false,
+   "texto": "participação dos inscritos nos encontros;"
+  },
+  {
+   "t": 1751.32,
+   "cap": false,
+   "texto": "percentual de participantes que concluem as atividades propostas;"
+  },
+  {
+   "t": 1755.5,
+   "cap": false,
+   "texto": "comparação das respostas do questionário inicial e final;"
+  },
+  {
+   "t": 1759.09,
+   "cap": false,
+   "texto": "percentual de participantes capazes de identificar a ideia central de uma passagem;"
+  },
+  {
+   "t": 1764.24,
+   "cap": false,
+   "texto": "percentual de produções que demonstram contextualização bíblica adequada;"
+  },
+  {
+   "t": 1768.83,
+   "cap": false,
+   "texto": "qualidade das relações estabelecidas entre o texto estudado e a pessoa e a obra de Cristo;"
+  },
+  {
+   "t": 1774.19,
+   "cap": false,
+   "texto": "organização e clareza das mensagens elaboradas."
+  },
+  {
+   "t": 1777.65,
+   "cap": false,
+   "texto": "Espera-se que, ao final da capacitação, os participantes demonstrem maior compreensão do processo de interpretação bíblica, reconheçam a importância da centralidade de Cristo na proclamação e apresentem maior capacidade de organizar mensagens fundamentadas no texto bíblico."
+  },
+  {
+   "t": 1793.32,
+   "cap": false,
+   "texto": "As metas numéricas deverão ser estabelecidas após a aplicação do diagnóstico inicial e a confirmação do número de participantes. Dessa forma, os resultados esperados serão compatíveis com a realidade encontrada, evitando metas arbitrárias ou conclusões sem evidências."
+  },
+  {
+   "t": 1810.0,
+   "cap": true,
+   "texto": "5.5 Cuidados éticos"
+  },
+  {
+   "t": 1813.2,
+   "cap": false,
+   "texto": "A participação nas partilhas e a utilização dos dados para avaliação serão voluntárias, e os resultados serão apresentados de forma agrupada, sem exposição individual dos participantes. Como parte do público tem menos de 18 anos, a participação dependerá também da autorização dos pais ou responsáveis. A necessidade de submissão ao Comitê de Ética deverá ser verificada junto à instituição de ensino, considerando a natureza e a finalidade da atividade, conforme as orientações pertinentes, incluindo a Resolução CNS nº 510/2016, quando aplicável."
+  },
+  {
+   "t": 1846.9,
+   "cap": true,
+   "texto": "REFERÊNCIAS"
+  },
+  {
+   "t": 1848.73,
+   "cap": false,
+   "texto": "BÍBLIA. Português. Bíblia Sagrada: Almeida Revista e Atualizada. Tradução de João Ferreira de Almeida. 2. ed. Barueri: Sociedade Bíblica do Brasil, 1993."
+  },
+  {
+   "t": 1859.6,
+   "cap": false,
+   "texto": "CHAPELL, Bryan. Pregação cristocêntrica. Tradução de Oadi Salum. 3. ed. São Paulo: Cultura Cristã, 2016."
+  },
+  {
+   "t": 1867.69,
+   "cap": false,
+   "texto": "KAISER JR., Walter C.; SILVA, Moisés. Introdução à hermenêutica bíblica: como ouvir a palavra de Deus apesar dos ruídos de nossa época. 2. ed. São Paulo: Cultura Cristã, 2009."
+  },
+  {
+   "t": 1879.55,
+   "cap": false,
+   "texto": "STOTT, John. Eu creio na pregação. São Paulo: Vida, 2003."
+  },
+  {
+   "t": 1885.0,
+   "cap": true,
+   "texto": "APÊNDICE A – QUESTIONÁRIO DIAGNÓSTICO (INICIAL E FINAL)"
+  },
+  {
+   "t": 1889.32,
+   "cap": false,
+   "texto": "Este questionário será aplicado no início e no encerramento da etapa teórica. A participação é voluntária, e os resultados serão analisados de forma agrupada."
+  },
+  {
+   "t": 1898.44,
+   "cap": false,
+   "texto": "Parte 1 – Autoavaliação. Marque de 1 (discordo totalmente) a 5 (concordo totalmente)."
+  },
+  {
+   "t": 1903.54,
+   "cap": false,
+   "texto": "Quadro 7 – Autoavaliação do participante"
+  },
+  {
+   "t": 1906.63,
+   "cap": false,
+   "texto": "Afirmação: Consigo identificar o contexto histórico e literário de uma passagem bíblica.."
+  },
+  {
+   "t": 1911.81,
+   "cap": false,
+   "texto": "Afirmação: Consigo identificar a ideia central de um texto bíblico.."
+  },
+  {
+   "t": 1915.75,
+   "cap": false,
+   "texto": "Afirmação: Sei organizar um esboço de mensagem a partir de um texto.."
+  },
+  {
+   "t": 1920.11,
+   "cap": false,
+   "texto": "Afirmação: Consigo relacionar o texto com a pessoa e a obra de Cristo sem forçar o sentido da passagem.."
+  },
+  {
+   "t": 1926.04,
+   "cap": false,
+   "texto": "Afirmação: Sinto-me preparado(a) para comunicar uma mensagem bíblica com clareza.."
+  },
+  {
+   "t": 1930.99,
+   "cap": false,
+   "texto": "Fonte: elaborado pelo autor."
+  },
+  {
+   "t": 1933.11,
+   "cap": false,
+   "texto": "Parte 2 – Atividade de interpretação. Leia a passagem indicada pelo responsável pela capacitação e responda:"
+  },
+  {
+   "t": 1939.82,
+   "cap": false,
+   "texto": "1. Em que contexto (quem escreve, para quem e por quê) essa passagem foi escrita?"
+  },
+  {
+   "t": 1944.72,
+   "cap": false,
+   "texto": "2. Qual é a ideia central do texto, em uma frase?"
+  },
+  {
+   "t": 1948.28,
+   "cap": false,
+   "texto": "3. Como esse texto se relaciona com a pessoa e a obra de Jesus Cristo?"
+  },
+  {
+   "t": 1952.75,
+   "cap": false,
+   "texto": "4. Que aplicação fiel ao texto você faria para os jovens de hoje?"
+  },
+  {
+   "t": 1957.48,
+   "cap": true,
+   "texto": "APÊNDICE B – FICHA DE OBSERVAÇÃO E RELATÓRIO INDIVIDUAL"
+  },
+  {
+   "t": 1961.79,
+   "cap": false,
+   "texto": "Para cada aspecto, marque: I = insuficiente; D = em desenvolvimento; S = satisfatório; B = bom."
+  },
+  {
+   "t": 1969.14,
+   "cap": false,
+   "texto": "Quadro 8 – Aspectos observados"
+  },
+  {
+   "t": 1971.9,
+   "cap": false,
+   "texto": "Compreensão e interpretação do texto bíblico em seu contexto."
+  },
+  {
+   "t": 1975.75,
+   "cap": false,
+   "texto": "Identificação da mensagem central da passagem."
+  },
+  {
+   "t": 1978.9,
+   "cap": false,
+   "texto": "Fidelidade da mensagem ao conteúdo das Escrituras."
+  },
+  {
+   "t": 1982.3,
+   "cap": false,
+   "texto": "Relação adequada entre o texto e a pessoa e a obra de Cristo."
+  },
+  {
+   "t": 1986.5,
+   "cap": false,
+   "texto": "Organização e desenvolvimento da mensagem."
+  },
+  {
+   "t": 1989.57,
+   "cap": false,
+   "texto": "Clareza na comunicação."
+  },
+  {
+   "t": 1991.53,
+   "cap": false,
+   "texto": "Envolvimento, responsabilidade e postura nas atividades ministeriais."
+  },
+  {
+   "t": 1996.17,
+   "cap": false,
+   "texto": "Fonte: elaborado pelo autor."
+  },
+  {
+   "t": 1998.3,
+   "cap": false,
+   "texto": "Assinatura do líder: ____________________________________ Data: ___/___/2027"
+  }
+ ]
+}

@@ -1,0 +1,801 @@
+{
+ "id": "jakson",
+ "titulo": "Reunidos para adorar: o significado do culto e da comunhão na vida da igreja",
+ "autor": "Jakson Fernandes",
+ "duracao": 1466.6,
+ "capitulos": [
+  {
+   "t": 0,
+   "titulo": "Apresentação"
+  },
+  {
+   "t": 16.89,
+   "titulo": "Sobre o autor"
+  },
+  {
+   "t": 73.28,
+   "titulo": "Resumo"
+  },
+  {
+   "t": 140.07,
+   "titulo": "1 introdução"
+  },
+  {
+   "t": 218.47,
+   "titulo": "1.1 Justificativa"
+  },
+  {
+   "t": 349.66,
+   "titulo": "1.2 Objetivos"
+  },
+  {
+   "t": 419.28,
+   "titulo": "1.3 Lógica do projeto"
+  },
+  {
+   "t": 476.66,
+   "titulo": "1.4 Formato do projeto"
+  },
+  {
+   "t": 512.94,
+   "titulo": "2 fundamentação"
+  },
+  {
+   "t": 524.3,
+   "titulo": "2.1 Diagnóstico"
+  },
+  {
+   "t": 621.56,
+   "titulo": "2.2 Texto bíblico"
+  },
+  {
+   "t": 670.82,
+   "titulo": "2.3 Planejamento"
+  },
+  {
+   "t": 727.68,
+   "titulo": "2.4 Avaliação"
+  },
+  {
+   "t": 761.57,
+   "titulo": "3 delimitação do texto bíblico e abordagem exegética"
+  },
+  {
+   "t": 921.16,
+   "titulo": "4 plano de ação"
+  },
+  {
+   "t": 1230.58,
+   "titulo": "5 proposta de avaliação de impacto"
+  },
+  {
+   "t": 1317.52,
+   "titulo": "Referências"
+  },
+  {
+   "t": 1361.27,
+   "titulo": "Apêndice A – questionário sobre o culto comunitário"
+  },
+  {
+   "t": 1427.38,
+   "titulo": "Apêndice B – registro de frequência"
+  }
+ ],
+ "transcricao": [
+  {
+   "t": 16.89,
+   "cap": true,
+   "texto": "SOBRE O AUTOR"
+  },
+  {
+   "t": 18.66,
+   "cap": false,
+   "texto": "Jakson Fernandes Rosa da Silva é membro da Igreja Metodista Wesleyana Central de Cuiabá, no bairro Areão, em Cuiabá (MT), onde atua como professor da Escola Bíblica Dominical e líder de ministério há seis anos. Tem formação teológica ministerial pelo Instituto Wesleyano de Educação, 3ª Região, Polo Guarulhos, onde cursou de 2023 a 2025, e cursa a Especialização em Aprofundamento na Pregação Bíblica Contemporânea do Instituto Wesleyano de Educação (IWE)."
+  },
+  {
+   "t": 46.85,
+   "cap": false,
+   "texto": "“Prega a Palavra, insiste a tempo e fora de tempo, aconselha, repreende e encoraja com toda paciência e sã doutrina.”"
+  },
+  {
+   "t": 54.21,
+   "cap": false,
+   "texto": "2 Timóteo 4.2 (KJA)"
+  },
+  {
+   "t": 58.03,
+   "cap": false,
+   "texto": "“O problema com um texto como ‘Fazei todas as coisas sem queixas nem discórdias’ (Fp 2.14), por exemplo, não é compreendê-lo, mas sim obedecer-lhe — colocá-lo em prática.”"
+  },
+  {
+   "t": 69.04,
+   "cap": false,
+   "texto": "Gordon D. Fee e Douglas Stuart, Entendes o que lês?"
+  },
+  {
+   "t": 73.28,
+   "cap": true,
+   "texto": "RESUMO"
+  },
+  {
+   "t": 74.78,
+   "cap": false,
+   "texto": "O projeto propõe uma série de cinco mensagens temáticas, fundamentada em Hebreus 10.19-25, Atos 2.42-47 e 1 Coríntios 12.12-27, para a Igreja Metodista Wesleyana Central de Cuiabá (MT). O diagnóstico indica que cerca de metade dos 80 membros e congregados participa dos cultos de domingo à noite, enquanto os cultos de Santa Ceia reúnem número expressivamente maior, o que sugere que o culto regular tem sido tratado como compromisso comum da agenda. A série, retomada nos pequenos grupos, busca fundamentar nas Escrituras o valor do culto comunitário, e não em percepções individuais. A avaliação cruza questionários aplicados antes e depois da série, a percepção do pastor titular e a contagem da frequência em quatro domingos anteriores e nos domingos posteriores à série, com a meta de elevar a presença de cerca de 50% para 65% dos membros e congregados."
+  },
+  {
+   "t": 131.71,
+   "cap": false,
+   "texto": "Palavras-chave: culto comunitário; comunhão; pregação temática; Hebreus 10.19-25."
+  },
+  {
+   "t": 140.07,
+   "cap": true,
+   "texto": "1 INTRODUÇÃO"
+  },
+  {
+   "t": 141.83,
+   "cap": false,
+   "texto": "O projeto “Reunidos para adorar” será desenvolvido na Igreja Metodista Wesleyana Central de Cuiabá, localizada no bairro Areão, em Cuiabá (MT). A igreja existe há 26 anos, reúne 80 membros e congregados, realiza cultos às quintas-feiras e aos domingos e mantém dois GCEU. O projeto tem como propósito aprofundar a compreensão dos membros sobre a essência do culto comunitário e sua importância para a caminhada cristã."
+  },
+  {
+   "t": 166.5,
+   "cap": false,
+   "texto": "A proposta parte da observação de que a reunião dominical tem sido tratada, por parte dos participantes, como um encontro comum ou mais um compromisso da agenda, sem o devido reconhecimento de seu significado. Nos cultos regulares de domingo à noite, a presença estimada é de cerca de metade dos membros e congregados, enquanto os cultos de Santa Ceia reúnem um número expressivamente maior."
+  },
+  {
+   "t": 188.53,
+   "cap": false,
+   "texto": "A pregação bíblica pode responder a essa necessidade ao fundamentar o valor do culto nas Escrituras, e não em percepções individuais. O projeto não pretende oferecer uma fórmula única para superar essa realidade, mas fundamentos bíblicos para que líderes e membros auxiliem o pastor local no fortalecimento da vida comunitária, no acolhimento dos recém-convertidos e na resposta aos questionamentos sobre a importância do culto, conforme a exortação à comunhão e ao encorajamento mútuo em Hebreus 10.19-25."
+  },
+  {
+   "t": 218.47,
+   "cap": true,
+   "texto": "1.1 Justificativa"
+  },
+  {
+   "t": 221.16,
+   "cap": false,
+   "texto": "Ministerial. O ministério da igreja envolve o pastor, os líderes e cada membro, que, segundo suas responsabilidades e dons, contribuem para a edificação da comunidade (Ef 4.11-16). Por isso, é necessário que todos compartilhem uma compreensão bíblica sobre a essência do culto, para que a participação seja vivida como expressão de adoração, comunhão e responsabilidade mútua. Assim, líderes e membros poderão auxiliar o pastor local no cuidado da igreja, no acolhimento dos recém-convertidos e no esclarecimento de dúvidas sobre a vida comunitária."
+  },
+  {
+   "t": 254.12,
+   "cap": false,
+   "texto": "Teológica. A importância do culto comunitário não pode ser fundamentada apenas em percepções individuais, como sentir-se bem ou viver determinadas emoções, pois pessoas reunidas no mesmo ambiente, ouvindo as mesmas canções e a mesma pregação, podem ter reações distintas. Essas experiências têm seu lugar na caminhada cristã, mas não constituem o fundamento do valor do culto. O projeto busca oferecer aos membros uma compreensão alicerçada nas Escrituras sobre a aproximação de Deus por meio de Cristo, a perseverança na comunhão e a edificação mútua (Hb 10.19-25; At 2.42-47; 1 Co 12.12-27). Hansen e Leeman (2021, p. 56-61) destacam que a reunião da igreja não é um acessório da vida cristã, mas parte essencial dela."
+  },
+  {
+   "t": 305.09,
+   "cap": false,
+   "texto": "Social. Os membros residem em diversas regiões da cidade, e muitos permanecem presentes mesmo diante das dificuldades de deslocamento. Ao mesmo tempo, demandas extraordinárias de trabalho, viagens e outras circunstâncias podem impedir temporariamente a participação, sem que essas ausências sejam interpretadas como falta de compromisso cristão. O ensino buscará valorizar a comunhão, fortalecer os vínculos entre os irmãos e incentivar o cuidado mútuo, respeitando as particularidades de cada família."
+  },
+  {
+   "t": 333.32,
+   "cap": false,
+   "texto": "Ênfase. A ênfase deste projeto recai sobre a dimensão teológica, porque o problema central é a compreensão que os membros têm do culto. Essa compreensão tem reflexo direto na dimensão ministerial, ao preparar líderes e membros para participar conscientemente e orientar outros irmãos."
+  },
+  {
+   "t": 349.66,
+   "cap": true,
+   "texto": "1.2 Objetivos"
+  },
+  {
+   "t": 352.39,
+   "cap": false,
+   "texto": "Objetivo geral: propor, realizar e avaliar uma série de cinco mensagens temáticas, fundamentada em Hebreus 10.19-25, Atos 2.42-47 e 1 Coríntios 12.12-27, visando aprofundar a compreensão bíblica do culto comunitário e incentivar a participação consciente e regular nos cultos de domingo à noite."
+  },
+  {
+   "t": 376.85,
+   "cap": false,
+   "texto": "a) identificar a compreensão inicial dos membros sobre o significado do culto comunitário e registrar a frequência nos cultos de domingo à noite antes da série;"
+  },
+  {
+   "t": 386.04,
+   "cap": false,
+   "texto": "b) analisar as passagens bíblicas selecionadas, considerando seus contextos e suas contribuições para o ensino sobre adoração, comunhão e edificação mútua;"
+  },
+  {
+   "t": 395.55,
+   "cap": false,
+   "texto": "c) elaborar cinco mensagens com aplicações relacionadas à participação de membros e líderes na vida comunitária;"
+  },
+  {
+   "t": 402.39,
+   "cap": false,
+   "texto": "d) realizar a série nos cultos de domingo à noite, conforme o calendário aprovado pelo pastor local, com retomada do conteúdo nos pequenos grupos;"
+  },
+  {
+   "t": 410.7,
+   "cap": false,
+   "texto": "e) avaliar a compreensão dos participantes e a frequência nos cultos após a série, comparando os resultados com o levantamento inicial."
+  },
+  {
+   "t": 419.28,
+   "cap": true,
+   "texto": "1.3 Lógica do projeto"
+  },
+  {
+   "t": 422.32,
+   "cap": false,
+   "texto": "O Quadro 1 mostra como as partes do projeto se ligam, do problema à avaliação."
+  },
+  {
+   "t": 427.1,
+   "cap": false,
+   "texto": "Quadro 1 – Lógica do projeto"
+  },
+  {
+   "t": 429.38,
+   "cap": false,
+   "texto": "Problema: Participação irregular nos cultos de domingo à noite (cerca de metade dos membros e congregados) e culto tratado como compromisso comum. Texto bíblico: Hb 10.19-25; At 2.42-47; 1 Co 12.12-27; apoio: Jo 20.19 e At 20.7. Resposta teológica: Por meio de Cristo, aproximamo-nos de Deus; a reunião no primeiro dia da semana celebra a ressurreição e favorece a comunhão, o encorajamento e a perseverança. Proposta: Série de cinco mensagens temáticas, retomadas nos pequenos grupos. Avaliação: Questionário antes e depois da série e contagem da frequência."
+  },
+  {
+   "t": 473.94,
+   "cap": false,
+   "texto": "Fonte: elaborado pelo autor."
+  },
+  {
+   "t": 476.66,
+   "cap": true,
+   "texto": "1.4 Formato do projeto"
+  },
+  {
+   "t": 479.69,
+   "cap": false,
+   "texto": "Quadro 2 – Formato do projeto"
+  },
+  {
+   "t": 482.23,
+   "cap": false,
+   "texto": "Formato: Série temática de mensagens, com interpretação contextual das passagens e aplicações à vida comunitária"
+  },
+  {
+   "t": 489.37,
+   "cap": false,
+   "texto": "Público: Toda a igreja: membros, congregados e liderança"
+  },
+  {
+   "t": 493.45,
+   "cap": false,
+   "texto": "Encontros: Cinco domingos consecutivos, no culto da noite, com retomada do conteúdo nos pequenos grupos e grupos de estudo"
+  },
+  {
+   "t": 501.2,
+   "cap": false,
+   "texto": "Por que este formato: O culto de domingo à noite é o próprio objeto do projeto; a retomada nos grupos amplia o alcance das mensagens a quem não esteve presente"
+  },
+  {
+   "t": 510.23,
+   "cap": false,
+   "texto": "Fonte: elaborado pelo autor."
+  },
+  {
+   "t": 512.94,
+   "cap": true,
+   "texto": "2 FUNDAMENTAÇÃO"
+  },
+  {
+   "t": 515.17,
+   "cap": false,
+   "texto": "A fundamentação apoia o projeto em quatro passos: o diagnóstico da igreja, o texto bíblico, o planejamento da série e a forma de avaliação."
+  },
+  {
+   "t": 524.3,
+   "cap": true,
+   "texto": "2.1 Diagnóstico"
+  },
+  {
+   "t": 526.86,
+   "cap": false,
+   "texto": "A frequência observada nos cultos regulares de domingo à noite sugere a presença de cerca de 50%, ou pouco mais, dos membros e congregados, enquanto os cultos de Santa Ceia apresentam participação expressivamente maior. Como não há registros de contagem, essa estimativa decorre da observação e não permite determinar a média com exatidão. Por isso, a frequência será contada durante quatro domingos antes da série, para formar a linha de base. A igreja conta com 80 pessoas, entre membros e congregados, total que será utilizado como referência para calcular o percentual de presença nos cultos observados. A ausência de parte dos líderes e membros também reduz as oportunidades de conhecer e acolher os visitantes, chamados na igreja de “amigos do coração”. O Quadro 3 organiza o problema em causas e consequências."
+  },
+  {
+   "t": 573.96,
+   "cap": false,
+   "texto": "Quadro 3 – Árvore do problema"
+  },
+  {
+   "t": 576.32,
+   "cap": false,
+   "texto": "Consequências: Menos oportunidades de acolher os “amigos do coração”; recém-convertidos sem referência de vida comunitária; culto dominical visto como compromisso opcional"
+  },
+  {
+   "t": 585.86,
+   "cap": false,
+   "texto": "Problema central: Participação irregular de membros e líderes nos cultos de domingo à noite"
+  },
+  {
+   "t": 591.21,
+   "cap": false,
+   "texto": "Causas: Compreensão do culto baseada em percepções e emoções; reunião dominical tratada como compromisso comum da agenda; valorização apenas dos cultos especiais, como a Santa Ceia; dificuldades de deslocamento; demandas de trabalho e viagens"
+  },
+  {
+   "t": 605.05,
+   "cap": false,
+   "texto": "Causas que o projeto alcança: A compreensão bíblica do culto e a valorização do culto regular, diretamente, pela série de mensagens; as dificuldades de deslocamento e de trabalho não são alcançadas pela pregação e serão respeitadas"
+  },
+  {
+   "t": 618.67,
+   "cap": false,
+   "texto": "Fonte: elaborado pelo autor."
+  },
+  {
+   "t": 621.56,
+   "cap": true,
+   "texto": "2.2 Texto bíblico"
+  },
+  {
+   "t": 624.31,
+   "cap": false,
+   "texto": "O eixo principal será Hebreus 10.19-25, que relaciona a aproximação de Deus por meio de Cristo à perseverança na reunião e ao encorajamento mútuo. Atos 2.42-47 e 1 Coríntios 12.12-27 complementarão as mensagens, destacando a constância na vida comunitária e a responsabilidade de cada membro pelo cuidado do corpo. A reunião no primeiro dia da semana, ligada à ressurreição de Jesus (Jo 20.19; At 20.7), apoiará a mensagem de abertura. Para o contexto de Hebreus, o projeto segue Lopes (2018); para a dimensão comunitária e formativa da reunião da igreja, Hansen e Leeman (2021) e Stott (2021)."
+  },
+  {
+   "t": 670.82,
+   "cap": true,
+   "texto": "2.3 Planejamento"
+  },
+  {
+   "t": 673.49,
+   "cap": false,
+   "texto": "A série será temática, com exposição contextualizada das passagens. A primeira mensagem apresentará o conceito e a importância do culto, com um panorama de suas expressões no Antigo e no Novo Testamento e de seu desenvolvimento na história do cristianismo. As mensagens seguintes terão Hebreus 10.19-25 como eixo, com apoio de Atos 2.42-47 e 1 Coríntios 12.12-27. Cada pregação desenvolverá uma ideia central, com explicação bíblica, ilustrações e aplicações concretas à participação, à comunhão e ao cuidado mútuo, e o conteúdo será retomado nos pequenos grupos e grupos de estudo. Na preparação dos sermões da série, a interpretação das passagens bíblicas seguirá as orientações de Fee e Stuart (2022), considerando o gênero literário e o contexto de cada texto para fundamentar sua aplicação à vida da igreja."
+  },
+  {
+   "t": 727.68,
+   "cap": true,
+   "texto": "2.4 Avaliação"
+  },
+  {
+   "t": 730.54,
+   "cap": false,
+   "texto": "A linha de base será formada pelo questionário inicial, que identifica a compreensão dos participantes sobre o significado do culto, e pela contagem da frequência nos quatro domingos anteriores à série. Após a série, o mesmo questionário será reaplicado, com perguntas adicionais sobre a contribuição das mensagens. A avaliação cruza três fontes: as respostas dos participantes, a percepção do pastor titular e os registros de frequência antes, durante e depois da série, sem reduzir os resultados ao aumento da presença nos cultos."
+  },
+  {
+   "t": 761.57,
+   "cap": true,
+   "texto": "3 DELIMITAÇÃO DO TEXTO BÍBLICO E ABORDAGEM EXEGÉTICA"
+  },
+  {
+   "t": 765.84,
+   "cap": false,
+   "texto": "Por ser uma série temática, cada texto é lido em seu próprio contexto. As citações bíblicas seguem a Nova Versão Transformadora (NVT)."
+  },
+  {
+   "t": 773.65,
+   "cap": false,
+   "texto": "Quadro 4 – Delimitação do corpus bíblico"
+  },
+  {
+   "t": 776.67,
+   "cap": false,
+   "texto": "Corpus: Hebreus 10.19-25 como eixo principal, com apoio de Atos 2.42-47 e 1 Coríntios 12.12-27; textos de apoio sobre o primeiro dia da semana: João 20.19 e Atos 20.7"
+  },
+  {
+   "t": 797.08,
+   "cap": false,
+   "texto": "Perícopes: Hb 10.19-25: aproximação de Deus, perseverança e encorajamento mútuo; At 2.42-47: constância no ensino, na comunhão, no partir do pão e nas orações; 1 Co 12.12-27: unidade, diversidade e cuidado entre os membros do corpo"
+  },
+  {
+   "t": 819.58,
+   "cap": false,
+   "texto": "Autor: A autoria de Hebreus é desconhecida; Atos é tradicionalmente atribuído a Lucas; 1 Coríntios é de Paulo"
+  },
+  {
+   "t": 826.28,
+   "cap": false,
+   "texto": "Destinatários: Hebreus dirige-se a uma comunidade cristã familiarizada com as Escrituras de Israel, cuja localização e composição não são conhecidas com certeza; Atos, a Teófilo; 1 Coríntios, à igreja em Corinto"
+  },
+  {
+   "t": 839.18,
+   "cap": false,
+   "texto": "Contexto: Hebreus exorta cristãos à perseverança diante de dificuldades; em 10.19-25, a obra sacerdotal de Cristo fundamenta o chamado à aproximação de Deus, à firmeza na esperança e ao cuidado mútuo. Atos 2 descreve a comunidade após o Pentecostes; 1 Coríntios 12 trata dos dons e da unidade do corpo"
+  },
+  {
+   "t": 860.46,
+   "cap": false,
+   "texto": "Gênero: Hebreus: discurso de exortação com encerramento epistolar; Atos: narrativa; 1 Coríntios: carta de orientação doutrinária e pastoral"
+  },
+  {
+   "t": 869.54,
+   "cap": false,
+   "texto": "Temas principais: Acesso a Deus por Cristo, perseverança na fé, reunião comunitária, adoração, pertencimento, comunhão e responsabilidade mútua"
+  },
+  {
+   "t": 878.33,
+   "cap": false,
+   "texto": "Relação com o diagnóstico: As passagens fundamentam o valor do culto regular e incentivam uma participação que envolva adoração, encorajamento e cuidado com os irmãos, para além das celebrações especiais"
+  },
+  {
+   "t": 890.39,
+   "cap": false,
+   "texto": "Fonte: elaborado pelo autor."
+  },
+  {
+   "t": 892.66,
+   "cap": false,
+   "texto": "Outros textos poderão ser usados como apoio nas aplicações, sempre em seu contexto: Mateus 18.20; Salmo 122.1; Colossenses 3.16; Romanos 13.11-12; Romanos 14.19; 1 Tessalonicenses 5.11; Tiago 5.8-9 e 2 Pedro 3.12."
+  },
+  {
+   "t": 921.16,
+   "cap": true,
+   "texto": "4 PLANO DE AÇÃO"
+  },
+  {
+   "t": 923.16,
+   "cap": false,
+   "texto": "O plano de ação foi organizado pela ferramenta 5W2H (Quadro 5)."
+  },
+  {
+   "t": 928.26,
+   "cap": false,
+   "texto": "Quadro 5 – Plano de ação (5W2H)"
+  },
+  {
+   "t": 931.57,
+   "cap": false,
+   "texto": "O quê?: Série de cinco mensagens temáticas sobre o significado e a importância do culto comunitário, com retomada nos pequenos grupos e grupos de estudo"
+  },
+  {
+   "t": 940.39,
+   "cap": false,
+   "texto": "Por quê?: Aprofundar a compreensão bíblica do culto e incentivar a participação consciente e regular, a comunhão e o cuidado mútuo"
+  },
+  {
+   "t": 948.17,
+   "cap": false,
+   "texto": "Quem?: O aluno (preparação e pregação), o pastor titular (acompanhamento e avaliação) e os líderes dos grupos (retomada das mensagens); público: membros, congregados e liderança"
+  },
+  {
+   "t": 958.93,
+   "cap": false,
+   "texto": "Onde?: No templo da Igreja Metodista Wesleyana Central de Cuiabá e nos locais dos pequenos grupos e grupos de estudo"
+  },
+  {
+   "t": 966.11,
+   "cap": false,
+   "texto": "Quando?: Cinco domingos consecutivos, no culto da noite, previsto de 04/04/2027 a 02/05/2027, conforme o calendário aprovado pelo pastor titular"
+  },
+  {
+   "t": 977.06,
+   "cap": false,
+   "texto": "Como?: Questionário inicial e contagem da frequência; mensagens com explicação bíblica, ilustrações e aplicações práticas; retomada nos grupos; questionário final e acompanhamento da frequência"
+  },
+  {
+   "t": 988.91,
+   "cap": false,
+   "texto": "Quanto custa?: Sem custo adicional: o projeto usa a estrutura dos cultos e dos grupos; os questionários podem ser aplicados por formulário digital ou impressos com recursos da igreja"
+  },
+  {
+   "t": 999.4,
+   "cap": false,
+   "texto": "Fonte: elaborado pelo autor."
+  },
+  {
+   "t": 1001.51,
+   "cap": false,
+   "texto": "O Quadro 6 apresenta as mensagens. A distribuição é flexível e pode ser adaptada à realidade da igreja local."
+  },
+  {
+   "t": 1008.69,
+   "cap": false,
+   "texto": "Quadro 6 – Plano das mensagens"
+  },
+  {
+   "t": 1011.24,
+   "cap": false,
+   "texto": "Nº: 1. Texto: Hb 10.19-25; apoio: Jo 20.19 e At 20.7. Título provisório: O significado de nos reunirmos para adorar. Ideia central: Por meio de Cristo, aproximamo-nos de Deus e somos chamados a perseverar em comunidade.. Objetivo: Compreender o significado do culto e suas expressões na Bíblia e na história cristã. Aplicação: Refletir sobre a própria compreensão do culto."
+  },
+  {
+   "t": 1039.2,
+   "cap": false,
+   "texto": "Nº: 2. Texto: Hb 10.19-25. Título provisório: Aproximar-se de Deus e encorajar os irmãos. Ideia central: A obra de Cristo fundamenta nossa aproximação de Deus e nosso compromisso de encorajar uns aos outros.. Objetivo: Relacionar a participação no culto à fé, à esperança e ao cuidado mútuo. Aplicação: Encorajar um irmão durante a semana."
+  },
+  {
+   "t": 1062.05,
+   "cap": false,
+   "texto": "Nº: 3. Texto: At 2.42-47. Título provisório: Perseverar na vida comunitária. Ideia central: A comunidade cristã persevera no ensino, na comunhão, no partir do pão e nas orações.. Objetivo: Valorizar as práticas regulares da igreja, além das programações especiais. Aplicação: Organizar a rotina para participar dos cultos."
+  },
+  {
+   "t": 1084.77,
+   "cap": false,
+   "texto": "Nº: 4. Texto: 1 Co 12.12-27. Título provisório: Cada membro tem sua participação. Ideia central: Os membros do corpo de Cristo precisam uns dos outros e compartilham o cuidado mútuo.. Objetivo: Compreender a contribuição de cada membro para a vida comunitária. Aplicação: Acolher um visitante ou recém-convertido."
+  },
+  {
+   "t": 1106.03,
+   "cap": false,
+   "texto": "Nº: 5. Texto: 1 Co 12.12-27; apoio: Hb 10.24-25. Título provisório: Pertencer, cultuar e participar. Ideia central: O compromisso com o corpo de Cristo se expressa na adoração e na participação de cada membro, com ou sem função de liderança.. Objetivo: Compreender que congregar é participar, e não apenas assistir. Aplicação: Participar das orações, dos cânticos e da resposta à Palavra, mesmo sem estar escalado."
+  },
+  {
+   "t": 1136.07,
+   "cap": false,
+   "texto": "Fonte: elaborado pelo autor."
+  },
+  {
+   "t": 1138.28,
+   "cap": false,
+   "texto": "Quadro 7 – Cronograma"
+  },
+  {
+   "t": 1140.27,
+   "cap": false,
+   "texto": "Estudo exegético e preparação das mensagens: 18/01/2027 a 27/02/2027"
+  },
+  {
+   "t": 1148.32,
+   "cap": false,
+   "texto": "Questionário inicial e contagem da frequência (linha de base): 28/02/2027 a 21/03/2027 (quatro domingos)"
+  },
+  {
+   "t": 1157.64,
+   "cap": false,
+   "texto": "Série de mensagens, com contagem da frequência: 04/04/2027 a 02/05/2027 (cinco domingos)"
+  },
+  {
+   "t": 1165.22,
+   "cap": false,
+   "texto": "Questionário final: 03/05/2027 a 16/05/2027"
+  },
+  {
+   "t": 1170.91,
+   "cap": false,
+   "texto": "Análise dos resultados: 17/05/2027 a 30/05/2027"
+  },
+  {
+   "t": 1177.12,
+   "cap": false,
+   "texto": "Acompanhamento da frequência após a série: 09/05/2027 a 25/07/2027 (doze domingos)"
+  },
+  {
+   "t": 1184.49,
+   "cap": false,
+   "texto": "Fonte: elaborado pelo autor."
+  },
+  {
+   "t": 1186.56,
+   "cap": false,
+   "texto": "Viabilidade. O projeto utilizará a estrutura dos cultos dominicais e os recursos já disponíveis na igreja, com retomada das mensagens nos pequenos grupos e grupos de estudo. O calendário e a quantidade de mensagens serão definidos com o pastor titular, conforme a programação da comunidade e o prazo do projeto."
+  },
+  {
+   "t": 1204.63,
+   "cap": false,
+   "texto": "Após a aprovação do pastor titular, a contagem será realizada pela junta diaconal e será aplicado o questionário inicial. O calendário evita as festas de fim de ano, as férias escolares de janeiro e o Carnaval: a linha de base será formada em quatro domingos comuns, de 28/02 a 21/03/2027, e a série começará depois da Páscoa (28/03/2027), para que essas datas não influenciem a frequência."
+  },
+  {
+   "t": 1230.58,
+   "cap": true,
+   "texto": "5 PROPOSTA DE AVALIAÇÃO DE IMPACTO"
+  },
+  {
+   "t": 1233.56,
+   "cap": false,
+   "texto": "Quadro 8 – Proposta de avaliação"
+  },
+  {
+   "t": 1236.13,
+   "cap": false,
+   "texto": "Quem avaliará?: Os participantes (questionário), o pastor titular (percepção sobre a série e a vida comunitária) e a equipe responsável pela contagem da frequência"
+  },
+  {
+   "t": 1245.33,
+   "cap": false,
+   "texto": "O que será avaliado?: A compreensão bíblica da importância do culto, sua relevância para a caminhada cristã e a participação de membros e líderes na vida comunitária"
+  },
+  {
+   "t": 1254.57,
+   "cap": false,
+   "texto": "Como será avaliado?: Comparação entre os questionários inicial e final (Apêndice A), percepção do pastor titular e registros de frequência (Apêndice B)"
+  },
+  {
+   "t": 1263.13,
+   "cap": false,
+   "texto": "Quando será avaliado?: Antes da série, durante as cinco semanas e até doze semanas depois"
+  },
+  {
+   "t": 1268.85,
+   "cap": false,
+   "texto": "Quais indicadores?: Respostas que fundamentam o culto nas Escrituras; média de frequência nos cultos de domingo à noite; relatos de participação, acolhimento e cuidado mútuo"
+  },
+  {
+   "t": 1279.46,
+   "cap": false,
+   "texto": "Fonte: elaborado pelo autor."
+  },
+  {
+   "t": 1281.54,
+   "cap": false,
+   "texto": "Resultados esperados. Espera-se que os membros compreendam os fundamentos bíblicos do culto comunitário e saibam responder a três perguntas: por que cultuamos? Para quem cultuamos? Por que é importante nos reunirmos aos domingos para cultuar ao Senhor? Espera-se também que a frequência média nos cultos de domingo à noite passe de cerca de 50% para 65% dos membros e congregados. Essa compreensão deverá favorecer a participação consciente e regular, a comunhão e a edificação mútua (Hb 10.19-25). A participação no questionário é voluntária e anônima, com termo de consentimento."
+  },
+  {
+   "t": 1317.52,
+   "cap": true,
+   "texto": "REFERÊNCIAS"
+  },
+  {
+   "t": 1319.34,
+   "cap": false,
+   "texto": "BÍBLIA. Português. Bíblia Sagrada: Nova Versão Transformadora. São Paulo: Mundo Cristão, 2024."
+  },
+  {
+   "t": 1326.44,
+   "cap": false,
+   "texto": "FEE, Gordon D.; STUART, Douglas. Entendes o que lês?: um guia para entender a Bíblia com auxílio da exegese e da hermenêutica. 4. ed. rev. e ampl. São Paulo: Vida Nova, 2022."
+  },
+  {
+   "t": 1337.96,
+   "cap": false,
+   "texto": "HANSEN, Collin; LEEMAN, Jonathan. Igreja é essencial: redescobrindo a importância do corpo de Cristo. São José dos Campos: Fiel, 2021."
+  },
+  {
+   "t": 1347.19,
+   "cap": false,
+   "texto": "LOPES, Hernandes Dias. Hebreus: a superioridade de Cristo. São Paulo: Hagnos, 2018."
+  },
+  {
+   "t": 1353.81,
+   "cap": false,
+   "texto": "STOTT, John. A igreja: uma comunidade singular de pessoas. Viçosa: Ultimato, 2021."
+  },
+  {
+   "t": 1361.27,
+   "cap": true,
+   "texto": "APÊNDICE A – QUESTIONÁRIO SOBRE O CULTO COMUNITÁRIO"
+  },
+  {
+   "t": 1365.08,
+   "cap": false,
+   "texto": "Este questionário será aplicado antes e depois da série. A participação é voluntária e anônima."
+  },
+  {
+   "t": 1370.87,
+   "cap": false,
+   "texto": "Parte 1 – Perguntas abertas"
+  },
+  {
+   "t": 1373.06,
+   "cap": false,
+   "texto": "1. Por que cultuamos?"
+  },
+  {
+   "t": 1374.99,
+   "cap": false,
+   "texto": "2. Para quem cultuamos?"
+  },
+  {
+   "t": 1377.28,
+   "cap": false,
+   "texto": "3. Por que é importante nos reunirmos aos domingos para cultuar ao Senhor?"
+  },
+  {
+   "t": 1381.65,
+   "cap": false,
+   "texto": "Parte 2 – Afirmações"
+  },
+  {
+   "t": 1383.68,
+   "cap": false,
+   "texto": "Marque de 1 (discordo totalmente) a 5 (concordo totalmente)."
+  },
+  {
+   "t": 1387.19,
+   "cap": false,
+   "texto": "Quadro 9 – Afirmações do questionário"
+  },
+  {
+   "t": 1390.03,
+   "cap": false,
+   "texto": "Afirmação: O culto de domingo é mais do que um compromisso da agenda.."
+  },
+  {
+   "t": 1394.2,
+   "cap": false,
+   "texto": "Afirmação: O valor do culto não depende do que eu sinto durante a reunião.."
+  },
+  {
+   "t": 1398.56,
+   "cap": false,
+   "texto": "Afirmação: Minha presença no culto contribui para encorajar outros irmãos.."
+  },
+  {
+   "t": 1403.24,
+   "cap": false,
+   "texto": "Afirmação: Participo do culto mesmo quando não tenho uma função a cumprir.."
+  },
+  {
+   "t": 1407.82,
+   "cap": false,
+   "texto": "Afirmação: Sinto-me responsável por acolher visitantes e recém-convertidos.."
+  },
+  {
+   "t": 1412.85,
+   "cap": false,
+   "texto": "Fonte: elaborado pelo autor."
+  },
+  {
+   "t": 1415.08,
+   "cap": false,
+   "texto": "Parte 3 – Somente no questionário final"
+  },
+  {
+   "t": 1417.92,
+   "cap": false,
+   "texto": "4. Qual mensagem da série mais contribuiu para a sua compreensão do culto? Por quê?"
+  },
+  {
+   "t": 1422.9,
+   "cap": false,
+   "texto": "5. O que mudou na sua participação nos cultos depois da série?"
+  },
+  {
+   "t": 1427.38,
+   "cap": true,
+   "texto": "APÊNDICE B – REGISTRO DE FREQUÊNCIA"
+  },
+  {
+   "t": 1430.71,
+   "cap": false,
+   "texto": "Quadro 10 – Registro de frequência nos cultos de domingo à noite"
+  },
+  {
+   "t": 1434.87,
+   "cap": false,
+   "texto": "Fase: Antes da série."
+  },
+  {
+   "t": 1436.71,
+   "cap": false,
+   "texto": "Fase: Antes da série."
+  },
+  {
+   "t": 1438.56,
+   "cap": false,
+   "texto": "Fase: Antes da série."
+  },
+  {
+   "t": 1440.46,
+   "cap": false,
+   "texto": "Fase: Antes da série."
+  },
+  {
+   "t": 1442.31,
+   "cap": false,
+   "texto": "Fase: Durante a série."
+  },
+  {
+   "t": 1444.11,
+   "cap": false,
+   "texto": "Fase: Durante a série."
+  },
+  {
+   "t": 1445.96,
+   "cap": false,
+   "texto": "Fase: Durante a série."
+  },
+  {
+   "t": 1447.8,
+   "cap": false,
+   "texto": "Fase: Durante a série."
+  },
+  {
+   "t": 1449.63,
+   "cap": false,
+   "texto": "Fase: Durante a série."
+  },
+  {
+   "t": 1451.43,
+   "cap": false,
+   "texto": "Fase: Depois da série."
+  },
+  {
+   "t": 1453.45,
+   "cap": false,
+   "texto": "Fase: Depois da série."
+  },
+  {
+   "t": 1455.47,
+   "cap": false,
+   "texto": "Fase: Depois da série."
+  },
+  {
+   "t": 1457.34,
+   "cap": false,
+   "texto": "Fonte: elaborado pelo autor."
+  }
+ ]
+}

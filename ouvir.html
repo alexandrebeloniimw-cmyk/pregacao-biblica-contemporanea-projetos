@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Audiolivro · Revista Projetos · IWE</title>
+<meta name="description" content="Audiolivros com a leitura integral dos projetos da revista Projetos da Especialização em Aprofundamento na Pregação Bíblica Contemporânea (IWE).">
+<link rel="icon" href="img/logo-iwe.png">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lora:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#1f3048;--acc:#9c4a2f;--sand:#f5efe4;--line:#e2d8c7;--paper:#fffdf9;--txt:#2b2722;--fs:19px}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--txt);font:16px/1.6 Inter,system-ui,sans-serif}
+body.contraste{--paper:#000;--txt:#fff;--sand:#111;--line:#555;--ink:#fff;--acc:#ffd166}
+body.contraste .top{background:#000;border-bottom:2px solid #ffd166}
+a{color:inherit}
+.skip{position:absolute;left:-999px;top:0;background:#fff;color:#000;padding:10px;z-index:99}.skip:focus{left:10px}
+.top{position:sticky;top:0;z-index:20;background:#1f3048;color:#fff}
+.top .in{max-width:1000px;margin:0 auto;padding:10px 20px;display:flex;align-items:center;gap:14px;justify-content:space-between;flex-wrap:wrap}
+.top .b{display:flex;align-items:center;gap:10px;color:#fff;text-decoration:none;font:600 13px Inter;letter-spacing:.12em;text-transform:uppercase}
+.top .b img{height:26px}
+.tools{display:flex;gap:8px;flex-wrap:wrap}
+.tools button,.tools a{background:transparent;color:#fff;border:1px solid rgba(255,255,255,.35);border-radius:999px;padding:7px 12px;font:600 13px Inter;cursor:pointer;text-decoration:none}
+.tools button:hover,.tools a:hover{background:rgba(255,255,255,.12)}
+main{max-width:1000px;margin:0 auto;padding:28px 20px 60px}
+.sel{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:24px}
+.sel a{border:1.5px solid var(--line);border-radius:999px;padding:7px 14px;font:600 14px Inter;text-decoration:none;color:var(--ink)}
+.sel a[aria-current=page]{background:var(--acc);border-color:var(--acc);color:#fff}
+.head{display:flex;gap:22px;align-items:center;margin-bottom:22px}
+.head img{width:110px;height:110px;border-radius:50%;object-fit:cover;border:4px solid var(--acc);flex:none}
+.kick{font:700 12px Inter;letter-spacing:.16em;text-transform:uppercase;color:var(--acc)}
+h1{font:700 30px/1.2 Lora;color:var(--ink);margin:6px 0 6px}
+.au{font:600 16px Inter;color:var(--ink)}.du{font-size:14px;opacity:.75}
+.player{background:#1f3048;color:#fff;border-radius:20px;padding:22px;position:sticky;top:58px;z-index:10;box-shadow:0 14px 30px rgba(0,0,0,.18)}
+body.contraste .player{background:#111;border:2px solid #ffd166}
+.ctr{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.pbtn{width:64px;height:64px;border-radius:50%;border:0;background:#9c4a2f;color:#fff;font-size:26px;cursor:pointer;flex:none}
+.sbtn{height:44px;min-width:44px;border-radius:999px;border:1px solid rgba(255,255,255,.35);background:transparent;color:#fff;font:700 14px Inter;cursor:pointer;padding:0 14px}
+.pbtn:focus-visible,.sbtn:focus-visible,.cap:focus-visible,.par:focus-visible{outline:3px solid #ffd166;outline-offset:2px}
+.prog{flex:1;min-width:180px;display:flex;align-items:center;gap:10px;font:600 13px Inter}
+.prog input{flex:1;accent-color:#e7b49f;height:28px}
+.now{margin-top:12px;font:italic 400 16px Lora;color:#e7b49f;min-height:24px}
+.grid{display:grid;grid-template-columns:300px 1fr;gap:28px;margin-top:26px;align-items:start}
+.caps{position:sticky;top:240px;max-height:calc(100vh - 260px);overflow:auto;border:1px solid var(--line);border-radius:14px;padding:10px;background:var(--sand)}
+.caps h2,.tx h2{font:700 12px Inter;letter-spacing:.16em;text-transform:uppercase;color:var(--acc);margin:6px 8px 10px}
+.cap{display:flex;justify-content:space-between;gap:10px;width:100%;text-align:left;background:transparent;border:0;border-radius:10px;padding:9px 10px;font:500 14px/1.35 Inter;color:var(--txt);cursor:pointer}
+.cap:hover{background:rgba(156,74,47,.1)}
+.cap.on{background:var(--acc);color:#fff}
+.cap span{opacity:.7;font-variant-numeric:tabular-nums;flex:none}
+.tx{font:400 var(--fs)/1.75 Lora}
+.par{padding:6px 10px;border-radius:8px;cursor:pointer;margin:0 0 6px;text-align:justify;hyphens:none}
+.par:hover{background:rgba(156,74,47,.07)}
+.par.h{font:700 calc(var(--fs) + 2px) Lora;color:var(--ink);margin-top:18px;text-align:left}
+.par.on{background:#fff3c4;color:#1f1a10}
+body.contraste .par.on{background:#ffd166;color:#000}
+.note{font-size:14px;opacity:.8;margin-top:10px}
+@media (max-width:820px){.top{position:static}.grid{grid-template-columns:1fr}.caps{position:static;max-height:300px}.player{top:0;padding:12px 14px;border-radius:0 0 16px 16px;margin:0 -20px}.pbtn{width:50px;height:50px;font-size:20px}.sbtn{height:38px;padding:0 10px}.now{margin-top:6px;font-size:14px}.head img{width:80px;height:80px}h1{font-size:24px}}
+</style>
+</head>
+<body>
+<a class="skip" href="#player">Pular para o player</a>
+<header class="top"><div class="in">
+ <a class="b" href="./"><img src="img/logo-iwe-claro.png" alt="IWE">Audiolivros · Projetos</a>
+ <div class="tools" role="toolbar" aria-label="Acessibilidade">
+  <button type="button" id="fmenos" aria-label="Diminuir o texto">A−</button>
+  <button type="button" id="fmais" aria-label="Aumentar o texto">A+</button>
+  <button type="button" id="contr" aria-pressed="false">Alto contraste</button>
+  <a href="./">← Voltar à revista</a>
+ </div>
+</div></header>
+<main>
+ <nav class="sel" aria-label="Escolha o projeto" id="sel"></nav>
+ <div class="head"><img id="foto" alt=""><div><div class="kick">Audiolivro · leitura integral</div><h1 id="tit"></h1><div class="au" id="aut"></div><div class="du" id="dur"></div></div></div>
+ <section class="player" id="player" aria-label="Player do audiolivro">
+  <audio id="au" preload="metadata"></audio>
+  <div class="ctr">
+   <button class="pbtn" id="play" type="button" aria-label="Ouvir">▶</button>
+   <button class="sbtn" id="vol15" type="button" aria-label="Voltar 15 segundos">↺ 15s</button>
+   <button class="sbtn" id="ava15" type="button" aria-label="Avançar 15 segundos">15s ↻</button>
+   <button class="sbtn" id="vel" type="button" aria-label="Velocidade da leitura">1×</button>
+   <div class="prog"><span id="cur">0:00</span><input type="range" id="pos" min="0" max="100" step="0.1" value="0" aria-label="Posição do áudio"><span id="tot">0:00</span></div>
+   <a class="sbtn" id="dl" download style="display:inline-flex;align-items:center;text-decoration:none">⬇ MP3</a>
+  </div>
+  <div class="now" id="now" aria-live="polite"></div>
+ </section>
+ <div class="grid">
+  <aside class="caps" aria-label="Capítulos"><h2>Capítulos</h2><div id="caps"></div></aside>
+  <section class="tx" aria-label="Texto lido"><h2>Texto do projeto</h2><div id="tx"></div><p class="note">Toque em qualquer parágrafo para ouvir a partir dele. O texto acompanha a leitura.</p></section>
+ </div>
+</main>
+<script>
+const P=[['anderson','Anderson'],['jakson','Jakson'],['livea','Lívea'],['renato','Renato'],['vitoria','Vitória']];
+const id=(new URLSearchParams(location.search).get('p')||'anderson').replace(/[^a-z]/g,'');
+const au=document.getElementById('au'),$=s=>document.getElementById(s);
+$('sel').innerHTML=P.map(([k,n])=>`<a href="?p=${k}" ${k===id?'aria-current="page"':''}>🎧 ${n}</a>`).join('');
+const fmt=s=>{s=Math.max(0,Math.floor(s));const h=Math.floor(s/3600),m=Math.floor(s%3600/60),x=String(s%60).padStart(2,'0');return h?`${h}:${String(m).padStart(2,'0')}:${x}`:`${m}:${x}`};
+const capT=t=>t.replace(/^(\d+(?:\.\d+)?\s)(\S)/,(a,b,c)=>b+c.toUpperCase()).replace(/ – (\S)/,(a,c)=>' – '+c.toUpperCase()).replace('projeto acolher','Projeto Acolher');
+let D=null,parEls=[],capEls=[];
+fetch('audio/'+id+'.json').then(r=>r.json()).then(d=>{
+ D=d;document.title=d.titulo.split(':')[0]+' · Audiolivro · IWE';
+ $('tit').textContent=d.titulo;$('aut').textContent=d.autor;$('dur').textContent='Duração: '+fmt(d.duracao);
+ $('foto').src='img/'+id+'.jpg';$('foto').alt='Foto de '+d.autor;
+ au.src='audio/'+id+'.mp3';$('dl').href=au.src;$('dl').setAttribute('download',id+'-audiolivro.mp3');
+ $('caps').innerHTML=d.capitulos.map((c,i)=>`<button class="cap" type="button" data-t="${c.t}">${capT(c.titulo)}<span>${fmt(c.t)}</span></button>`).join('');
+ $('tx').innerHTML=d.transcricao.map(p=>`<p class="par${p.cap?' h':''}" tabindex="0" data-t="${p.t}">${p.texto.replace(/[<>&]/g,c=>({'<':'&lt;','>':'&gt;','&':'&amp;'}[c])).replace(/\n/g,'<br>')}</p>`).join('');
+ capEls=[...document.querySelectorAll('.cap')];parEls=[...document.querySelectorAll('.par')];
+ const ir=t=>{au.currentTime=+t;au.play();};
+ capEls.forEach(b=>b.onclick=()=>ir(b.dataset.t));
+ parEls.forEach(p=>{p.onclick=()=>ir(p.dataset.t);p.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();ir(p.dataset.t);}}});
+});
+$('play').onclick=()=>au.paused?au.play():au.pause();
+au.onplay=()=>{$('play').textContent='❚❚';$('play').setAttribute('aria-label','Pausar')};
+au.onpause=()=>{$('play').textContent='▶';$('play').setAttribute('aria-label','Ouvir')};
+$('vol15').onclick=()=>au.currentTime=Math.max(0,au.currentTime-15);
+$('ava15').onclick=()=>au.currentTime=Math.min(au.duration||0,au.currentTime+15);
+const vels=[1,1.25,1.5,0.75];let vi=0;$('vel').onclick=()=>{vi=(vi+1)%vels.length;au.playbackRate=vels[vi];$('vel').textContent=vels[vi]+'×'};
+au.onloadedmetadata=()=>{$('tot').textContent=fmt(au.duration)};
+$('pos').oninput=e=>{if(au.duration)au.currentTime=e.target.value/100*au.duration};
+let lastP=-1,lastC=-1;
+au.ontimeupdate=()=>{const t=au.currentTime;$('cur').textContent=fmt(t);if(au.duration)$('pos').value=t/au.duration*100;
+ if(!D)return;
+ let c=0;D.capitulos.forEach((x,i)=>{if(x.t<=t+.05)c=i});
+ if(c!==lastC){capEls.forEach(e=>e.classList.remove('on'));capEls[c]&&capEls[c].classList.add('on');$('now').textContent='Capítulo: '+capT(D.capitulos[c].titulo);lastC=c;}
+ let p=-1;D.transcricao.forEach((x,i)=>{if(x.t<=t+.05)p=i});
+ if(p!==lastP&&p>=0){parEls.forEach(e=>e.classList.remove('on'));parEls[p].classList.add('on');const r=parEls[p].getBoundingClientRect();if(r.top<260||r.bottom>innerHeight-40)parEls[p].scrollIntoView({block:'center',behavior:'smooth'});lastP=p;}
+};
+document.addEventListener('keydown',e=>{if(e.target.tagName==='INPUT')return;if(e.code==='Space'&&e.target===document.body){e.preventDefault();au.paused?au.play():au.pause();}});
+let fs=19;const setF=()=>document.documentElement.style.setProperty('--fs',fs+'px');
+$('fmais').onclick=()=>{fs=Math.min(30,fs+2);setF()};$('fmenos').onclick=()=>{fs=Math.max(15,fs-2);setF()};
+$('contr').onclick=()=>{const on=document.body.classList.toggle('contraste');$('contr').setAttribute('aria-pressed',on)};
+</script>
+</body>
+</html>
