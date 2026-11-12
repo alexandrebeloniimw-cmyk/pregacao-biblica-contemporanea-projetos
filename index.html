@@ -132,13 +132,19 @@ footer b{color:#fff}
 @media (max-width:980px){.dgrid{grid-template-columns:repeat(2,1fr)}}
 @media (max-width:520px){.dgrid{grid-template-columns:1fr}.docentes{padding:30px 20px}}
 .vid{background:var(--paper)}
+.vcol{display:flex;flex-direction:column;align-items:center;gap:18px}
+.vbtns-m{display:none}
 .vgrid{display:grid;grid-template-columns:360px 1fr;gap:56px;align-items:center}
 .phone{background:#0f1a2c;border-radius:36px;padding:12px;box-shadow:0 30px 60px rgba(31,48,72,.3);max-width:360px;width:100%;justify-self:center}
 .phone video{display:block;width:100%;aspect-ratio:9/16;border-radius:26px;background:#1f3048;object-fit:cover}
 .vtext{font:400 18px/1.7 Lora;color:#3b3732;max-width:560px;margin:0 0 12px;text-align:justify;hyphens:none}
 .btn.vshare{background:#fff;border:1.5px solid var(--ink);color:var(--ink);cursor:pointer}
 .btn.vshare:hover{background:var(--ink);color:#fff}
-@media (max-width:860px){.vgrid{grid-template-columns:1fr;gap:32px}.phone{max-width:300px}}
+@media (max-width:860px){.vgrid{grid-template-columns:1fr;gap:32px}.phone{max-width:300px}
+ .vbtns-m{display:flex;flex-direction:column;gap:12px;width:100%;max-width:340px}
+ .vbtns-m .btn{justify-content:center;width:100%;padding:15px 20px;font-size:16px}
+ .vbtns-d{display:none!important}}
+@media (max-width:520px){.phone{max-width:230px;border-radius:30px;padding:9px}.phone video{border-radius:22px}}
 /* ---- ementa ---- */
 .ementa{background:var(--paper)}
 .ementa .lead{font:400 18px/1.7 Lora;color:#4a453e;max-width:760px;margin:-10px 0 30px}
@@ -266,15 +272,16 @@ footer a{color:#e7b49f;text-decoration:none}
 </header>
 
 <section class="vid" id="video"><div class="wrap vgrid">
- <div class="phone"><video id="vrev" src="video/video-revista-projetos.mp4" poster="video/poster.jpg" controls muted playsinline loop preload="metadata"></video></div>
+ <div class="vcol"><div class="phone"><video id="vrev" src="video/video-revista-projetos.mp4" poster="video/poster.jpg" controls muted playsinline loop preload="metadata"></video></div>
+ <div class="vbtns-m"><a class="btn primary" href="video/video-revista-projetos.mp4" download="Revista-Projetos-IWE-2026.mp4">⬇ Baixar o vídeo</a><button class="btn vshare" data-vshare type="button">↗ Compartilhar o vídeo</button></div></div>
  <div>
   <div class="kick" style="color:var(--acc)">Em 1 minuto</div>
   <h2 style="margin-top:10px">Conheça a revista em vídeo</h2><div class="h2line"></div>
   <p class="vtext">Uma apresentação rápida, ao som do mar, da revista e dos cinco projetos: quem são os autores, de quais igrejas vêm e como cada proposta nasce de uma necessidade real da igreja local.</p>
   <p class="vtext">O vídeo está no formato vertical, pronto para o status do WhatsApp, os Reels e os Stories do Instagram.</p>
-  <div class="btns" style="margin-top:22px">
+  <div class="btns vbtns-d" style="margin-top:22px">
    <a class="btn primary" href="video/video-revista-projetos.mp4" download="Revista-Projetos-IWE-2026.mp4">⬇ Baixar o vídeo</a>
-   <button class="btn vshare" id="vshare" type="button">Compartilhar o vídeo</button>
+   <button class="btn vshare" data-vshare type="button">↗ Compartilhar o vídeo</button>
   </div>
  </div>
 </div></section>
@@ -447,13 +454,13 @@ document.querySelectorAll('[data-ig]').forEach(el=>el.addEventListener('click',a
 <script>
 (function(){const v=document.getElementById('vrev');if(!v)return;
  if('IntersectionObserver' in window){new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){v.play().catch(()=>{});}else{v.pause();}}),{threshold:.5}).observe(v);}
- document.getElementById('vshare').addEventListener('click',async()=>{
+ document.querySelectorAll('[data-vshare]').forEach(bt=>bt.addEventListener('click',async()=>{
   const txt='🎬 *Revista Projetos · IWE 2026* em 1 minuto\nEspecialização em Aprofundamento na Pregação Bíblica Contemporânea\n\n👉 https://alexandrebeloniimw-cmyk.github.io/pregacao-biblica-contemporanea-projetos/';
   try{const b=await (await fetch('video/video-revista-projetos.mp4')).blob();const f=new File([b],'Revista-Projetos-IWE-2026.mp4',{type:'video/mp4'});
    if(navigator.canShare&&navigator.canShare({files:[f]})){await navigator.share({files:[f],text:txt});return;}}catch(e){if(e&&e.name==='AbortError')return;}
   const a=document.createElement('a');a.href='video/video-revista-projetos.mp4';a.download='Revista-Projetos-IWE-2026.mp4';document.body.appendChild(a);a.click();a.remove();
   if(typeof toast==='function')toast('Vídeo baixado. Publique no status do WhatsApp ou nos Reels/Stories do Instagram.');
- });
+ }));
 })();
 </script>
 </body>
