@@ -2,665 +2,665 @@
  "id": "vitoria",
  "titulo": "Entendes o que lês?: oficinas de leitura bíblica para jovens na era das telas",
  "autor": "Vitória Celina Ferreira de Lima",
- "duracao": 1022.8,
+ "duracao": 1034.7,
  "capitulos": [
   {
    "t": 0,
    "titulo": "Apresentação"
   },
   {
-   "t": 17.23,
+   "t": 17.29,
    "titulo": "Sobre a autora"
   },
   {
-   "t": 58.35,
+   "t": 68.05,
    "titulo": "Resumo"
   },
   {
-   "t": 128.23,
+   "t": 138.05,
    "titulo": "1 introdução"
   },
   {
-   "t": 182.67,
+   "t": 193.33,
    "titulo": "1.1 Justificativa"
   },
   {
-   "t": 265.87,
+   "t": 276.54,
    "titulo": "1.2 Objetivos"
   },
   {
-   "t": 308.37,
+   "t": 319.7,
    "titulo": "1.3 Lógica do projeto"
   },
   {
-   "t": 342.87,
+   "t": 353.91,
    "titulo": "1.4 Formato do projeto"
   },
   {
-   "t": 383.1,
+   "t": 394.5,
    "titulo": "2 fundamentação"
   },
   {
-   "t": 385.87,
+   "t": 397.27,
    "titulo": "2.1 Diagnóstico"
   },
   {
-   "t": 468.63,
+   "t": 480.53,
    "titulo": "2.2 Texto bíblico"
   },
   {
-   "t": 522.92,
+   "t": 534.85,
    "titulo": "2.3 Planejamento"
   },
   {
-   "t": 568.45,
+   "t": 580.4,
    "titulo": "2.4 Avaliação"
   },
   {
-   "t": 587.14,
+   "t": 599.01,
    "titulo": "3 delimitação do texto bíblico e abordagem exegética"
   },
   {
-   "t": 633.56,
+   "t": 645.15,
    "titulo": "4 plano de ação"
   },
   {
-   "t": 636.31,
+   "t": 647.91,
    "titulo": "4.1 Plano de ação (5W2H)"
   },
   {
-   "t": 691.22,
+   "t": 703.31,
    "titulo": "4.2 Plano dos encontros"
   },
   {
-   "t": 799.34,
+   "t": 811.08,
    "titulo": "4.3 Recursos e viabilidade"
   },
   {
-   "t": 817.92,
+   "t": 829.83,
    "titulo": "5 proposta de avaliação de impacto"
   },
   {
-   "t": 881.15,
+   "t": 892.54,
    "titulo": "Referências"
   },
   {
-   "t": 947.63,
+   "t": 959.11,
    "titulo": "Apêndice A – questionário de leitura bíblica (antes e depois)"
   },
   {
-   "t": 990.81,
+   "t": 1002.71,
    "titulo": "Apêndice B – ficha de observação da apresentação final"
   }
  ],
  "transcricao": [
   {
-   "t": 17.23,
+   "t": 17.29,
    "cap": true,
    "texto": "SOBRE A AUTORA"
   },
   {
-   "t": 19.0,
+   "t": 19.23,
    "cap": false,
-   "texto": "Vitória Celina Ferreira de Lima é membro da Igreja Metodista Wesleyana em Muriaé (MG), onde desenvolve este projeto com os jovens da igreja, e cursa a Especialização em Aprofundamento na Pregação Bíblica Contemporânea do Instituto Wesleyano de Educação (IWE)."
+   "texto": "Vitória Celina Ferreira de Lima é membro da Igreja Metodista Wesleyana da Barra, em Muriaé (MG), onde caminha há 15 anos e atua como professora da Escola Bíblica Dominical. É bacharel em Teologia pela Unicesumar, curso que realizou de 2022 a 2024, e cursa a Especialização em Aprofundamento na Pregação Bíblica Contemporânea do Instituto Wesleyano de Educação (IWE). Contato: vitoriacelinateo@gmail.com."
   },
   {
-   "t": 34.03,
+   "t": 44.78,
    "cap": false,
-   "texto": "“E, correndo Filipe, ouviu-o ler o profeta Isaías e perguntou: Compreendes o que vens lendo? Ele respondeu: Como poderei entender, se alguém não me explicar?”"
+   "texto": "“Não to mandei eu? Sê forte e corajoso; não temas, nem te espantes, porque o SENHOR, teu Deus, é contigo por onde quer que andares.”"
   },
   {
-   "t": 42.8,
+   "t": 52.69,
    "cap": false,
-   "texto": "Atos 8.30-31 (ARA)"
+   "texto": "Josué 1.9 (ARA)"
   },
   {
-   "t": 48.06,
+   "t": 57.01,
    "cap": false,
-   "texto": "“Antes, eu era um mergulhador no mar das palavras. Agora, deslizo pela superfície como um sujeito num jet ski.”"
+   "texto": "“Eu acredito no cristianismo como acredito que o sol nasceu: não apenas porque o vejo, mas porque por meio dele vejo todas as outras coisas.”"
   },
   {
-   "t": 54.9,
+   "t": 64.81,
    "cap": false,
-   "texto": "Nicholas Carr, A geração superficial"
+   "texto": "C. S. Lewis, O peso da glória"
   },
   {
-   "t": 58.35,
+   "t": 68.05,
    "cap": true,
    "texto": "RESUMO"
   },
   {
-   "t": 59.68,
+   "t": 69.56,
    "cap": false,
-   "texto": "O projeto propõe seis oficinas de leitura bíblica para um grupo de sete jovens da Igreja Metodista Wesleyana em Muriaé (MG), fundamentadas no encontro de Filipe com o etíope em Atos 8.26-40 e na pergunta “Entendes o que lês?” (At 8.30). O diagnóstico mostra que jovens com algum tempo de fé, quando desafiados a compartilhar uma palavra ou a participar da Escola Bíblica Dominical, demonstram pouco conhecimento das Escrituras, e que o celular é usado mais para consumir conteúdo cristão do que para ler o texto bíblico, em um cenário de leitura fragmentada próprio da cultura digital. As oficinas, realizadas aos sábados entre fevereiro e março de 2027, seguem o movimento do texto: ler, perguntar, compreender o contexto, encontrar Cristo, responder e compartilhar. A avaliação compara um questionário aplicado no primeiro e no último encontros e observa a apresentação de uma breve palavra por cada jovem, com a meta de que ao menos cinco dos sete expliquem o contexto do texto e façam uma aplicação fiel."
+   "texto": "O projeto propõe seis oficinas de leitura bíblica para um grupo de sete jovens da Igreja Metodista Wesleyana da Barra, em Muriaé (MG), fundamentadas no encontro de Filipe com o etíope em Atos 8.26-40 e na pergunta “Entendes o que lês?” (At 8.30). O diagnóstico mostra que jovens com algum tempo de fé, quando desafiados a compartilhar uma palavra ou a participar da Escola Bíblica Dominical, demonstram pouco conhecimento das Escrituras, e que o celular é usado mais para consumir conteúdo cristão do que para ler o texto bíblico, em um cenário de leitura fragmentada próprio da cultura digital. As oficinas, realizadas aos sábados entre fevereiro e março de 2027, seguem o movimento do texto: ler, perguntar, compreender o contexto, encontrar Cristo, responder e compartilhar. A avaliação compara um questionário aplicado no primeiro e no último encontros e observa a apresentação de uma breve palavra por cada jovem, com a meta de que ao menos cinco dos sete expliquem o contexto do texto e façam uma aplicação fiel."
   },
   {
-   "t": 118.79,
+   "t": 128.71,
    "cap": false,
    "texto": "Palavras-chave: analfabetismo bíblico; cultura digital; leitura bíblica; jovens; Atos 8.26-40."
   },
   {
-   "t": 128.23,
+   "t": 138.05,
    "cap": true,
    "texto": "1 INTRODUÇÃO"
   },
   {
-   "t": 130.14,
+   "t": 139.97,
    "cap": false,
    "texto": "Este projeto parte de uma pergunta: de que maneira a cultura digital tem impactado a formação bíblica da igreja atual, contribuindo para o analfabetismo bíblico, e que estratégias podem ser desenvolvidas para o amadurecimento da igreja? A leitura nas telas, rápida e fragmentada, tem moldado a forma como muitos cristãos se relacionam com a Bíblia: consomem muito conteúdo cristão, mas leem pouco o próprio texto bíblico e têm dificuldade de compreender o contexto e aplicar a Palavra com fidelidade."
   },
   {
-   "t": 157.11,
+   "t": 166.76,
    "cap": false,
-   "texto": "O projeto será desenvolvido na Igreja Metodista Wesleyana em Muriaé (MG), com um grupo de 7 jovens. Como resposta ao problema, propõem-se seis oficinas de leitura bíblica, realizadas aos sábados a partir de fevereiro de 2027, tendo como texto-base o encontro de Filipe com o etíope em Atos 8.26-40 e a pergunta que dá nome ao projeto: “Entendes o que lês?” (At 8.30)."
+   "texto": "O projeto será desenvolvido na Igreja Metodista Wesleyana da Barra, em Muriaé (MG), com um grupo de 7 jovens. Como resposta ao problema, propõem-se seis oficinas de leitura bíblica, realizadas aos sábados a partir de fevereiro de 2027, tendo como texto-base o encontro de Filipe com o etíope em Atos 8.26-40 e a pergunta que dá nome ao projeto: “Entendes o que lês?” (At 8.30)."
   },
   {
-   "t": 182.67,
+   "t": 193.33,
    "cap": true,
    "texto": "1.1 Justificativa"
   },
   {
-   "t": 185.41,
+   "t": 196.02,
    "cap": false,
    "texto": "Ministerial (ênfase do projeto). Na igreja local, observa-se que jovens com algum tempo de caminhada na fé, quando desafiados a compartilhar uma palavra ou a interagir em uma classe da Escola Bíblica Dominical, não demonstram crescimento no conhecimento das Escrituras. O tempo de igreja não tem se convertido em maturidade bíblica, o que mostra a necessidade de uma formação que ensine a ler, compreender e compartilhar a Palavra."
   },
   {
-   "t": 208.4,
+   "t": 218.97,
    "cap": false,
    "texto": "Teológica. A fé cristã nasce e cresce pela Palavra (Rm 10.17), e a Escritura é dada para ensinar, corrigir e formar o povo de Deus (2 Tm 3.16-17). Em Atos 8, o etíope lia o profeta Isaías, mas não o compreendia; foi preciso que alguém se aproximasse, perguntasse e explicasse, “começando por esta passagem” (At 8.35), para que a leitura o levasse a Cristo."
   },
   {
-   "t": 235.68,
+   "t": 246.0,
    "cap": false,
    "texto": "Social. Carr (2011) mostra que o uso constante da internet favorece uma leitura superficial, feita aos saltos, e enfraquece a capacidade de concentração e de leitura profunda. Na igreja local, percebe-se que o celular é usado mais para ver conteúdo cristão do que para ler a Bíblia, o que reforça a dependência de interpretações prontas. Stott (2019) lembra que o cristão não deve fugir dos desafios do seu tempo nem se conformar a eles, mas aprender a pensá-los biblicamente; a cultura digital é um desses desafios."
   },
   {
-   "t": 265.87,
+   "t": 276.54,
    "cap": true,
    "texto": "1.2 Objetivos"
   },
   {
-   "t": 268.57,
+   "t": 279.25,
    "cap": false,
-   "texto": "Objetivo geral: propor, realizar e avaliar seis oficinas de leitura bíblica fundamentadas em Atos 8.26-40, visando desenvolver em um grupo de jovens da Igreja Metodista Wesleyana em Muriaé (MG) a leitura contínua, a interpretação e a aplicação fiel das Escrituras."
+   "texto": "Objetivo geral: propor, realizar e avaliar seis oficinas de leitura bíblica fundamentadas em Atos 8.26-40, visando desenvolver em um grupo de jovens da Igreja Metodista Wesleyana da Barra, em Muriaé (MG) a leitura contínua, a interpretação e a aplicação fiel das Escrituras."
   },
   {
-   "t": 286.44,
+   "t": 297.87,
    "cap": false,
    "texto": "a) analisar a situação da formação bíblica dos jovens participantes (diagnóstico);"
   },
   {
-   "t": 291.29,
+   "t": 302.76,
    "cap": false,
    "texto": "b) identificar características da cultura digital que afetam o processo de leitura;"
   },
   {
-   "t": 296.21,
+   "t": 307.7,
    "cap": false,
    "texto": "c) elaborar e aplicar seis oficinas que ampliem a interpretação, a leitura profunda e a aplicação fiel das Escrituras;"
   },
   {
-   "t": 303.57,
+   "t": 314.97,
    "cap": false,
    "texto": "d) avaliar os resultados, comparando-os com o diagnóstico inicial."
   },
   {
-   "t": 308.37,
+   "t": 319.7,
    "cap": true,
    "texto": "1.3 Lógica do projeto"
   },
   {
-   "t": 311.44,
+   "t": 322.77,
    "cap": false,
    "texto": "Quadro 1 – Lógica do projeto"
   },
   {
-   "t": 313.78,
+   "t": 325.07,
    "cap": false,
    "texto": "Problema: Jovens com tempo de igreja que não crescem no conhecimento da Palavra; mais conteúdo cristão que leitura bíblica. Texto bíblico: Atos 8.26-40. Resposta teológica: A leitura da Escritura precisa de compreensão, e a compreensão conduz a Cristo e à resposta de fé. Proposta: Seis oficinas de leitura bíblica aos sábados. Avaliação: Questionário antes e depois; apresentação de uma palavra por jovem no 6º encontro."
   },
   {
-   "t": 340.17,
+   "t": 351.22,
    "cap": false,
    "texto": "Fonte: elaborado pelo autor."
   },
   {
-   "t": 342.87,
+   "t": 353.91,
    "cap": true,
    "texto": "1.4 Formato do projeto"
   },
   {
-   "t": 345.92,
+   "t": 356.91,
    "cap": false,
    "texto": "Quadro 2 – Formato do projeto"
   },
   {
-   "t": 348.39,
+   "t": 359.51,
    "cap": false,
    "texto": "Formato: Oficinas de leitura bíblica: ler um texto inteiro em grupo, conversar sobre o contexto e o sentido e chegar à aplicação"
   },
   {
-   "t": 355.57,
+   "t": 366.76,
    "cap": false,
    "texto": "Público: 7 jovens da igreja local"
   },
   {
-   "t": 358.4,
+   "t": 369.62,
    "cap": false,
    "texto": "Encontros: Seis encontros aos sábados, de 06/02/2027 a 13/03/2027, com duração de 1h30"
   },
   {
-   "t": 367.92,
+   "t": 379.12,
    "cap": false,
    "texto": "Por que este formato: A leitura feita em grupo, com tempo e sem pressa, exercita exatamente o que a cultura digital enfraquece: a atenção, a leitura contínua e a reflexão. O grupo pequeno permite que todos participem."
   },
   {
-   "t": 380.41,
+   "t": 391.61,
    "cap": false,
    "texto": "Fonte: elaborado pelo autor."
   },
   {
-   "t": 383.1,
+   "t": 394.5,
    "cap": true,
    "texto": "2 FUNDAMENTAÇÃO"
   },
   {
-   "t": 385.87,
+   "t": 397.27,
    "cap": true,
    "texto": "2.1 Diagnóstico"
   },
   {
-   "t": 388.45,
+   "t": 399.86,
    "cap": false,
    "texto": "O grupo é formado por 7 jovens da igreja local. A observação da aluna mostra que jovens com algum tempo de fé, quando desafiados a compartilhar uma palavra ou a participar de uma classe da Escola Bíblica Dominical, demonstram pouco conhecimento das Escrituras. Percebe-se ainda que o celular é usado mais para consumir conteúdo cristão (vídeos, pregações curtas, mensagens) do que para ler o texto bíblico. A linha de base será registrada no primeiro encontro, por meio do questionário do Apêndice A. O Quadro 3 organiza o problema em causas e consequências."
   },
   {
-   "t": 419.42,
+   "t": 430.81,
    "cap": false,
    "texto": "Quadro 3 – Árvore do problema"
   },
   {
-   "t": 421.72,
+   "t": 433.13,
    "cap": false,
    "texto": "Consequências: Dificuldade de compartilhar uma palavra; pouca participação na EBD; fé pouco fundamentada; versículos usados fora do contexto"
   },
   {
-   "t": 430.3,
+   "t": 441.92,
    "cap": false,
    "texto": "Problema central: Jovens com tempo de igreja que não crescem no conhecimento da Bíblia (analfabetismo bíblico)"
   },
   {
-   "t": 436.07,
+   "t": 447.71,
    "cap": false,
    "texto": "Causas: Leitura fragmentada e acelerada nas telas; consumo de conteúdo cristão pronto no lugar da leitura bíblica; falta de hábito de leitura contínua; pouca orientação para interpretar a Bíblia"
   },
   {
-   "t": 447.29,
+   "t": 458.98,
    "cap": false,
    "texto": "Causas que o projeto alcança: Diretamente: a falta de hábito de leitura contínua e a pouca orientação para interpretar, por meio das oficinas. Indiretamente: a substituição da leitura pelo conteúdo pronto, ao mostrar o valor de ler o próprio texto. Não alcança: a cultura digital em si, que está fora do alcance do projeto."
   },
   {
-   "t": 465.75,
+   "t": 477.67,
    "cap": false,
    "texto": "Fonte: elaborado pelo autor."
   },
   {
-   "t": 468.63,
+   "t": 480.53,
    "cap": true,
    "texto": "2.2 Texto bíblico"
   },
   {
-   "t": 471.39,
+   "t": 483.23,
    "cap": false,
    "texto": "Em Atos 8.26-40, o Espírito conduz Filipe ao encontro de um oficial etíope que voltava de Jerusalém lendo o profeta Isaías. Filipe ouve a leitura e pergunta: “Compreendes o que vens lendo?”. O etíope responde: “Como poderei entender, se alguém não me explicar?” (At 8.30-31). Filipe sobe ao carro, parte do texto que o etíope lia (Is 53.7-8) e lhe anuncia Jesus (At 8.35). A leitura compreendida leva a uma resposta concreta: o batismo e a alegria (At 8.36-39)."
   },
   {
-   "t": 507.65,
+   "t": 519.37,
    "cap": false,
    "texto": "O texto ilumina o problema do projeto em três pontos: ler não é o mesmo que compreender; a compreensão nasce do texto lido em seu contexto, com a ajuda de alguém que caminha junto; e a Palavra compreendida produz resposta de fé. É esse o caminho que as oficinas propõem aos jovens."
   },
   {
-   "t": 522.92,
+   "t": 534.85,
    "cap": true,
    "texto": "2.3 Planejamento"
   },
   {
-   "t": 525.7,
+   "t": 537.44,
    "cap": false,
    "texto": "Cada encontro terá a leitura de um trecho bíblico inteiro (em Bíblia impressa, sempre que possível), uma conversa guiada sobre o contexto e o sentido e uma aplicação prática. Os encontros seguem o próprio movimento de Atos 8: ler, perguntar, compreender o contexto, encontrar Cristo no texto, responder e compartilhar. O método segue o caminho proposto por Fee e Stuart (2011): primeiro descobrir o que o texto significou para os seus leitores originais (exegese) e só depois perguntar o que ele diz hoje (hermenêutica), caminho trabalhado também na especialização (BELONI, 2026). A linguagem dos encontros será simples, sem perder o essencial da fé, a exemplo de Lewis (2017), que apresentou o cristianismo de forma clara e acessível a qualquer leitor."
   },
   {
-   "t": 568.45,
+   "t": 580.4,
    "cap": true,
    "texto": "2.4 Avaliação"
   },
   {
-   "t": 571.42,
+   "t": 583.25,
    "cap": false,
    "texto": "A avaliação comparará a situação antes e depois das oficinas por meio de um questionário simples (Apêndice A), aplicado no 1º e no 6º encontros, e da apresentação de uma breve palavra por cada jovem no último encontro, registrada em uma ficha de observação (Apêndice B)."
   },
   {
-   "t": 587.14,
+   "t": 599.01,
    "cap": true,
    "texto": "3 DELIMITAÇÃO DO TEXTO BÍBLICO E ABORDAGEM EXEGÉTICA"
   },
   {
-   "t": 591.35,
+   "t": 603.3,
    "cap": false,
    "texto": "Quadro 4 – Delimitação do texto bíblico"
   },
   {
-   "t": 594.38,
+   "t": 606.34,
    "cap": false,
    "texto": "Texto: Atos 8.26-40"
   },
   {
-   "t": 598.92,
+   "t": 610.69,
    "cap": false,
    "texto": "Autor e contexto: Lucas; a perseguição após a morte de Estêvão espalha os discípulos, e o evangelho avança para além de Jerusalém (At 8.1-4)"
   },
   {
-   "t": 609.18,
+   "t": 620.84,
    "cap": false,
    "texto": "Gênero: Narrativa histórica"
   },
   {
-   "t": 611.41,
+   "t": 623.05,
    "cap": false,
    "texto": "Personagens: Filipe, conduzido pelo Espírito, e um alto oficial da rainha da Etiópia que lia Isaías"
   },
   {
-   "t": 617.83,
+   "t": 629.62,
    "cap": false,
    "texto": "Ideia central: A Escritura lida e compreendida conduz a Cristo e à resposta de fé"
   },
   {
-   "t": 623.14,
+   "t": 635.06,
    "cap": false,
    "texto": "Relação com o diagnóstico: Os jovens, como o etíope, têm acesso ao texto, mas precisam aprender a compreendê-lo e a responder a ele"
   },
   {
-   "t": 630.72,
+   "t": 642.47,
    "cap": false,
    "texto": "Fonte: elaborado pelo autor."
   },
   {
-   "t": 633.56,
+   "t": 645.15,
    "cap": true,
    "texto": "4 PLANO DE AÇÃO"
   },
   {
-   "t": 636.31,
+   "t": 647.91,
    "cap": true,
    "texto": "4.1 Plano de ação (5W2H)"
   },
   {
-   "t": 640.15,
+   "t": 651.72,
    "cap": false,
    "texto": "Quadro 5 – Plano de ação (5W2H)"
   },
   {
-   "t": 643.44,
+   "t": 654.97,
    "cap": false,
    "texto": "O quê?: Seis oficinas de leitura bíblica para jovens, com base em Atos 8.26-40"
   },
   {
-   "t": 650.64,
+   "t": 662.33,
    "cap": false,
    "texto": "Por quê?: Enfrentar o analfabetismo bíblico agravado pela leitura fragmentada da cultura digital"
   },
   {
-   "t": 656.33,
+   "t": 668.05,
    "cap": false,
    "texto": "Quem?: Vitória Celina Ferreira de Lima, com o apoio do pastor da igreja"
   },
   {
-   "t": 660.54,
+   "t": 672.4,
    "cap": false,
-   "texto": "Onde?: Nas dependências da Igreja Metodista Wesleyana em Muriaé (MG)"
+   "texto": "Onde?: Nas dependências da Igreja Metodista Wesleyana da Barra, em Muriaé (MG)"
   },
   {
-   "t": 665.53,
+   "t": 678.09,
    "cap": false,
    "texto": "Quando?: Aos sábados, de 06/02/2027 a 13/03/2027, em encontros de 1h30"
   },
   {
-   "t": 674.07,
+   "t": 686.42,
    "cap": false,
    "texto": "Como?: Leitura em grupo de textos inteiros, perguntas de interpretação, aplicação prática e material impresso simples"
   },
   {
-   "t": 681.13,
+   "t": 693.49,
    "cap": false,
    "texto": "Quanto custa?: Baixo custo: cópias impressas do material e dos questionários (cerca de R$ 100,00, com recursos da igreja)"
   },
   {
-   "t": 688.46,
+   "t": 700.56,
    "cap": false,
    "texto": "Fonte: elaborado pelo autor."
   },
   {
-   "t": 691.22,
+   "t": 703.31,
    "cap": true,
    "texto": "4.2 Plano dos encontros"
   },
   {
-   "t": 694.42,
+   "t": 706.49,
    "cap": false,
    "texto": "Quadro 6 – Plano dos encontros"
   },
   {
-   "t": 696.85,
+   "t": 708.87,
    "cap": false,
    "texto": "Nº: 1. Data: 06/02/2027. Tema: Entendes o que lês?. Ideia central: Ler não é o mesmo que compreender (At 8.26-31). Atividade: Questionário inicial; leitura de At 8.26-40 inteiro; conversa sobre como cada um lê a Bíblia."
   },
   {
-   "t": 716.04,
+   "t": 728.31,
    "cap": false,
    "texto": "Nº: 2. Data: 13/02/2027. Tema: Da tela à página. Ideia central: A leitura contínua contra a leitura aos saltos. Atividade: Ler um capítulo inteiro sem interrupção e comparar com a leitura de versículos soltos."
   },
   {
-   "t": 730.33,
+   "t": 742.67,
    "cap": false,
    "texto": "Nº: 3. Data: 20/02/2027. Tema: O texto tem contexto. Ideia central: O etíope lia Isaías 53: quem escreveu, para quem, quando. Atividade: Ler Isaías 53 no contexto e descobrir o sentido do trecho lido pelo etíope."
   },
   {
-   "t": 747.69,
+   "t": 759.65,
    "cap": false,
    "texto": "Nº: 4. Data: 27/02/2027. Tema: Começando por esta passagem. Ideia central: Toda a Escritura aponta para Cristo (At 8.35). Atividade: Ligar Isaías 53 a Jesus; perguntas de interpretação em duplas."
   },
   {
-   "t": 765.02,
+   "t": 776.95,
    "cap": false,
    "texto": "Nº: 5. Data: 06/03/2027. Tema: Que impede?. Ideia central: A Palavra compreendida pede resposta (At 8.36-39). Atividade: Cada jovem escolhe um texto e escreve uma aplicação para a própria vida."
   },
   {
-   "t": 781.42,
+   "t": 793.4,
    "cap": false,
    "texto": "Nº: 6. Data: 13/03/2027. Tema: Seguiu o seu caminho, cheio de alegria. Ideia central: Quem compreende a Palavra pode compartilhá-la. Atividade: Cada jovem apresenta uma breve palavra (3 a 5 minutos); questionário final."
   },
   {
-   "t": 796.5,
+   "t": 808.33,
    "cap": false,
    "texto": "Fonte: elaborado pelo autor."
   },
   {
-   "t": 799.34,
+   "t": 811.08,
    "cap": true,
    "texto": "4.3 Recursos e viabilidade"
   },
   {
-   "t": 802.7,
+   "t": 814.46,
    "cap": false,
    "texto": "O projeto foi pensado para funcionar com poucos recursos digitais: os encontros são presenciais, o material é impresso e a avaliação é feita em papel. O pastor da igreja apoia o projeto, e o grupo de 7 jovens permite acompanhar cada participante de perto."
   },
   {
-   "t": 817.92,
+   "t": 829.83,
    "cap": true,
    "texto": "5 PROPOSTA DE AVALIAÇÃO DE IMPACTO"
   },
   {
-   "t": 821.0,
+   "t": 832.85,
    "cap": false,
    "texto": "Quadro 7 – Proposta de avaliação"
   },
   {
-   "t": 823.66,
+   "t": 835.46,
    "cap": false,
    "texto": "Quem avaliará?: Os próprios jovens (questionário), a aluna e o pastor (observação da apresentação final)"
   },
   {
-   "t": 829.73,
+   "t": 841.54,
    "cap": false,
    "texto": "O que será avaliado?: O hábito de leitura bíblica, a compreensão do contexto e a capacidade de compartilhar uma palavra fiel ao texto"
   },
   {
-   "t": 837.56,
+   "t": 849.17,
    "cap": false,
    "texto": "Como e quando?: Questionário no 1º e no 6º encontros (Apêndice A); ficha de observação da apresentação no 6º encontro (Apêndice B)"
   },
   {
-   "t": 845.38,
+   "t": 857.04,
    "cap": false,
    "texto": "Quais indicadores?: Média do questionário antes e depois; número de jovens que apresentam uma palavra explicando o contexto e a aplicação do texto"
   },
   {
-   "t": 853.69,
+   "t": 865.36,
    "cap": false,
    "texto": "Fonte: elaborado pelo autor."
   },
   {
-   "t": 856.0,
+   "t": 867.52,
    "cap": false,
    "texto": "Resultados esperados. Espera-se que a média do questionário aumente entre o primeiro e o último encontro e que ao menos 5 dos 7 jovens apresentem, no 6º encontro, uma breve palavra que explique o contexto do texto e faça uma aplicação fiel."
   },
   {
-   "t": 869.59,
+   "t": 880.85,
    "cap": false,
    "texto": "Cuidados éticos. A participação é voluntária e as respostas do questionário são anônimas. Se houver participantes menores de 18 anos, será pedida a autorização dos responsáveis."
   },
   {
-   "t": 881.15,
+   "t": 892.54,
    "cap": true,
    "texto": "REFERÊNCIAS"
   },
   {
-   "t": 882.97,
+   "t": 894.38,
    "cap": false,
    "texto": "BELONI, Alexandre Prado. Aula: Entendes o que lês?: exegese e hermenêutica a partir dos gêneros literários da Bíblia. Espírito Santo do Pinhal: Instituto Wesleyano de Educação, 2026. Material didático do curso de Especialização em Aprofundamento na Pregação Bíblica Contemporânea."
   },
   {
-   "t": 900.04,
+   "t": 911.6,
    "cap": false,
    "texto": "BÍBLIA. Português. Bíblia Sagrada: Almeida Revista e Atualizada. 2. ed. Barueri: Sociedade Bíblica do Brasil, 1993."
   },
   {
-   "t": 908.99,
+   "t": 920.79,
    "cap": false,
    "texto": "CARR, Nicholas. A geração superficial: o que a internet está fazendo com os nossos cérebros. Rio de Janeiro: Agir, 2011."
   },
   {
-   "t": 917.12,
+   "t": 928.75,
    "cap": false,
    "texto": "FEE, Gordon D.; STUART, Douglas. Entendes o que lês?: um guia para entender a Bíblia com auxílio da exegese e da hermenêutica. 3. ed. São Paulo: Vida Nova, 2011."
   },
   {
-   "t": 927.79,
+   "t": 939.29,
    "cap": false,
    "texto": "LEWIS, C. S. Cristianismo puro e simples. Tradução de Gabriele Greggersen. Rio de Janeiro: Thomas Nelson Brasil, 2017."
   },
   {
-   "t": 936.49,
+   "t": 948.13,
    "cap": false,
    "texto": "STOTT, John. O cristão em uma sociedade não cristã: como posicionar-se biblicamente diante dos desafios contemporâneos. Rio de Janeiro: Thomas Nelson Brasil, 2019."
   },
   {
-   "t": 947.63,
+   "t": 959.11,
    "cap": true,
    "texto": "APÊNDICE A – QUESTIONÁRIO DE LEITURA BÍBLICA (ANTES E DEPOIS)"
   },
   {
-   "t": 951.97,
+   "t": 963.47,
    "cap": false,
    "texto": "Marque de 1 (discordo totalmente) a 5 (concordo totalmente). Não é preciso se identificar."
   },
   {
-   "t": 957.11,
+   "t": 968.71,
    "cap": false,
    "texto": "Quadro 8 – Questionário de leitura bíblica"
   },
   {
-   "t": 960.04,
+   "t": 971.62,
    "cap": false,
    "texto": "Afirmação: Leio a Bíblia, e não só conteúdos sobre ela, durante a semana.."
   },
   {
-   "t": 964.81,
+   "t": 976.66,
    "cap": false,
    "texto": "Afirmação: Consigo ler um capítulo inteiro sem me distrair.."
   },
   {
-   "t": 968.53,
+   "t": 980.4,
    "cap": false,
    "texto": "Afirmação: Quando leio um texto, procuro saber quem escreveu, para quem e em que situação.."
   },
   {
-   "t": 973.98,
+   "t": 985.97,
    "cap": false,
    "texto": "Afirmação: Consigo explicar com minhas palavras o sentido de um texto que li.."
   },
   {
-   "t": 978.57,
+   "t": 990.39,
    "cap": false,
    "texto": "Afirmação: Consigo aplicar o texto à minha vida sem tirá-lo do contexto.."
   },
   {
-   "t": 983.0,
+   "t": 994.68,
    "cap": false,
    "texto": "Afirmação: Sinto-me preparado(a) para compartilhar uma palavra no grupo ou na EBD.."
   },
   {
-   "t": 988.13,
+   "t": 999.84,
    "cap": false,
    "texto": "Fonte: elaborado pelo autor."
   },
   {
-   "t": 990.81,
+   "t": 1002.71,
    "cap": true,
    "texto": "APÊNDICE B – FICHA DE OBSERVAÇÃO DA APRESENTAÇÃO FINAL"
   },
   {
-   "t": 994.93,
+   "t": 1006.74,
    "cap": false,
    "texto": "Quadro 9 – Ficha de observação"
   },
   {
-   "t": 997.53,
+   "t": 1009.33,
    "cap": false,
    "texto": "Leu o texto inteiro antes de falar sobre ele.."
   },
   {
-   "t": 1000.42,
+   "t": 1012.21,
    "cap": false,
    "texto": "Explicou o contexto (quem, para quem, em que situação).."
   },
   {
-   "t": 1004.05,
+   "t": 1015.84,
    "cap": false,
    "texto": "Manteve o sentido do texto, sem usá-lo como pretexto.."
   },
   {
-   "t": 1007.62,
+   "t": 1019.35,
    "cap": false,
    "texto": "Ligou o texto a Cristo, quando cabível.."
   },
   {
-   "t": 1010.41,
+   "t": 1022.17,
    "cap": false,
    "texto": "Fez uma aplicação clara e fiel.."
   },
   {
-   "t": 1012.87,
+   "t": 1024.61,
    "cap": false,
    "texto": "Fonte: elaborado pelo autor."
   }
