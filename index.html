@@ -23,6 +23,9 @@ nav .brand img{height:26px;background:#fff;border-radius:4px;padding:2px 4px}
 nav .links{display:flex;gap:20px;font-size:14px}
 nav .links a{text-decoration:none;opacity:.85}
 nav .links a:hover{opacity:1}
+nav .links .sep{width:1px;height:18px;background:rgba(201,211,224,.4)}
+nav .links{align-items:center}
+.mlinks{display:none}
 header.hero{background:var(--ink);color:#fff;padding:64px 0 72px;position:relative;overflow:hidden}
 .hero .rings{position:absolute;right:-120px;top:-60px;width:520px;height:520px;opacity:.5}
 @media (max-width:860px){.hero .rings{opacity:.18}}
@@ -81,6 +84,8 @@ footer b{color:#fff}
  .excols{grid-template-columns:1fr}
  .prof ul{columns:2}
  nav .links{display:none}
+ .mlinks{display:flex;gap:18px;overflow-x:auto;padding:0 20px 10px;font-size:14px;white-space:nowrap;scrollbar-width:none}
+ .mlinks a{text-decoration:none;opacity:.9}
 }
 @media (max-width:480px){
  .cards{grid-template-columns:1fr}
@@ -94,7 +99,9 @@ footer b{color:#fff}
 
 <nav><div class="wrap">
  <a class="brand" href="#topo"><img src="img/logo-iwe.png" alt="IWE">Projetos · Volume 1</a>
- <div class="links"><a href="#apresentacao">Apresentação</a><a href="#projetos">Projetos</a><a href="#expediente">Expediente</a><a href="pdf/revista-projetos-pregacao-biblica-contemporanea-v1.pdf" target="_blank">Revista (PDF)</a></div>
+ <div class="links"><a href="#projetos">Projetos</a><a href="#expediente">Expediente</a><a href="pdf/revista-projetos-pregacao-biblica-contemporanea-v1.pdf" target="_blank">Revista (PDF)</a><span class="sep"></span><a href="https://alexandrebeloniimw-cmyk.github.io/revistateologicoministerialiwecascadura2026/">IWE Cascadura</a><a href="https://alexandrebeloniimw-cmyk.github.io/revista-iwe-2026/">IWE John Wesley</a><a href="https://alexandrebeloniimw-cmyk.github.io/revistateologicoministerialiwecascadura2026/acervo.html">Acervo</a></div>
+</div>
+<div class="mlinks"><a href="#projetos">Projetos</a><a href="#expediente">Expediente</a><a href="pdf/revista-projetos-pregacao-biblica-contemporanea-v1.pdf" target="_blank">Revista (PDF)</a><a href="https://alexandrebeloniimw-cmyk.github.io/revistateologicoministerialiwecascadura2026/">IWE Cascadura</a><a href="https://alexandrebeloniimw-cmyk.github.io/revista-iwe-2026/">IWE John Wesley</a><a href="https://alexandrebeloniimw-cmyk.github.io/revistateologicoministerialiwecascadura2026/acervo.html">Acervo</a>
 </div></nav>
 
 <header class="hero" id="topo">
