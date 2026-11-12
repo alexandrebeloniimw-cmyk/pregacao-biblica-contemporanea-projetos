@@ -266,10 +266,14 @@ footer a{color:#e7b49f;text-decoration:none}
 .card .painel p.ref{font:400 14px/1.55 Inter}
 .copy{font:600 13px Inter;background:var(--acc);color:#fff;border:0;border-radius:999px;padding:7px 14px;cursor:pointer}
 @keyframes abre{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:none}}
-.nums{background:#182638;color:#fff;padding:26px 0}
-.ngrid{display:grid;grid-template-columns:repeat(5,1fr);gap:14px;text-align:center}
-.ngrid b{display:block;font:700 40px/1 Lora;color:#e7b49f;font-variant-numeric:tabular-nums}
-.ngrid span{font:500 13px Inter;letter-spacing:.04em;opacity:.85}
+.nums{padding:72px 0 64px;background:#fff;border-bottom:1px solid var(--line)}
+.nsub{font:400 17px/1.6 Lora;color:#5a544c;margin:0 0 26px}
+.ngrid{display:grid;grid-template-columns:repeat(5,1fr);gap:16px}
+.ncard{background:var(--paper,#fffdf9);border:1px solid var(--line);border-top:4px solid var(--acc);border-radius:14px;padding:20px 18px;display:flex;flex-direction:column;gap:4px}
+.ncard .nico{font-size:22px;line-height:1;margin-bottom:6px}
+.ncard b{font:700 40px/1 Lora;color:var(--ink);font-variant-numeric:tabular-nums}
+.ncard strong{font:600 15px Inter;color:var(--ink);margin-top:6px}
+.ncard span:last-child{font:400 13px/1.45 Inter;color:var(--muted)}
 .mapa{padding:80px 0;background:#fff}
 .mgrid{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:40px;align-items:center}
 .kickc{font:700 12px Inter;letter-spacing:.16em;text-transform:uppercase;color:var(--acc);margin-bottom:6px}
@@ -312,7 +316,7 @@ html.hc body,html.hc body *:not(img):not(video):not(svg):not(svg *):not(#mapabox
 html.hc a:not([vw] *){color:#ffd166!important;text-decoration:underline!important}html.hc button:not([vw] *),html.hc a.btn,html.hc a.act,html.hc a.ouvir,html.hc .a11y-panel a{border:2px solid #ffd166!important;text-decoration:none!important}
 html.hc .ico{fill:#ffd166!important}
 @media (max-width:900px){.mgrid,.igrid{grid-template-columns:1fr}#mapabox{height:360px}.ngrid{grid-template-columns:repeat(3,1fr)}}
-@media (max-width:640px){.apres .text,.apres .text p,.vtext,.obj p,.perfil p{text-align:left!important}.ngrid{grid-template-columns:repeat(2,1fr)}.ngrid b{font-size:32px}.mapa,.insc{padding:56px 0}}
+@media (max-width:640px){.apres .text,.apres .text p,.vtext,.obj p,.perfil p{text-align:left!important}.ngrid{grid-template-columns:repeat(2,1fr)}.ncard b{font-size:32px}.ncard:last-child{grid-column:1/-1}.mapa,.insc{padding:56px 0}}
 @media (prefers-reduced-motion:reduce){.painel{animation:none}.totop{transition:none}}
 </style>
 </head>
@@ -348,13 +352,6 @@ html.hc .ico{fill:#ffd166!important}
  </div>
 </header>
 
-<section class="nums" aria-label="A revista em números"><div class="wrap ngrid">
- <div><b data-n="5">5</b><span>projetos aplicados</span></div>
- <div><b data-n="4">4</b><span>igrejas locais</span></div>
- <div><b data-n="3">3</b><span>estados do Brasil</span></div>
- <div><b data-n="360" data-suf="h">360h</b><span>de formação</span></div>
- <div><b data-n="2" data-pre="+" data-suf="h">+2h</b><span>de audiolivros</span></div>
-</div></section>
 
 <section class="vid" id="video"><div class="wrap vgrid">
  <div class="vcol"><div class="phone"><button class="unmute" id="unmute" type="button">🔊 Toque para ouvir a trilha</button><video id="vrev" src="video/video-revista-projetos-orquestra.mp4" poster="video/poster.jpg" controls muted playsinline loop preload="metadata"></video></div>
@@ -384,6 +381,19 @@ html.hc .ico{fill:#ffd166!important}
   <div class="step"><b>2 · Texto bíblico</b><span>A passagem delimitada e lida em seu contexto.</span></div>
   <div class="step"><b>3 · Plano de ação</b><span>A proposta transformada em encontros e etapas (5W2H).</span></div>
   <div class="step"><b>4 · Avaliação</b><span>O impacto medido a partir de uma linha de base.</span></div>
+ </div>
+</div></section>
+
+<section class="nums" id="numeros" aria-labelledby="numtit"><div class="wrap">
+ <div class="kickc">Em resumo</div>
+ <h2 id="numtit">A revista em números</h2><div class="h2line"></div>
+ <p class="nsub">O que este primeiro volume reúne, de forma rápida.</p>
+ <div class="ngrid">
+  <div class="ncard"><span class="nico" aria-hidden="true">📘</span><b data-n="5">5</b><strong>Projetos aplicados</strong><span>TCCs práticos aprovados nesta turma</span></div>
+  <div class="ncard"><span class="nico" aria-hidden="true">⛪</span><b data-n="4">4</b><strong>Igrejas locais</strong><span>onde os projetos serão aplicados</span></div>
+  <div class="ncard"><span class="nico" aria-hidden="true">📍</span><b data-n="3">3</b><strong>Estados do Brasil</strong><span>Rio de Janeiro, Minas Gerais e Mato Grosso</span></div>
+  <div class="ncard"><span class="nico" aria-hidden="true">🎓</span><b data-n="360" data-suf="h">360h</b><strong>De formação</strong><span>carga horária da especialização</span></div>
+  <div class="ncard"><span class="nico" aria-hidden="true">🎧</span><b data-n="2" data-pre="+" data-suf="h">+2h</b><strong>De audiolivros</strong><span>leitura integral dos cinco projetos</span></div>
  </div>
 </div></section>
 
