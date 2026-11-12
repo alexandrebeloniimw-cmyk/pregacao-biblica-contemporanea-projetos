@@ -118,6 +118,19 @@ footer b{color:#fff}
 .sbtn.wa:hover{background:#25d366;color:#fff;border-color:#25d366}
 .sbtn.ig{color:#b1306b;border-color:#f0c6d8}
 .sbtn.ig:hover{background:linear-gradient(45deg,#f09433,#dc2743 50%,#bc1888);color:#fff;border-color:transparent}
+.docentes{position:relative;overflow:hidden;margin-top:40px;background:var(--ink);border-radius:20px;padding:40px 36px 36px}
+.drings{position:absolute;right:-90px;top:-90px;width:320px;height:320px;opacity:.45;pointer-events:none}
+.dhead{position:relative;margin-bottom:26px}
+.dhead h3{font:700 30px/1.15 Lora;color:#fff;margin:8px 0 6px}
+.dhead p{font:italic 400 17px Lora;color:#e7b49f;margin:0}
+.dgrid{position:relative;display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.doc{display:flex;align-items:center;gap:14px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);border-radius:14px;padding:14px 16px;transition:all .2s}
+.doc:hover{background:rgba(255,255,255,.11);border-color:rgba(231,180,159,.55);transform:translateY(-2px)}
+.mono{flex:none;width:46px;height:46px;border-radius:50%;display:grid;place-items:center;font:700 17px Lora;color:#fff;background:linear-gradient(135deg,#b4593a,#7d3a24);box-shadow:0 0 0 3px rgba(231,180,159,.25)}
+.doc:nth-child(even) .mono{background:linear-gradient(135deg,#3b5578,#26385a);box-shadow:0 0 0 3px rgba(201,211,224,.25)}
+.nm{font:600 14.5px/1.35 Inter;color:#f1f3f7}
+@media (max-width:980px){.dgrid{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:520px){.dgrid{grid-template-columns:1fr}.docentes{padding:30px 20px}}
 /* ---- ementa ---- */
 .ementa{background:var(--paper)}
 .ementa .lead{font:400 18px/1.7 Lora;color:#4a453e;max-width:760px;margin:-10px 0 30px}
@@ -348,11 +361,11 @@ footer a{color:#e7b49f;text-decoration:none}
    <li>Roberto Canário<span>Secretário</span></li>
   </ul></div>
  </div>
- <div class="exblock prof"><h4>Corpo docente · Especialização em Aprofundamento na Pregação Bíblica Contemporânea</h4><ul>
-  <li>Alexander Pereira Lima</li><li>Alcinei Jardim de Souza</li><li>Ana Beloni</li><li>Carla Damasceno Soares da Silva</li>
-  <li>Cassio Mota Pedroso</li><li>Claudio Luiz Pereira Rosa</li><li>Eli Velasco Leite</li><li>Joeci Tirello</li>
-  <li>Jorge Luiz Ferreira de Oliveira</li><li>Leandro Chagas da Silva</li><li>Marcelo Majeste</li><li>Rosilene Rangel Assunção de Araújo</li>
- </ul></div>
+ <div class="docentes">
+  <svg class="drings" viewBox="0 0 200 200" aria-hidden="true"><g fill="none" stroke="#9c4a2f" stroke-width=".6"><circle cx="100" cy="100" r="96"/><circle cx="100" cy="100" r="80"/><circle cx="100" cy="100" r="64"/></g><g fill="none" stroke="#c9d3e0" stroke-width=".5" opacity=".5"><circle cx="100" cy="100" r="48"/><circle cx="100" cy="100" r="32"/></g><circle cx="100" cy="100" r="14" fill="#9c4a2f"/></svg>
+  <div class="dhead"><div class="kick">Quem ensina</div><h3>Corpo docente</h3><p>Especialização em Aprofundamento na Pregação Bíblica Contemporânea</p></div>
+  <div class="dgrid"><div class="doc"><span class="mono">AL</span><span class="nm">Alexander Pereira Lima</span></div><div class="doc"><span class="mono">AS</span><span class="nm">Alcinei Jardim de Souza</span></div><div class="doc"><span class="mono">AB</span><span class="nm">Ana Beloni</span></div><div class="doc"><span class="mono">CS</span><span class="nm">Carla Damasceno Soares da Silva</span></div><div class="doc"><span class="mono">CP</span><span class="nm">Cassio Mota Pedroso</span></div><div class="doc"><span class="mono">CR</span><span class="nm">Claudio Luiz Pereira Rosa</span></div><div class="doc"><span class="mono">EL</span><span class="nm">Eli Velasco Leite</span></div><div class="doc"><span class="mono">JT</span><span class="nm">Joeci Tirello</span></div><div class="doc"><span class="mono">JO</span><span class="nm">Jorge Luiz Ferreira de Oliveira</span></div><div class="doc"><span class="mono">LS</span><span class="nm">Leandro Chagas da Silva</span></div><div class="doc"><span class="mono">MM</span><span class="nm">Marcelo Majeste</span></div><div class="doc"><span class="mono">RA</span><span class="nm">Rosilene Rangel Assunção de Araújo</span></div></div>
+ </div>
 </div></section>
 
 <section class="sharebox" id="compartilhar"><div class="wrap grid2">
